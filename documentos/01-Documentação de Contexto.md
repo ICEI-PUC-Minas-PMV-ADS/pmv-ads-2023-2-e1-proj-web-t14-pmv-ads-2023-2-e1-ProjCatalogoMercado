@@ -8,7 +8,7 @@ seus clientes desejam e, analisar, vender e promover seu produto da melhor manei
 possível.
 Dessa forma, torna-se necessário a inclusão dos pequenos negócios na tecnologia, para
 permitir que tenham um alcance maior e possam se destacar em um mercado cada vez mais
-competitivo
+competitivo.
 
 ## Problema
 O problema que se apresenta, e que este projeto visa abordar, é a carência de pequenos
