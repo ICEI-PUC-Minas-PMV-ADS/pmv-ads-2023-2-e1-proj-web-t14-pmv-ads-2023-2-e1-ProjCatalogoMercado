@@ -1,16 +1,36 @@
 # Introdução
 
-[Aqui a equipe deve criar um texto descritivo com a visão geral do problema abordado, apresentando o ambiente e as situações envolvidas no problema.]
+Com o grande avanço da Tecnologia, o Marketing Digital tem se tornado uma ferramenta
+indispensável para os pequenos negócios, possibilitando que se destaquem no mercado,
+conquistem mais clientes e expandam seus negócios.
+De acordo com The Chartered Institute Of Marketing, o marketing trata-se de saber o que os
+seus clientes desejam e, analisar, vender e promover seu produto da melhor maneira
+possível.
+Dessa forma, torna-se necessário a inclusão dos pequenos negócios na tecnologia, para
+permitir que tenham um alcance maior e possam se destacar em um mercado cada vez mais
+competitivo
 
 ## Problema
-[Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
+O problema que se apresenta, e que este projeto visa abordar, é a carência de pequenos
+mercados no meio digital. Essa ausência dos pequenos mercados na tecnologia digital pode
+resultar em dificuldade de manter seus negócios e na escassez de clientes.
 
 Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
 
 
 ## Objetivos
 
-[Aqui a equipe deve realizar uma descrição detalhada dos objetivos do trabalho, ressaltando quais as questões principais do problema a serem resolvidas pelo projeto, não é a hora de apresentar requisitos detalhados.]
+Objetivo desse projeto é desenvolver uma solução para inserir pequenos mercados na
+tecnologia, trazendo mais visibilidade. E com isso atraindo mais clientes e expandindo seus
+negócios.
+
+Como objetivos específicos, podemos destacar:
+
+• Visibilidade de pequenos mercados.
+
+• Conectar pequenos mercados com um público maior.
+
+• Oferecer um ambiente gratuito para apoiar os pequenos mercados.
  
 Este link pode ajudar a equipe a entender mais sobre definição dos objetivos: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
 
