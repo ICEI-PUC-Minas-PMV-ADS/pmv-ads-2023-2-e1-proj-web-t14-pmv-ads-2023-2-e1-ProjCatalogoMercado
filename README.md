@@ -15,7 +15,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 * Douglas Sandro Dos Santos Araujo
 * Pablo
 * Lucas Faria de Oliveira
-* Nome completo do aluno 6
+
 
 ## Orientador
 
