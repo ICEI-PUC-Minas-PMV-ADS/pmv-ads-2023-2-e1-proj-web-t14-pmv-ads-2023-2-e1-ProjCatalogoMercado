@@ -44,11 +44,11 @@ Porem com comparativos feitos como pela Brightedge Research, os alcances
 feitos por pesquisas organicas e pesquisas pagas dominam o trafico dos web sites.
 Como por exemplo :
 
-A quota de tráfego da Pesquisa orgânica aumentou para 53,3%, em média, em todos os sectores;
+A quota de tráfego da Pesquisa orgânica aumentou para 53,3%, em média, em todos os sectores.
 
-No sector B2B, a pesquisa combinada representa, em média, 76% do tráfego;
+No sector B2B, a pesquisa combinada representa, em média, 76% do tráfego.
 
-As empresas B2B geram 2 vezes mais receitas com a Pesquisa Orgânica do que com qualquer outro canal;
+As empresas B2B geram 2 vezes mais receitas com a Pesquisa Orgânica do que com qualquer outro canal.
 
 A utilização e a quota da Pesquisa Orgânica estão a ultrapassar o crescimento de outros canais.
 
