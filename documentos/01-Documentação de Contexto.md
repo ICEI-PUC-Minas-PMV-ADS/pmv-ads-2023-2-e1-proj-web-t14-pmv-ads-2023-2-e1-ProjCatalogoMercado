@@ -36,7 +36,12 @@ Este link pode ajudar a equipe a entender mais sobre definição dos objetivos: 
 
 ## Justificativa
 
-[Aqui a equipe deve descrever a importância ou a motivação para trabalhar com o problema definido. Indique as razões pelas quais a equipe escolheu o problema e definiu os objetivos.
+Os pequenos mercados consideram que as ferramentas digitais são somente para empresas
+de grande porte ou enxergam isso como uma despesa, entretanto isso não corresponde à
+realidade. Afinal, o Marketing Digital bem planejado garante mais vendas e novos clientes.
+Portanto, a criação de um ambiente digital para suprir a carência de pequenos mercados no
+meio digital é de extrema importância. A internet permite que pequenos negócios atraiam
+novos clientes, divulguem seus produtos e aumentem suas vendas.
 
 Devem ser apresentados dados de fontes relevantes e confiáveis sobre o problema, inserindo-o como alvo de estudo. Sugere-se que a equipe utilize questionários, entrevistas e dados estatísticos, que devem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pela equipe.]
 
@@ -44,7 +49,21 @@ Este link pode ajudar a equipe a formular a justificativa: [Como montar a justif
 
 ## Público-Alvo
 
-[Aqui é necessário descrever os atores envolvidos no problema, destacando os diferentes perfis de usuários. O propósito é apresentar as características, necessidades, conhecimentos prévios e experiência com a tecnologia do público-alvo.
+O público-alvo são os pequenos mercados que enfrentam os obstáculos da inclusão no meio
+digital.
+Para conhecer melhor o público-alvo foi realizada uma pesquisa com alguns pequenos
+mercados, onde podemos destacar algumas dificuldades em comum entre eles:
+1. Não tem orçamento para investir em Marketing, afinal, a criação e manutenção de um
+site não é barato.
+2. Dificuldade de atrair novos clientes.
+3. Estagnação das vendas.
+Além dos pequenos mercados, o projeto também é voltado para os consumidores.
+E para conhecer melhor as dificuldades dos consumidores, foi realizada também uma
+pesquisa, onde foi destacado que:
+1. Buscam por produtos de mercado em mercado.
+2. Dificuldade de achar produtos específicos e de difícil acesso.
+3. Compram sempre no mesmo mercado, por não conhecer outro.
+4. Não comparam preços antes de comprar.
 
 Sugere-se que a equipe utilize questionários e/ou entrevistas a fim de conhecer os atores que compõem o público alvo.]
 
