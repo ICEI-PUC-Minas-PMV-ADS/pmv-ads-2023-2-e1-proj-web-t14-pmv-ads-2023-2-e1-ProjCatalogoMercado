@@ -43,9 +43,19 @@ Portanto, a criação de um ambiente digital para suprir a carência de pequenos
 meio digital é de extrema importância. A internet permite que pequenos negócios atraiam
 novos clientes, divulguem seus produtos e aumentem suas vendas.
 
-Devem ser apresentados dados de fontes relevantes e confiáveis sobre o problema, inserindo-o como alvo de estudo. Sugere-se que a equipe utilize questionários, entrevistas e dados estatísticos, que devem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pela equipe.]
+Em tempo, observa-se que mesmo diante da infinidade de opcoes que se tem em marketing
+digital como ferramenta de impulsionamento muitas empresas ainda tem uma resistencia. 
+Porem com comparativos feitos como pela Brightedge Research, os alcances 
+feitos por pesquisas organicas e pesquisas pagas dominam o trafico dos web sites.
+Como por exemplo :
 
-Este link pode ajudar a equipe a formular a justificativa: [Como montar a justificativa.](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+A quota de tráfego da Pesquisa orgânica aumentou para 53,3%, em média, em todos os sectores
+
+No sector B2B, a pesquisa combinada representa, em média, 76% do tráfego
+
+As empresas B2B geram 2 vezes mais receitas com a Pesquisa Orgânica do que com qualquer outro canal
+
+A utilização e a quota da Pesquisa Orgânica estão a ultrapassar o crescimento de outros canais
 
 ## Público-Alvo
 
