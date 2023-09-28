@@ -14,7 +14,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 * Mônica Eloisa da Silva
 * Douglas Sandro Dos Santos Araujo
 * Pablo
-* Nome completo do aluno 5
+* Lucas Faria de Oliveira
 * Nome completo do aluno 6
 
 ## Orientador
