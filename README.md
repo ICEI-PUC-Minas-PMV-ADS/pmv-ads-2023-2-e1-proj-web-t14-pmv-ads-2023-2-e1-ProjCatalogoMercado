@@ -10,8 +10,8 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
 ## Integrantes
 
-* Priscila
-* Monica
+* Priscila Myuki do Nascimento Maruno
+* Mônica Eloisa da Silva
 * Douglas
 * Pablo
 * Nome completo do aluno 5
