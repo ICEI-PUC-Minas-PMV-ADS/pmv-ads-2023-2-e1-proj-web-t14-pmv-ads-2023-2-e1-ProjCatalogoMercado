@@ -15,9 +15,6 @@ O problema que se apresenta, e que este projeto visa abordar, é a carência de 
 mercados no meio digital. Essa ausência dos pequenos mercados na tecnologia digital pode
 resultar em dificuldade de manter seus negócios e na escassez de clientes.
 
-Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-
-
 ## Objetivos
 
 Objetivo desse projeto é desenvolver uma solução para inserir pequenos mercados na
@@ -32,8 +29,6 @@ Como objetivos específicos, podemos destacar:
 
 • Oferecer um ambiente gratuito para apoiar os pequenos mercados.
  
-Este link pode ajudar a equipe a entender mais sobre definição dos objetivos: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-
 ## Justificativa
 
 Os pequenos mercados consideram que as ferramentas digitais são somente para empresas
