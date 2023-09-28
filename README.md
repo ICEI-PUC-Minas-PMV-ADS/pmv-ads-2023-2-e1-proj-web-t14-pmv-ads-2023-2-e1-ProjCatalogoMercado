@@ -12,7 +12,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
 * Priscila Myuki do Nascimento Maruno
 * Mônica Eloisa da Silva
-* Douglas
+* Douglas Sandro
 * Pablo
 * Nome completo do aluno 5
 * Nome completo do aluno 6
