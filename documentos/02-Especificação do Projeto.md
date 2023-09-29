@@ -60,8 +60,16 @@
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 |  ...                    | ...   | 
-|  ...  |  ...                    | ...   |
+| RF-01 |  A aplicação deve permitir ao (usuário 1) cadastrar uma conta.                    | ALTA   | 
+| RF-02 |  A aplicação deve permitir ao (usuário 1) fazer o login de sua conta.                    | ALTA   |
+| RF-03 |  A aplicação deve permitir ao (usuário 1) confugurar sua conta.                    | ALTA   |
+| RF-04 |  A aplicação deve permitir ao (usuário 1) disponibilizar informações sobre endereço e contato.                    | MÉDIA   |
+| RF-05 |  A aplicação deve permitir ao (usuário 2) ter acesso as informações do (usuário 1).                    | MÉDIA   |
+| RF-06 |  A aplicação deve permitir ao (usuário 1) cadastrar produtos.                    | ALTA   |
+| RF-07 |  A aplicação deve oferecer uma funcionalidade de pesquisa/filtro para permitir ao (usuário 1) organizar os produtos.                    | ALTA   |
+| RF-08 |  A aplicação deve oferecer uma funcionalidade de pesquisa/filtro para permitir ao (usuário 2) localizar o produto desejado.                    | ALTA   |
+| RF-09 |  A aplicação deve apresentar, para cada produto, uma imagem.                    | MÉDIA   |
+| RF-10 |  A aplicação deve permitir ao (usuário 2) visualizar os detalhes do produto.                    | MÉDIA   |
 
 **Prioridade: Alta / Média / Baixa. 
 
