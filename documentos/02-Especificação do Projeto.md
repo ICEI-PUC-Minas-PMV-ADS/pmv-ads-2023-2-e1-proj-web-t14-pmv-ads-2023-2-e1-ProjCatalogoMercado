@@ -7,15 +7,35 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Nome </th>
+<th colspan="2">Perfil 01: Pequenos Mercados </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">...</td>
+<td width="600px">Pequenos Mercados</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>1. Ser reconhecido no mercado;
+    2. Expandir os negócios;
+    3. Trazer novos clientes;</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr align=center>
+<th colspan="2">Perfil 02: Consumidor </th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">Consumidor</td>
+</tr>
+<tr>
+<td><b>Necessidades</b></td>
+<td>1. Facilidade na busca de produtos específicos;
+    2. Ter acesso à uma variedade de mercados, muitas vezes desconhecidos;
+    3. Possibilidade de comparar preços antes de comprar;</td>
 </tr>
 </tbody>
 </table>
