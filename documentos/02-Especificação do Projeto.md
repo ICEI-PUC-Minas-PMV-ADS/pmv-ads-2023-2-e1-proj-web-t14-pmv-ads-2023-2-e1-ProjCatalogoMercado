@@ -56,12 +56,13 @@
 
 ### Requisitos não Funcionais
 
-[Utilize o modelo de tabela abaixo para apresentar os requisitos não-funcionais]
 
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
-| RNF-01 |  ...                    | ...   | 
-| ...    |  ...                    | ...   | 
+| RNF-01 |  A aplicação deve ter um design simples e elegante.                    | MÉDIA   | 
+| RNF-02    |  A aplicação deve ser responsiva.                    | ALTA   | 
+| RNF-03    |  A aplicação deve ser compatível com todos os navegadores.                    | ALTA   | 
+| RNF-04    |  A aplicação deve ser fácil de ser usada.                    | ALTA   | 
 
 **Prioridade: Alta / Média / Baixa. 
 
