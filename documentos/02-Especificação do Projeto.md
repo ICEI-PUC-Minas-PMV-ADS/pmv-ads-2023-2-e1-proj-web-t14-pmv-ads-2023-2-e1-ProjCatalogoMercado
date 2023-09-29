@@ -32,8 +32,12 @@
 
 |EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
 |--------------------|---------------------------|----------------------------------|
-| ...                | ...                       | ...                              |
-| ...                | ...                       | ...                              |
+| Microempreendedor                | ser reconhecido                       | atrair mais clientes.                              |
+| Microempreendedor                | atrair mais clientes                       | expandir os negócios.                              |
+| Consumidor                | procurar os mercados da região                       | facilitar a vida corrida.                              |
+| Consumidor                | procurar um mercado perto de casa                       | não precisar ir em um mercado longe.                              |
+| Consumidor                | procurar um produto específico                       | não perder tempo indo de mercado em mercado.                              |
+| Consumidor                | procurar os preços dos mercados                       | comparar e comprar o valor mais em conta.                              |
 
 ## Requisitos do Projeto
 
