@@ -15,7 +15,7 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 
 - Scrum Master: Priscila Myuki do Nascimento Maruno
 - Product Owner: Douglas Sandro Dos Santos Araujo
-- Equipe de Desenvolvimento: Nomes de todos os membros da equipe, pois todos os membros deverão implementar uma tela/funcionalidade.
+- Equipe de Desenvolvimento: Douglas Sandro Dos Santos Araujo, Mônica Eloisa da Silva, Lucas Faria de Oliveira, Priscila Myuki do Nascimento Maruno 
 - Equipe de Design: Nomes dos membros da equipe que trabalharão com design.
 
 > **Links Úteis**:
