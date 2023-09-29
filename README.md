@@ -1,10 +1,10 @@
 # Catálogo de Pequenos Mercados
 
-`Analise e Desenvolvimento de Sistemas`
+Analise e Desenvolvimento de Sistemas
 
-`DISCIPLINA`
+Desenvolvimento de Aplicação Web Front-End- 2023/2
 
-`SEMESTRE`
+Eixo 1
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
