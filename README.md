@@ -13,7 +13,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 * Priscila Myuki do Nascimento Maruno
 * Mônica Eloisa da Silva
 * Douglas Sandro Dos Santos Araujo
-* Pablo
+* Pablo Vinicius Ramos Lopes
 * Lucas Faria de Oliveira
 
 
