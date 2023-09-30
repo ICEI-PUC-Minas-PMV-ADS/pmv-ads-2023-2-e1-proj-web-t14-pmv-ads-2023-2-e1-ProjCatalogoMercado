@@ -26,6 +26,11 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 
 
 • Rodapé - apresenta as informações relacionadas a empresa e os direitos autorais.
 
+<img width="312" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios/assets/145761508/2b833a69-7142-4507-8427-c9b3cb28ba20">
+
+Figura 2 - Estrutura padrão do site
+
+
 
 
 [Adicione aqui as telas da sua aplicação com seus devidos títulos.] 
