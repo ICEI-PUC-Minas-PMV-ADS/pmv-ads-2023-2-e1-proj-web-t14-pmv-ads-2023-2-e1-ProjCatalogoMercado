@@ -30,7 +30,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 
 
 Figura 2 - Estrutura padrão do site
 
-### Tela Home-Page
+### Tela - Home-Page
 
 A tela da Home-Page é uma apresentação dos produtos ou lojas demonstrando aos consumidores a diversidade de opções os quais serão encontrados no site. Sendo Composta por:
 
@@ -50,8 +50,27 @@ A tela da Home-Page é uma apresentação dos produtos ou lojas demonstrando aos
 
 Figura 3 - Tela da Home-Page
 
+### Tela - Cadastro do Microempreendedor
 
+A tela apresenta os seguintes campos para preencher as informações pessoais do usuário:
 
+•	Nome da Empresa;
+
+•	CNPJ;
+
+•	E-mail;
+
+•	Endereço;
+
+•	Contato;
+
+•	Criar e confirmar senha;
+
+<img width="312" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios/assets/145761508/e45a7e05-aed3-4bf7-9e26-71f9ad4bc701">
+
+Figura 4 - Tela de Cadastro do Microempreendedor
+
+### Tela - Cadastro do Microempreendedor
 
 
 
