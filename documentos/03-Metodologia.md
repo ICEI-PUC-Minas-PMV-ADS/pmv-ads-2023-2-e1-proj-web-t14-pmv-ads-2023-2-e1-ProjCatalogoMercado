@@ -1,3 +1,4 @@
+![project](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios/assets/144749545/7eb27986-2585-4b64-9fa4-3b6a7fc240f5)
 
 # Metodologia
 
