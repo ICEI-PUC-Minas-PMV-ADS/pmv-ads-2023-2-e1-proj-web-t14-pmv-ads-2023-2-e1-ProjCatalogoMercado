@@ -20,11 +20,11 @@ Desenvolver um protótipo emerge como uma das maneiras mais ágeis e econômicas
 
 As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 2. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles:
 
-●	Cabeçalho - local onde são dispostos os elementos: logo, menu da aplicação, cadastro e login;
+•	Cabeçalho - local onde são dispostos os elementos: logo, menu da aplicação, cadastro e login;
 
-●	Conteúdo - apresenta o conteúdo da tela em questão;
+• Conteúdo - apresenta o conteúdo da tela em questão;
 
-●	Rodapé - apresenta as informações relacionadas a empresa e os direitos autorais.
+• Rodapé - apresenta as informações relacionadas a empresa e os direitos autorais.
 
 
 
