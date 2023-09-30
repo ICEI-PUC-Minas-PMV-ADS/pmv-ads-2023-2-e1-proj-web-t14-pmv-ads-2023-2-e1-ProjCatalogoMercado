@@ -70,18 +70,43 @@ A tela apresenta os seguintes campos para preencher as informações pessoais do
 
 Figura 4 - Tela de Cadastro do Microempreendedor
 
-### Tela - Cadastro do Microempreendedor
+### Tela - Login do Microempreendedor
 
+A tela permite o usuário entrar na sua conta com seu e-mail e senha e se necessário redefinir sua senha.
 
+<img width="312" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios/assets/145761508/22f18980-5b00-464e-a9aa-ad944036add4">
 
-[Adicione aqui as telas da sua aplicação com seus devidos títulos.] 
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
->- Ferramentas:
->> - [Pencil](https://pencil.evolus.vn/)
->> - [MarvelApp](https://marvelapp.com/)
->> - [Figma](https://www.figma.com/)
+Figura 5 - Tela de Login do Microempreendedor
 
+### Tela - Cadastro de produtos
 
+A tela permite que o usuário insira informações detalhadas sobre os produtos. Sendo eles os seguintes campos:
+•	Foto do Produto;
 
+•	Nome do Produto;
+
+•	Descrição;
+
+•	Preço;
+
+•	Classificação;
+
+<img width="312" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios/assets/145761508/c4d60b17-2a7a-45a5-9c0d-ecea23b4d5c5">
+
+Figura 6 - Tela de Cadastro de Produtos
+
+### Tela - Perfil do Microempreendedor
+
+A tela permite ao usuário editar perfil, cadastrar produtos e visualizar seu layout.
+
+<img width="312" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios/assets/145761508/60b8b588-b3b9-41e4-a77c-457dc943d435">
+
+Figura 7 - Tela de Perfil do Microempreendedor
+
+### Tela - Perfil da Loja
+
+A tela permite ao Consumidor visualizar as informações da Loja e dos produtos.
+
+<img width="312" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios/assets/145761508/4da7a871-13c6-43ff-ad3a-e1286a04a941">
+
+Figura 8 - Tela de Perfil da Loja
