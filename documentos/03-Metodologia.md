@@ -17,11 +17,6 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 - Equipe de Desenvolvimento: Douglas Sandro Dos Santos Araujo, Mônica Eloisa da Silva, Lucas Faria de Oliveira, Priscila Myuki do Nascimento Maruno 
 - Equipe de Design: Douglas Sandro dos Santos Araujo, Mônica Eloisa da Silva, Priscila Myuki do Nascimento Maruno.
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
 ### Processo
 
 O Scrum foi implementado com a utilização do GitHub,criamos a Backlog onde definimos os passos a serem implementados no trabalho. In Process foi utilizado para denominar quem seria responsável por cada parte do progresso e andamento do projeto. Review ficou a cargo de um dos integrantes , que ao fazer toda revisão encaminhava para o Done, assim finalizando as etapas de realização.
@@ -37,18 +32,6 @@ O Scrum foi implementado com a utilização do GitHub,criamos a Backlog onde def
 > - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
 > - [Tutorial Slack](https://slack.com/intl/en-br/)
 
-
-### Etiquetas
-<p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
-
-<ul>
-  <li>Bug (Erro no código)</li>
-  <li>Desenvolvimento (Development)</li>
-  <li>Documentação (Documentation)</li>
-  <li>Gerência de Projetos (Project Management)</li>
-  <li>Infraestrutura (Infrastructure)</li>
-  <li>Testes (Tests)</li>
-</ul>
 
 <figure> 
   <img src="https://user-images.githubusercontent.com/100447878/164068979-9eed46e1-9b44-461e-ab88-c2388e6767a1.png"
