@@ -30,6 +30,28 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 
 
 Figura 2 - Estrutura padrão do site
 
+### Tela Home-Page
+
+A tela da Home-Page é uma apresentação dos produtos ou lojas demonstrando aos consumidores a diversidade de opções os quais serão encontrados no site. Sendo Composta por:
+
+•	Campo pesquisa que facilita buscar produtos específicos;
+
+•	Produtos em destaques que apresenta os produtos mais procurados;
+
+•	Lojas recomendadas que são as mais acessadas;
+
+•	Área de cadastro e login.
+
+•	Informações sobre a empresa, privacidade e termos de uso.
+
+•	Cadastro de e-mail para receber notícias.
+
+<img width="312" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios/assets/145761508/cf5bdab4-11af-42c0-9cd2-bc78a20e25ce">
+
+Figura 3 - Tela da Home-Page
+
+
+
 
 
 
