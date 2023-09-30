@@ -25,12 +25,12 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 
 ### Processo
 
-O Scrum foi implementado com a utilização do GitHub,criamos a Backlog onde definimos os passos a serem implementados no trabalho. In Process foi utilizado para denominar quem seria responsável por cada parte do progresso e andamento do projeto. Review ficou a cargo de um dos integrantes , que ao fazer toda refisão encaminhava para o Done.
+O Scrum foi implementado com a utilização do GitHub,criamos a Backlog onde definimos os passos a serem implementados no trabalho. In Process foi utilizado para denominar quem seria responsável por cada parte do progresso e andamento do projeto. Review ficou a cargo de um dos integrantes , que ao fazer toda revisão encaminhava para o Done, assim finalizando as etapas de realização.
 
-- Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
-- To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
-- Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
-- Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+- Backlog: Local onde se encontra as tarefas que serão desenvolvidas 
+- In Process: Representada pelo Sprint Backlog. Este é o Sprint atual que estamos trabalhando, está em processo. 
+- Review: Após finalizado ela passa por uma revisão, nesse local. 
+- Done: Após finalização de todos os processos, a tarefa chega a este campo sendo finalizada.
 
 > **Links Úteis**:
 > - [Project management, made simple](https://github.com/features/project-management/)
@@ -58,17 +58,19 @@ O Scrum foi implementado com a utilização do GitHub,criamos a Backlog onde def
   
 ### Ferramentas
 
-[Descreva aqui as ferramentas empregadas no projeto e os ambiente de trabalho utilizados pela  equipe para desenvolvê-lo. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).]
+Para desenvolvimento do projeto foram utilizadas ferramentas que possibilitaram que cada itém tivesse seu respectivo processo de desenvolvimento: 
+O Repertório de código fonte e o Gerenciamento do Projeto Ficaram a cargo do GitHub. Os Documentos do Projeto o Google Drive foi onde ele ficou alocado
+Já a interface foi realizada no Marvelapp.
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | http://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios |
-| Documentos do projeto               | GitHub                             | https://docs.google.com/folder/d/1xE9t6zD78VnVkeOSgDfss33QWe85ogqYpx9x-tuG24                              |  
+| Documentos do projeto               | Google Drive                       | https://docs.google.com/folder/d/1xE9t6zD78VnVkeOSgDfss33QWe85ogqYpx9x-tuG24                              |  
 | Projeto de Interface                | Marvelapp                          | https://marvelapp.com/prototype/7ab5bid/screen/92775766                                                   |
 | Gerenciamento do Projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/703                                               |
-| Hospedagem                          | GitHub Pages                       | http://....                            |
+
 
 
 ### Estratégia de Organização de Codificação 
