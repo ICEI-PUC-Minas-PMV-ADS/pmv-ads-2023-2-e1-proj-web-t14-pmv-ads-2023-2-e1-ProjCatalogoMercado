@@ -81,6 +81,7 @@ Figura 5 - Tela de Login do Microempreendedor
 ### Tela - Cadastro de produtos
 
 A tela permite que o usuário insira informações detalhadas sobre os produtos. Sendo eles os seguintes campos:
+
 •	Foto do Produto;
 
 •	Nome do Produto;
