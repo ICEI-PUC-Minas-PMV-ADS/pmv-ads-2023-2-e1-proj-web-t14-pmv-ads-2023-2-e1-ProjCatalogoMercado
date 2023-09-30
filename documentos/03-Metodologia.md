@@ -26,17 +26,6 @@ O Scrum foi implementado com a utilização do GitHub,criamos a Backlog onde def
 - Review: Após finalizado ela passa por uma revisão, nesse local. 
 - Done: Após finalização de todos os processos, a tarefa chega a este campo sendo finalizada.
 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
-
-
-<figure> 
-  <img src="https://user-images.githubusercontent.com/100447878/164068979-9eed46e1-9b44-461e-ab88-c2388e6767a1.png"
-    <figcaption>Figura 3 - Tela do esquema de cores e categorias</figcaption>
-</figure> 
   
 ### Ferramentas
 
