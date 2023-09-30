@@ -66,8 +66,8 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | http://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios |
 | Documentos do projeto               | GitHub                             | https://docs.google.com/folder/d/1xE9t6zD78VnVkeOSgDfss33QWe85ogqYpx9x-tuG24                              |  
-| Projeto de Interface                | Marvelapp                          |     https://marvelapp.com/prototype/7ab5bid/screen/92775766                                               |
-| Gerenciamento do Projeto            | GitHub Projects                    | http://....                            |
+| Projeto de Interface                | Marvelapp                          | https://marvelapp.com/prototype/7ab5bid/screen/92775766                                                   |
+| Gerenciamento do Projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/703                                               |
 | Hospedagem                          | GitHub Pages                       | http://....                            |
 
 
