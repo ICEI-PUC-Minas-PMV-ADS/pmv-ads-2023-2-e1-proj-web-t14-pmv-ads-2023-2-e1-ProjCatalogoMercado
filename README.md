@@ -6,7 +6,8 @@ Desenvolvimento de Aplicação Web Front-End- 2023/2
 
 Eixo 1
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+O projeto é um visão relacionada ao marketing e ao quanto ele poderá auxiliar uma 
+empresa e/ou um produto a ganhar mercado.
 
 ## Integrantes
 
