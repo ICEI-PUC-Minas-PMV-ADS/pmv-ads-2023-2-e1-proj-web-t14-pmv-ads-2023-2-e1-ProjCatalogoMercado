@@ -46,11 +46,11 @@ A tela da Home-Page é uma apresentação dos produtos ou lojas demonstrando aos
 
 •	Cadastro de e-mail para receber notícias.
 
-<img width="312" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios/assets/145761508/cf5bdab4-11af-42c0-9cd2-bc78a20e25ce">
+<img width="340" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios/assets/145761508/ade1d5f7-02b9-42da-b4e5-6ff8a6539755">
 
-Figura 3 - Tela da Home-Page
+Figura 3 - Tela Home-Page
 
-### Tela - Cadastro do Microempreendedor
+### Tela - Cadastro da Empresa
 
 A tela apresenta os seguintes campos para preencher as informações pessoais do usuário:
 
@@ -66,48 +66,54 @@ A tela apresenta os seguintes campos para preencher as informações pessoais do
 
 •	Criar e confirmar senha;
 
-<img width="312" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios/assets/145761508/e45a7e05-aed3-4bf7-9e26-71f9ad4bc701">
+<img width="340" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios/assets/145761508/0c70458d-3b36-4322-a17c-7e6a6e2e5e6b">
 
-Figura 4 - Tela de Cadastro do Microempreendedor
+Figura 4 - Tela de Cadastro da Empresa
 
-### Tela - Login do Microempreendedor
+### Tela - Login da Empresa
 
 A tela permite o usuário entrar na sua conta com seu e-mail e senha e se necessário redefinir sua senha.
 
-<img width="312" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios/assets/145761508/22f18980-5b00-464e-a9aa-ad944036add4">
+<img width="340" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios/assets/145761508/d1771b79-5ed4-4226-88ca-452e46cf0df0">
 
-Figura 5 - Tela de Login do Microempreendedor
+Figura 5 - Tela de Login da Empresa
 
-### Tela - Cadastro de produtos
+### Tela - Perfil da Empresa
 
-A tela permite que o usuário insira informações detalhadas sobre os produtos. Sendo eles os seguintes campos:
-
-•	Foto do Produto;
-
-•	Nome do Produto;
-
-•	Descrição;
-
-•	Preço;
-
-•	Classificação;
-
-<img width="312" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios/assets/145761508/c4d60b17-2a7a-45a5-9c0d-ecea23b4d5c5">
-
-Figura 6 - Tela de Cadastro de Produtos
-
-### Tela - Perfil do Microempreendedor
-
-A tela permite ao usuário editar perfil, cadastrar produtos e visualizar seu layout.
+A tela permite ao usuário editar conta, editar perfil, cadastrar produtos e visualizar seu layout.
 
 <img width="312" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios/assets/145761508/60b8b588-b3b9-41e4-a77c-457dc943d435">
 
-Figura 7 - Tela de Perfil do Microempreendedor
+Figura 6 - Tela de Perfil da Empresa
+
+### Tela - Editar Conta
+
+A tela permite que o usuário edite suas informações de conta, como nome da Empresa, e-mail, endereço e telefone. Permite também alterar sua senha quando necessário.
+
+<img width="340" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios/assets/145761508/a1ca100d-ba8e-4c6e-b147-b3f98af394cf">
+
+Figura 7 - Tela de Editar Conta
+
+### Tela - Editar Perfil
+
+A tela permite que o usuário insira as informações que serão divulgadas na no seu perfil, como o Nome da Empresa, Descrição da Empresa, Endereço e Contato.
+
+<img width="452" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios/assets/145761508/37f9ffd9-aaa1-4c4b-8f9c-aee1c8dbedb0">
+
+Figura 8 - Tela de Editar Perfil
+
+### Tela - Cadastro de produto
+
+A tela permite que o usuário insira informações detalhadas sobre os produtos, como foto do produto, nome do produto, descrição, preço e classificação.
+
+<img width="340" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios/assets/145761508/81245c75-269d-4112-8b19-b87676bfe080">
+
+Figura 9 - Tela de Cadastro de Produto
 
 ### Tela - Perfil da Loja
 
 A tela permite ao Consumidor visualizar as informações da Loja e dos produtos.
 
-<img width="312" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios/assets/145761508/4da7a871-13c6-43ff-ad3a-e1286a04a941">
+<img width="340" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios/assets/145761508/e1136407-cd18-4633-a481-d0824b1744f7">
 
-Figura 8 - Tela de Perfil da Loja
+Figura 10 - Tela de Perfil da Loja
