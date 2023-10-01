@@ -11,8 +11,6 @@ Figura 1- Fluxo de telas do usuário
 
 ## Protótipo
 
-Desenvolver um protótipo emerge como uma das maneiras mais ágeis e econômicas de validar uma ideia, conceito ou funcionalidade. Isso permite a interação, avaliação, modificação e aprovação das principais características de uma interface antes de entrar na fase de desenvolvimento. Leia o artigo [Protótipos: baixa, média ou alta fidelidade?](https://medium.com/ladies-that-ux-br/prot%C3%B3tipos-baixa-m%C3%A9dia-ou-alta-fidelidade-71d897559135).
-
 ### Protótipo de baixa fidelidade
 
 As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 2. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles:
@@ -29,7 +27,7 @@ Figura 2 - Estrutura padrão do site
 
 ### Tela - Home-Page
 
-A tela da Home-Page é uma apresentação dos produtos ou lojas demonstrando aos consumidores a diversidade de opções os quais serão encontrados no site. Sendo Composta por:
+A tela da Home-Page é uma apresentação dos produtos e lojas. Sendo Composta por:
 
 •	Campo pesquisa que facilita buscar produtos específicos;
 
@@ -49,19 +47,7 @@ Figura 3 - Tela Home-Page
 
 ### Tela - Cadastro da Empresa
 
-A tela apresenta os seguintes campos para preencher as informações pessoais do usuário:
-
-•	Nome da Empresa;
-
-•	CNPJ;
-
-•	E-mail;
-
-•	Endereço;
-
-•	Contato;
-
-•	Criar e confirmar senha;
+A tela permite o usuário preencher suas informações pessoais, como nome da Empresa, CNPJ, e-mail, endereço e telefone. E permite também criar uma senha.
 
 <img width="340" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios/assets/145761508/1b0bbd2e-29a1-40f6-9520-f16264d7eb4a">
 
@@ -69,7 +55,7 @@ Figura 4 - Tela de Cadastro da Empresa
 
 ### Tela - Login da Empresa
 
-A tela permite o usuário entrar na sua conta com seu e-mail e senha e se necessário redefinir sua senha.
+A tela permite o usuário entrar na sua conta com seu e-mail e senha, e se necessário redefinir sua senha.
 
 <img width="340" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios/assets/145761508/3f879329-5e46-4b84-bfd5-fe75b866f6e1">
 
