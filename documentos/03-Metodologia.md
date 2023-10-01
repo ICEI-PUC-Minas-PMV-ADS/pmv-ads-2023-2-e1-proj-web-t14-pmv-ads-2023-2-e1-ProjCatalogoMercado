@@ -43,7 +43,8 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | Gerenciamento do Projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/703                                               |
 
 
-![project](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios/assets/144749545/7eb27986-2585-4b64-9fa4-3b6a7fc240f5)
+<img width="452" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios/assets/145761508/5c7efb95-ba3c-40e2-b6c1-6a6f7e64509d">
+
 
 
 
