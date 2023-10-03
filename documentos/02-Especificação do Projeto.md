@@ -5,7 +5,7 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil 01: Pequenos Mercados </th>
+<th colspan="2">Perfil 01: Empresa </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
