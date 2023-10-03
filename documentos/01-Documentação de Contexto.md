@@ -34,6 +34,7 @@ Como objetivos específicos, podemos destacar:
 Os pequenos mercados consideram que as ferramentas digitais são somente para empresas
 de grande porte ou enxergam isso como uma despesa, entretanto isso não corresponde à
 realidade. Afinal, o Marketing Digital bem planejado garante mais vendas e novos clientes.
+
 Portanto, a criação de um ambiente digital para suprir a carência de pequenos mercados no
 meio digital é de extrema importância. A internet permite que pequenos negócios atraiam
 novos clientes, divulguem seus produtos e aumentem suas vendas.
@@ -43,15 +44,20 @@ novos clientes, divulguem seus produtos e aumentem suas vendas.
 
 O público-alvo são os pequenos mercados que enfrentam os obstáculos da inclusão no meio
 digital.
+
 Para conhecer melhor o público-alvo foi realizada uma pesquisa com alguns pequenos
 mercados, onde podemos destacar algumas dificuldades em comum entre eles:
+
 1. Não tem orçamento para investir em Marketing, afinal, a criação e manutenção de um
 site não é barato.
 2. Dificuldade de atrair novos clientes.
 3. Estagnação das vendas.
+
 Além dos pequenos mercados, o projeto também é voltado para os consumidores.
+
 E para conhecer melhor as dificuldades dos consumidores, foi realizada também uma
 pesquisa, onde foi destacado que:
+
 1. Buscam por produtos de mercado em mercado.
 2. Dificuldade de achar produtos específicos e de difícil acesso.
 3. Compram sempre no mesmo mercado, por não conhecer outro.
