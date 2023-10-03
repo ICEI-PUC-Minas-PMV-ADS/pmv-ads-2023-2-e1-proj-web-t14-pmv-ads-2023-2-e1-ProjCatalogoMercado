@@ -13,9 +13,9 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
 
 - Scrum Master: Priscila Myuki do Nascimento Maruno
-- Product Owner: Douglas Sandro Dos Santos Araujo
-- Equipe de Desenvolvimento: Douglas Sandro Dos Santos Araujo, Mônica Eloisa da Silva, Lucas Faria de Oliveira, Priscila Myuki do Nascimento Maruno 
-- Equipe de Design: Douglas Sandro dos Santos Araujo, Mônica Eloisa da Silva, Priscila Myuki do Nascimento Maruno.
+- Product Owner: Douglas Sandro Dos Santos Araújo
+- Equipe de Desenvolvimento: Douglas Sandro Dos Santos Araújo, Lucas Faria de Oliveira, Mônica Eloisa da Silva, Pablo Vinicius Ramos Lopes, Priscila Myuki do Nascimento Maruno 
+- Equipe de Design: Douglas Sandro dos Santos Araujo, Mônica Eloisa da Silva, Priscila Myuki do Nascimento Maruno
 
 ### Processo
 
