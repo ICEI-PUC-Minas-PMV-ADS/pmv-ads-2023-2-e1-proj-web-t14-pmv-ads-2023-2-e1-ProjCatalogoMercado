@@ -3,9 +3,11 @@
 Com o grande avanço da Tecnologia, o Marketing Digital tem se tornado uma ferramenta
 indispensável para os pequenos negócios, possibilitando que se destaquem no mercado,
 conquistem mais clientes e expandam seus negócios.
+
 De acordo com The Chartered Institute Of Marketing, o marketing trata-se de saber o que os
 seus clientes desejam e, analisar, vender e promover seu produto da melhor maneira
 possível.
+
 Dessa forma, torna-se necessário a inclusão dos pequenos negócios na tecnologia, para
 permitir que tenham um alcance maior e possam se destacar em um mercado cada vez mais
 competitivo.
