@@ -25,11 +25,9 @@ negócios.
 
 Como objetivos específicos, podemos destacar:
 
-• Visibilidade de pequenos mercados.
-
-• Conectar pequenos mercados com um público maior.
-
-• Oferecer um ambiente gratuito para apoiar os pequenos mercados.
+* Visibilidade de pequenos mercados.
+* Conectar pequenos mercados com um público maior.
+* Oferecer um ambiente gratuito para apoiar os pequenos mercados.
  
 ## Justificativa
 
