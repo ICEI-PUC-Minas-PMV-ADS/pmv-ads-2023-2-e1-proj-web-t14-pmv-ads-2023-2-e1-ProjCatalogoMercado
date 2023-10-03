@@ -20,7 +20,7 @@ resultar em dificuldade de manter seus negócios e na escassez de clientes.
 ## Objetivos
 
 Objetivo desse projeto é desenvolver uma solução para inserir pequenos mercados na
-tecnologia, trazendo mais visibilidade. E com isso atraindo mais clientes e expandindo seus
+tecnologia, trazendo mais visibilidade e possibilitando que atraiam mais clientes e expandam seus
 negócios.
 
 Como objetivos específicos, podemos destacar:
