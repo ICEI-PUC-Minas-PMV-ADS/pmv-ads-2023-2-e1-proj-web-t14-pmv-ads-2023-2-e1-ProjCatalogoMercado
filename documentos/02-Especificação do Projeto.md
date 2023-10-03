@@ -58,7 +58,7 @@
 |-------|---------------------------------|----|
 | RF-01 |  A aplicação deve permitir ao (usuário 1) cadastrar uma conta.                    | ALTA   | 
 | RF-02 |  A aplicação deve permitir ao (usuário 1) fazer o login de sua conta.                    | ALTA   |
-| RF-03 |  A aplicação deve permitir ao (usuário 1) confugurar sua conta.                    | ALTA   |
+| RF-03 |  A aplicação deve permitir ao (usuário 1) configurar sua conta.                    | ALTA   |
 | RF-04 |  A aplicação deve permitir ao (usuário 1) disponibilizar informações sobre endereço e contato.                    | MÉDIA   |
 | RF-05 |  A aplicação deve permitir ao (usuário 2) ter acesso as informações do (usuário 1).                    | MÉDIA   |
 | RF-06 |  A aplicação deve permitir ao (usuário 1) cadastrar produtos.                    | ALTA   |
