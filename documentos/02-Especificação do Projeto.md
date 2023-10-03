@@ -9,7 +9,7 @@
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">Pequenos Mercados</td>
+<td width="600px">Microempreendedor</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
@@ -48,7 +48,7 @@
 | Consumidor                | procurar os mercados da região                       | facilitar a vida corrida.                              |
 | Consumidor                | procurar um mercado perto de casa                       | não precisar ir em um mercado longe.                              |
 | Consumidor                | procurar um produto específico                       | não perder tempo indo de mercado em mercado.                              |
-| Consumidor                | procurar os preços dos mercados                       | comparar e comprar o valor mais em conta.                              |
+| Consumidor                | procurar os preços dos mercados                       | comparar e comprar onde o produto é mais barato.                              |
 
 ## Requisitos do Projeto
 
