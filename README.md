@@ -1,10 +1,10 @@
 # Catálogo de Pequenos Mercados
 
-Analise e Desenvolvimento de Sistemas
+Analise e Desenvolvimento de Sistemas - PUC Minas
 
-Desenvolvimento de Aplicação Web Front-End- 2023/2
+Desenvolvimento de Aplicação Web Front-End
 
-Eixo 1
+2º semestre/2023
 
 O projeto é um visão relacionada ao marketing e ao quanto ele poderá auxiliar uma 
 empresa e/ou um produto a ganhar mercado.
