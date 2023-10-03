@@ -11,12 +11,11 @@ empresa e/ou um produto a ganhar mercado.
 
 ## Integrantes
 
-* Priscila Myuki do Nascimento Maruno
-* Mônica Eloisa da Silva
 * Douglas Sandro Dos Santos Araujo
-* Pablo Vinicius Ramos Lopes
 * Lucas Faria de Oliveira
-
+* Mônica Eloisa da Silva
+* Pablo Vinicius Ramos Lopes
+* Priscila Myuki do Nascimento Maruno
 
 ## Orientador
 
