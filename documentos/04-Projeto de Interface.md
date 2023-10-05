@@ -5,7 +5,7 @@
 
 O diagrama apresentado na Figura 1 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o <a href="https://marvelapp.com/prototype/7ab5bid/screen/92775766">ambiente MarvelApp do projeto</a>.
 
-<img width="452" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/7cd90579-91c1-489c-8e2c-e0763f57f793">
+<img width="691" alt="fluxo de telas" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/5e924537-3627-445e-927f-c1bae6dd549a">
 
 Figura 1- Fluxo de telas do usuário
 
@@ -21,7 +21,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 
 
 • Rodapé - apresenta as informações relacionadas a empresa e os direitos autorais.
 
-<img width="452" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/28e8996f-297d-4f20-aa84-ad544d80c0e9">
+<img width="942" alt="wireframe" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/d78129d5-ec7e-4be3-bd26-912fb3706927">
 
 Figura 2 - Estrutura padrão do site
 
@@ -41,7 +41,7 @@ A tela da Home-Page é uma apresentação dos produtos e lojas. Sendo Composta p
 
 •	Cadastro de e-mail para receber notícias.
 
-<img width="452" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/9b00eaf7-7ddc-4f2f-8408-7e59c057afce">
+<img width="938" alt="home-page" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/788b3afc-cb95-46dc-86be-7e8c99ecba7b">
 
 Figura 3 - Tela Home-Page
 
@@ -49,7 +49,7 @@ Figura 3 - Tela Home-Page
 
 A tela permite ao Consumidor visualizar as informações da Loja e dos produtos.
 
-<img width="452" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/33fb9945-da91-41a3-bdac-023ca0ca0f30">
+<img width="940" alt="perfil loja" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/c27bda1c-1077-4178-995a-4380aa01d17e">
 
 Figura 4 - Tela de Perfil da Loja
 
@@ -57,7 +57,7 @@ Figura 4 - Tela de Perfil da Loja
 
 A tela permite o usuário preencher suas informações pessoais, como nome da Empresa, CNPJ, e-mail, endereço e telefone. E permite também criar uma senha.
 
-<img width="452" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/d914bbc8-9b22-4137-ab9c-9e87d205a4a9">
+<img width="942" alt="cadastro empresa" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/57c2198e-12f6-43e9-a86f-5904df258584">
 
 Figura 5 - Tela de Cadastro da Empresa
 
@@ -65,7 +65,7 @@ Figura 5 - Tela de Cadastro da Empresa
 
 A tela permite o usuário entrar na sua conta com seu e-mail e senha, e se necessário redefinir sua senha.
 
-<img width="452" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/13598c6c-2714-4117-b15c-9b3b1e6f4a04">
+<img width="940" alt="login da empresa" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/b2ff58ed-d3da-4eb1-aac6-f4700224dd14">
 
 Figura 6 - Tela de Login da Empresa
 
@@ -73,7 +73,7 @@ Figura 6 - Tela de Login da Empresa
 
 A tela permite ao usuário editar conta, editar perfil, cadastrar produtos e visualizar seu layout.
 
-<img width="452" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/351f3c31-9f58-4534-9852-83effe6e3f9a">
+<img width="606" alt="perfil empresa" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/cdfa421b-672d-4ad3-8dd6-b83b8647fcb9">
 
 Figura 7 - Tela de Perfil da Empresa
 
@@ -81,7 +81,7 @@ Figura 7 - Tela de Perfil da Empresa
 
 A tela permite que o usuário edite suas informações de conta, como nome da Empresa, e-mail, endereço e telefone. Permite também alterar sua senha quando necessário.
 
-<img width="452" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/e01f5958-82f6-4ee0-891e-4723bcbc1078">
+<img width="941" alt="editar conta" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/acdfedac-1e41-4b02-96e3-397175d60e10">
 
 Figura 8 - Tela de Editar Conta
 
@@ -89,7 +89,7 @@ Figura 8 - Tela de Editar Conta
 
 A tela permite que o usuário insira as informações que serão divulgadas na no seu perfil, como o Nome da Empresa, Descrição da Empresa, Endereço e Contato.
 
-<img width="452" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/4ed6db5f-d198-443b-83c0-9a493334bdcd">
+<img width="944" alt="editar perfil" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/d157cec4-d36e-4189-89df-6116313a2436">
 
 Figura 9 - Tela de Editar Perfil
 
@@ -97,6 +97,6 @@ Figura 9 - Tela de Editar Perfil
 
 A tela permite que o usuário insira informações detalhadas sobre os produtos, como foto do produto, nome do produto, descrição, preço e classificação.
 
-<img width="452" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/c05202e6-3098-4f46-832c-e6b3bb71572a">
+<img width="945" alt="cadastro produto" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/31a81b7f-3b85-4e5a-9101-c97bb5968b31">
 
 Figura 10 - Tela de Cadastro de Produto
