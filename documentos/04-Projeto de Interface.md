@@ -9,9 +9,7 @@ O diagrama apresentado na Figura 1 mostra o fluxo de interação do usuário pel
 
 Figura 1- Fluxo de telas do usuário
 
-## Protótipo
-
-### Protótipo de baixa fidelidade
+## Protótipo de baixa fidelidade
 
 As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 2. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles:
 
@@ -25,7 +23,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 
 
 Figura 2 - Estrutura padrão do site
 
-### Tela - Home-Page
+## Tela - Home-Page
 
 A tela da Home-Page é uma apresentação dos produtos e lojas. Sendo Composta por:
 
@@ -45,7 +43,7 @@ A tela da Home-Page é uma apresentação dos produtos e lojas. Sendo Composta p
 
 Figura 3 - Tela Home-Page
 
-### Tela - Perfil da Loja
+## Tela - Perfil da Loja
 
 A tela permite ao Consumidor visualizar as informações da Loja e dos produtos.
 
@@ -53,7 +51,7 @@ A tela permite ao Consumidor visualizar as informações da Loja e dos produtos.
 
 Figura 4 - Tela de Perfil da Loja
 
-### Tela - Cadastro da Empresa
+## Tela - Cadastro da Empresa
 
 A tela permite o usuário preencher suas informações pessoais, como nome da Empresa, CNPJ, e-mail, endereço e telefone. E permite também criar uma senha.
 
@@ -61,7 +59,7 @@ A tela permite o usuário preencher suas informações pessoais, como nome da Em
 
 Figura 5 - Tela de Cadastro da Empresa
 
-### Tela - Login da Empresa
+## Tela - Login da Empresa
 
 A tela permite o usuário entrar na sua conta com seu e-mail e senha, e se necessário redefinir sua senha.
 
@@ -69,7 +67,7 @@ A tela permite o usuário entrar na sua conta com seu e-mail e senha, e se neces
 
 Figura 6 - Tela de Login da Empresa
 
-### Tela - Perfil da Empresa
+## Tela - Perfil da Empresa
 
 A tela permite ao usuário editar conta, editar perfil, cadastrar produtos e visualizar seu layout.
 
@@ -77,7 +75,7 @@ A tela permite ao usuário editar conta, editar perfil, cadastrar produtos e vis
 
 Figura 7 - Tela de Perfil da Empresa
 
-### Tela - Editar Conta
+## Tela - Editar Conta
 
 A tela permite que o usuário edite suas informações de conta, como nome da Empresa, e-mail, endereço e telefone. Permite também alterar sua senha quando necessário.
 
@@ -85,7 +83,7 @@ A tela permite que o usuário edite suas informações de conta, como nome da Em
 
 Figura 8 - Tela de Editar Conta
 
-### Tela - Editar Perfil
+## Tela - Editar Perfil
 
 A tela permite que o usuário insira as informações que serão divulgadas na no seu perfil, como o Nome da Empresa, Descrição da Empresa, Endereço e Contato.
 
@@ -93,7 +91,7 @@ A tela permite que o usuário insira as informações que serão divulgadas na n
 
 Figura 9 - Tela de Editar Perfil
 
-### Tela - Cadastro de produto
+## Tela - Cadastro de produto
 
 A tela permite que o usuário insira informações detalhadas sobre os produtos, como foto do produto, nome do produto, descrição, preço e classificação.
 
