@@ -13,13 +13,13 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
 
 - Scrum Master: Priscila Myuki do Nascimento Maruno
-- Product Owner: Douglas Sandro Dos Santos Araújo
-- Equipe de Desenvolvimento: Douglas Sandro Dos Santos Araújo, Lucas Faria de Oliveira, Mônica Eloisa da Silva, Pablo Vinicius Ramos Lopes, Priscila Myuki do Nascimento Maruno 
-- Equipe de Design: Douglas Sandro dos Santos Araujo, Mônica Eloisa da Silva, Priscila Myuki do Nascimento Maruno
+- Product Owner: Douglas Sandro dos Santos Araújo
+- Equipe de Desenvolvimento: Douglas Sandro dos Santos Araújo, Lucas Faria de Oliveira, Mônica Eloisa da Silva, Pablo Vinicius Ramos Lopes, Priscila Myuki do Nascimento Maruno 
+- Equipe de Design: Douglas Sandro dos Santos Araújo, Mônica Eloisa da Silva, Priscila Myuki do Nascimento Maruno
 
 ### Processo
 
-O Scrum foi implementado com a utilização do GitHub,criamos a Backlog onde definimos os passos a serem implementados no trabalho. In Process foi utilizado para denominar quem seria responsável por cada parte do progresso e andamento do projeto. Review ficou a cargo de um dos integrantes ,que ao fazer toda revisão encaminha para o Done, assim finalizando as etapas de realização.
+Para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução, a equipe está utilizando o GitHub, com a seguinte estrutura:
 
 - Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
 - In Process: representada pelo Sprint Backlog. Este é o Sprint atual que estamos trabalhando, está em processo. 
