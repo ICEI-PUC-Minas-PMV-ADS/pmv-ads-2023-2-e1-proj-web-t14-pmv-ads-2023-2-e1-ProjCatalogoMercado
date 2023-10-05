@@ -1,10 +1,10 @@
 # Catálogo de Pequenos Mercados
 
-Análise e Desenvolvimento de Sistemas - PUC Minas
+`Análise e Desenvolvimento de Sistemas - PUC Minas`
 
-Desenvolvimento de Aplicação Web Front-End
+`Desenvolvimento de Aplicação Web Front-End`
 
-2º semestre/2023
+`2º semestre/2023`
 
 O objetivo desse projeto é desenvolver uma solução para inserir pequenos mercados na tecnologia, trazendo mais visibilidade e possibilitando que atraiam mais clientes e expandam seus negócios.
 
