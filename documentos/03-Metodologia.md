@@ -19,7 +19,7 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 
 ### Processo
 
-Para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução, a equipe está utilizando o GitHub, com a seguinte estrutura:
+Para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução, a equipe está utilizando o GitHub com a seguinte estrutura:
 
 - Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
 - In Process: representada pelo Sprint Backlog. Este é o Sprint atual que estamos trabalhando, está em processo. 
