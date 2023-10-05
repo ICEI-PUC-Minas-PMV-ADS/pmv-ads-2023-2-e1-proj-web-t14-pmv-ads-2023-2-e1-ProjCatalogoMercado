@@ -48,7 +48,7 @@
 | Consumidor                | procurar os mercados da região                       | facilitar a vida corrida.                              |
 | Consumidor                | procurar um mercado perto de casa                       | não precisar ir em um mercado longe.                              |
 | Consumidor                | procurar um produto específico                       | não perder tempo indo de mercado em mercado.                              |
-| Consumidor                | procurar os preços dos mercados                       | comparar e comprar onde o produto é mais barato.                              |
+| Consumidor                | pesquisar os preços dos mercados                       | comparar e comprar onde o produto é mais barato.                              |
 
 ## Requisitos do Projeto
 
