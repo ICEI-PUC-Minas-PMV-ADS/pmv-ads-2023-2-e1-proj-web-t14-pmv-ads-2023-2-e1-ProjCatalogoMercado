@@ -21,7 +21,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 
 
 • Rodapé - apresenta as informações relacionadas a empresa e os direitos autorais.
 
-<img width="942" alt="wireframe" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/d78129d5-ec7e-4be3-bd26-912fb3706927">
+<img width="958" alt="Captura de Tela 2023-10-05 às 20 43 32" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/1bf255e9-ecec-45bf-84b8-6962771adecf">
 
 Figura 2 - Estrutura padrão do site
 
