@@ -28,7 +28,7 @@ Para acompanhar o andamento do projeto, a execução das tarefas e o status de d
 
 O <a href="https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/703">quadro kanban</a> é apresentado na figura abaixo:
 
-<img width="1436" alt="kanban" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/6b2b55da-37aa-40bf-86c9-14e4f76ce81b">
+<img width="1440" alt="kanban" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/e64e6319-8a03-4582-a9e5-15cb5f6b8279">
 
 Figura 1 - Tela do kanban utilizada pelo grupo
 
