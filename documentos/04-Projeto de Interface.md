@@ -41,7 +41,7 @@ A tela da Home-Page é uma apresentação dos produtos e lojas. Sendo Composta p
 
 •	Cadastro de e-mail para receber notícias.
 
-<img width="938" alt="home-page" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/788b3afc-cb95-46dc-86be-7e8c99ecba7b">
+<img width="951" alt="home-page" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/f4609600-fd11-4881-a2d6-1293ccc06469">
 
 Figura 3 - Tela Home-Page
 
@@ -49,7 +49,7 @@ Figura 3 - Tela Home-Page
 
 A tela permite ao Consumidor visualizar as informações da Loja e dos produtos.
 
-<img width="940" alt="perfil loja" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/c27bda1c-1077-4178-995a-4380aa01d17e">
+<img width="949" alt="perfil loja" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/a55b9d93-272a-4c84-8aaf-429e365afced">
 
 Figura 4 - Tela de Perfil da Loja
 
@@ -57,7 +57,7 @@ Figura 4 - Tela de Perfil da Loja
 
 A tela permite o usuário preencher suas informações pessoais, como nome da Empresa, CNPJ, e-mail, endereço e telefone. E permite também criar uma senha.
 
-<img width="942" alt="cadastro empresa" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/57c2198e-12f6-43e9-a86f-5904df258584">
+<img width="949" alt="cadastro da empresa" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/789a8316-2735-41ae-9402-c3bb84dc505e">
 
 Figura 5 - Tela de Cadastro da Empresa
 
@@ -65,7 +65,7 @@ Figura 5 - Tela de Cadastro da Empresa
 
 A tela permite o usuário entrar na sua conta com seu e-mail e senha, e se necessário redefinir sua senha.
 
-<img width="940" alt="login da empresa" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/b2ff58ed-d3da-4eb1-aac6-f4700224dd14">
+<img width="949" alt="login da empresa" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/b2eba8d7-483d-401d-87b9-aa0c63ed96df">
 
 Figura 6 - Tela de Login da Empresa
 
@@ -73,7 +73,7 @@ Figura 6 - Tela de Login da Empresa
 
 A tela permite ao usuário editar conta, editar perfil, cadastrar produtos e visualizar seu layout.
 
-<img width="606" alt="perfil empresa" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/cdfa421b-672d-4ad3-8dd6-b83b8647fcb9">
+<img width="951" alt="perfil da empresa" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/1f7a71c1-5754-46cb-8ab4-26d109d00cfd">
 
 Figura 7 - Tela de Perfil da Empresa
 
@@ -81,7 +81,7 @@ Figura 7 - Tela de Perfil da Empresa
 
 A tela permite que o usuário edite suas informações de conta, como nome da Empresa, e-mail, endereço e telefone. Permite também alterar sua senha quando necessário.
 
-<img width="941" alt="editar conta" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/acdfedac-1e41-4b02-96e3-397175d60e10">
+<img width="951" alt="editar conta" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/c9a6c50f-8ee2-45a4-a081-b9149a6059e8">
 
 Figura 8 - Tela de Editar Conta
 
@@ -89,7 +89,7 @@ Figura 8 - Tela de Editar Conta
 
 A tela permite que o usuário insira as informações que serão divulgadas na no seu perfil, como o Nome da Empresa, Descrição da Empresa, Endereço e Contato.
 
-<img width="944" alt="editar perfil" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/d157cec4-d36e-4189-89df-6116313a2436">
+<img width="950" alt="editar perfil" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/904a79bc-25f6-4b7b-a58e-bddcb8e28703">
 
 Figura 9 - Tela de Editar Perfil
 
@@ -97,6 +97,6 @@ Figura 9 - Tela de Editar Perfil
 
 A tela permite que o usuário insira informações detalhadas sobre os produtos, como foto do produto, nome do produto, descrição, preço e classificação.
 
-<img width="945" alt="cadastro produto" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/31a81b7f-3b85-4e5a-9101-c97bb5968b31">
+<img width="949" alt="cadastrar produto" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/8d500519-58dd-48bf-bbe0-2ea8c3bf77f5">
 
 Figura 10 - Tela de Cadastro de Produto
