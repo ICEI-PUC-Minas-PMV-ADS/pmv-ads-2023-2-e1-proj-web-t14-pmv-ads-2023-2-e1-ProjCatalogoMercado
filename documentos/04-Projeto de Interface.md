@@ -5,7 +5,8 @@
 
 O diagrama apresentado na Figura 1 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o <a href="https://marvelapp.com/prototype/7ab5bid/screen/92775766">ambiente MarvelApp do projeto</a>.
 
-<img width="346" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios/assets/145761508/8602c349-433a-4891-8954-4e83100fb9b3">
+<img width="452" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/7cd90579-91c1-489c-8e2c-e0763f57f793">
+
 
 Figura 1- Fluxo de telas do usuário
 
