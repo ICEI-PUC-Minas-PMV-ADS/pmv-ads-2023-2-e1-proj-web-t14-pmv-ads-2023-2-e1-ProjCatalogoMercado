@@ -42,8 +42,11 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | Projeto de Interface                | Marvelapp                          | https://marvelapp.com/prototype/7ab5bid/screen/92775766                                                   |
 | Gerenciamento do Projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/703                                               |
 
+<img width="1436" alt="kanban" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/6b2b55da-37aa-40bf-86c9-14e4f76ce81b">
 
-<img width="452" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-projpeqnegocios/assets/145761508/5c7efb95-ba3c-40e2-b6c1-6a6f7e64509d">
+Figura 1 - Tela do kanban utilizada pelo grupo
+
+
 
 
 
