@@ -8,6 +8,16 @@ Elementos padroes como Cabeçario, Conteudo e rodapé fazem parte do padrão des
 Tela de Home Page
 Tela onde os Produtos e Lojas serão exibidos.
 
+Figura 1 - Home Page
+
+Tela de Perfil da Loja
+TGela usual onde será permitido ao consumidor visualizar informações da loja e dos Podutos.
+
+Figura 2 -Perfil Loja 
+
+
+
+
 
 
 > **Links Úteis**:
