@@ -2,7 +2,13 @@
 
 Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
-[Apresente a estrutura padrão da sua aplicação.]
+Elementos padroes como Cabeçario, Conteudo e rodapé fazem parte do padrão desenvolvido.
+
+
+Tela de Home Page
+Tela onde os Produtos e Lojas serão exibidos.
+
+
 
 > **Links Úteis**:
 >
