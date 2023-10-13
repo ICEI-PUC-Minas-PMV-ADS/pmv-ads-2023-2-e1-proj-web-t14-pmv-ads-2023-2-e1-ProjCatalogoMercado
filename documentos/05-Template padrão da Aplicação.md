@@ -15,6 +15,11 @@ TGela usual onde será permitido ao consumidor visualizar informações da loja 
 
 Figura 2 -Perfil Loja 
 
+Foi criado um logo como o objetivo do site, ultilizando cores padroes que referen-se há objetividade e
+atuação de um marketing mais clean, mais direto.
+
+
+Figura - 3 Logo Pequenos Negócios
 
 
 
