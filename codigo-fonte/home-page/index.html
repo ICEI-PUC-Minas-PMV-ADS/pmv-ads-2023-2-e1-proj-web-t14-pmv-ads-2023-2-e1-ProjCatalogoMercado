@@ -10,72 +10,72 @@
 </head>
 <body>
     <header>
-        <div id="divLogo">
-            <p>Alcance Negócios</p>
+        <h1>Alcance Negócios</h1>
+        <form>
+            <input type="text" id="pesquisa" placeholder="O que você está procurando?">
+        </form>
+        <div id="divCadastro">
+            <a href="cadastro.html">Cadastrar</a>
         </div>
-        <div id="divBusca">
-            <input type="text" id="txtBusca" placeholder="O que você está procurando?">
-        </div>
-        <div id="divBotão">
-            <input type="button" class="button" value="Cadastrar">
-            <input type="button" class="button" value="Entrar">
+        <div id="divLogin">
+            <a href="login.html">Login</a>
         </div>
     </header>
     <main>
         <div id="lojas-recomendadas">
-            <h1>Lojas Recomendadas</h1>
+            <h2>Lojas Recomendadas</h2>
             <section>
                 <div class="loja-conteúdo">
-                    <h2 class="loja-nome">Loja 1</h2>
+                    <h3 class="loja-nome">Loja 1</h3>
                     <p><img class="loja-imagem" src=img/loja.png></p>
                 </div>
                 <div class="loja-conteúdo">
-                    <h2 class="loja-nome">Loja 2</h2>
+                    <h3 class="loja-nome">Loja 2</h3>
                     <p><img class="loja-imagem" src=img/loja.png></p>
                 </div>
                 <div class="loja-conteúdo">
-                    <h2 class="loja-nome">Loja 3</h2>
+                    <h3 class="loja-nome">Loja 3</h3>
                     <p><img class="loja-imagem" src=img/loja.png></p>
                 </div>
                 <div class="loja-conteúdo">
-                    <h2 class="loja-nome">Loja 4</h2>
+                    <h3 class="loja-nome">Loja 4</h3>
                     <p><img class="loja-imagem" src=img/loja.png></p>
                 </div>
                 <div class="loja-conteúdo">
-                    <h2 class="loja-nome">Loja 5</h2>
+                    <h3 class="loja-nome">Loja 5</h3>
                     <p><img class="loja-imagem" src=img/loja.png></p>
                 </div>
                 <div class="loja-conteúdo">
-                    <h2 class="loja-nome">Loja 6</h2>
+                    <h3 class="loja-nome">Loja 6</h3>
                     <p><img class="loja-imagem" src=img/loja.png></p>
                 </div>
             </section>
         </div>
         <div id="categoria-produtos">
-            <h1>Categoria de Produtos</h1>
+            <h2>Categoria de Produtos</h2>
             <section>
                 <div class="produto-conteúdo">
-                    <h2 class="produto-nome">Sem glúten</h2>
+                    <h3 class="produto-nome">Sem glúten</h3>
                     <p><img class="produto-imagem" src=img/gluten-free.png></p>
                 </div>
                 <div class="produto-conteúdo">
-                    <h2 class="produto-nome">Sem lactose</h2>
+                    <h3 class="produto-nome">Sem lactose</h3>
                     <p><img class="produto-imagem" src=img/lactose-free.png></p>
                 </div>
                 <div class="produto-conteúdo">
-                    <h2 class="produto-nome">Sem açúcar</h2>
+                    <h3 class="produto-nome">Sem açúcar</h3>
                     <p><img class="produto-imagem" src=img/sugar-free.png></p>
                 </div>
                 <div class="produto-conteúdo">
-                    <h2 class="produto-nome">Frutas</h2>
+                    <h3 class="produto-nome">Frutas</h3>
                     <p><img class="produto-imagem" src=img/fruit.png></p>
                 </div>
                 <div class="produto-conteúdo">
-                    <h2 class="produto-nome">Legumes e verduras</h2>
+                    <h3 class="produto-nome">Legumes e verduras</h3>
                     <p><img class="produto-imagem" src=img/vegetable.png></p>
                 </div>
                 <div class="produto-conteúdo">
-                    <h2 class="produto-nome">Limpeza</h2>
+                    <h3 class="produto-nome">Limpeza</h3>
                     <p><img class="produto-imagem" src=img/clean.png></p>
                 </div>
             </section>
@@ -97,7 +97,8 @@
         </div>
         <div id="rodapé" class="noticias">
            <h4>Receba nossas notícias</h4> 
-           <p>Digite seu e-mail [Inscreva]</p>
+           <p><input type="text" placeholder="Digite seu e-mail"/>
+            <button type="button">Enviar</button></p>
         </div>
     </footer>
 </body>
