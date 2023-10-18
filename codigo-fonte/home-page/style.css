@@ -33,6 +33,32 @@ a {
     padding: 10px 25px;
     text-decoration: none;
     display: inline-block;
-    margin-left: 15px;
+    margin-left: 10px;
     margin-right: 5px;
+}
+#divCategoriaProduto {
+    background-color: white;
+    border: white solid 1px;
+}
+#divProduto {
+    display: inline-block;
+    background-color: white;
+    width: calc(12% - 20px);
+    margin: 10px 20px;
+    margin-right: 0px;
+    padding: 1px 1px;
+    box-sizing: border-box;
+}
+.produto-imagem {
+    display: block;
+    margin: 5px 0px 0px 0px;
+    width: 100%;
+}
+h2 {
+    font-size: medium;
+    margin: 10px 0px 0px 20px;
+}
+h3 {
+    font-size: small;
+    text-align: center;
 }
