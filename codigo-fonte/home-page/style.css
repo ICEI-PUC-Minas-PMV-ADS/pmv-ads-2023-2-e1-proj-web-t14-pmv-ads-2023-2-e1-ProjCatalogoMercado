@@ -1,6 +1,5 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 1px;
     margin: 0;
     padding: 0;
 }
@@ -10,21 +9,19 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    border: white solid 1px;
-    padding: 10px 30px;
+    padding: 20px 30px;
 }
 h1 {
-    font-size: large;
+    font-size: 25px;
 }
-#divPesquisa {
+#Pesquisa {
     background-color: #f8f8f8;
     border: #777 solid 1px;
     border-radius: 5px;
     width: 400px;
 }
 #txtPesquisa {
-    color: #777;
-    font-size: small;
+    font-size: 12px;
     float: left;
     background-color: transparent;
     padding-left: 10px;
@@ -34,20 +31,19 @@ h1 {
 }
 a {
     display: inline-block;
-    color: white;
-    font-size: 12px;
-    text-align: center;
-    font-weight: bolder;
-    text-decoration: none;
-    line-height: 1.6;
+    width: 80px;
     background-color: #004E98;
     border: #004E98 solid 1px;
     border-radius: 5px;
-    padding: 5px 15px;
-    margin-left: 10px;
-    margin-right: 0.5px;
+    padding: 10px 15px;
+    margin-left: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: lighter;
 }
-#divDestaque {
+#Destaque {
     padding: 70px;
     background-image: url(img/capa.png);
     background-size: cover;
@@ -55,11 +51,15 @@ a {
     text-align: center;
     align-items: center;
 }
-#divCategoriaProduto {
+h2 {
+    font-size: 30px;
+    color: white;
+}
+#CategoriaProduto {
     background-color: white;
     border: white solid 1px;
 }
-#divProduto {
+#Produto {
     display: inline-block;
     vertical-align: top;
     background-color: white;
@@ -73,38 +73,89 @@ a {
     margin: 0px 0px 2px 0px;
     width: 100%;
 }
-#divMercado {
+h3 {
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: center;
+}
+#Mercado {
     display: inline-block;
     vertical-align: top;
     background-color: #f8f8f8;
-    width: calc(15% - 4px);
-    padding: 10px 10px 10px 30px;
-    margin: 20px;
+    border: #f8f8f8 solid 1px;
+    border-radius: 15px;
+    width: calc(20% - 28px);
+    margin: 20px 20px;
     margin-right: 0px;
     box-sizing: border-box;
 }
-.mercado-imagem {
-    display: block;
-    width: 60%;
-    margin: 20px 20px;
-}
-h2 {
-    color: white;
-    font-size: 20px;
-    font-weight: lighter;
-}
-h3 {
-    font-size: medium;
-    margin: 10px 0px 0px 20px;
-}
 h4 {
-    font-size: 10px;
-    font-weight: lighter;
-    text-align: center;
-}
-h5 {
     font-size: 25px;
     text-align: center;
+}
+.mercado-imagem {
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+}
+footer {
+    background-color: #3A6EA5;
+}
+#Rodapé {
+    display: inline-block;
+    vertical-align: top;
+}
+#Rodapé.logo {
+    width: 250px;
+    padding: 10px;
+    margin: 40px 20px 40px 20px;
+    box-sizing: border-box;
+    color: white;
+}
+#Rodapé.sobre {
+    width: 500px;
+    padding: 10px;
+    margin: 40px 20px 40px 55px;
+    box-sizing: border-box;
+    color: white;
+    text-align: justify;
+}
+#Rodapé.termos {
+    width: 170px;
+    padding: 10px;
+    margin: 40px 15px 40px 5px;
+    box-sizing: border-box;
+    color: white;
+}
+#Rodapé.noticias {
+    width: 340px;
+    padding: 10px;
+    margin: 40px 10px 40px 10px;
+    box-sizing: border-box;
+    color: white;
+}
+#txtNoticias {
+    font-size: 12px;
+    float: left;
+    background-color: white;
+    margin: 5px 0px 5px 0px;
+    padding-left: 10px;
+    border: none;
+    height: 30px;
+    width: 310px;
+}
+h7 {
+    font-size: 15px;
+    font-weight: bold;
+}
+p {
+    font-size: 14px;
+}
+#Copyright {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: white;
 }
 h6 {
     font-size: 14px;
