@@ -1,0 +1,72 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px 30px;
+}
+header h1 {
+    font-size: 25px;
+}
+
+/* Formulário de Registro de Mercado */
+.cadastrar {
+    display: flexbox;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    border: #f8f8f8 solid 1px;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px 0px 30px 0px; 
+}
+main h1 {
+    font-size: 25px;
+    line-height: 2;
+    text-align: center;
+}
+label {
+    font-size: 16px;
+    line-height: 2;
+    margin: 0px 0px 0px 100px;
+}
+.caixaFormulário {
+    margin-bottom: 20px;
+}
+.caixaFormulário input {
+    font-size: 14px;
+    width: 400px;
+    margin: 0 0 0 100px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+p {
+    font-size: 14px;
+    margin: 0 0 0 100px;
+}
+button {
+    font-size: 16px;
+    color: white;
+    width: 200px;
+    margin: 20px 0 10px 200px;
+    background-color: #004E98;
+    border: #004E98 solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+main h2 {
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+}
