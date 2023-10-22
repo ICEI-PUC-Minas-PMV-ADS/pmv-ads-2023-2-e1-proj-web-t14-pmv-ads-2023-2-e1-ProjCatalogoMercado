@@ -1,8 +1,16 @@
+/* Limpar configuração do browser */
 * {
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
+
+/* Padrão da Página */
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1.5px;
+}
+
+/* Header */
 header {
     display: flex;
     flex-direction: row;
@@ -11,14 +19,14 @@ header {
     background-color: white;
     padding: 20px 30px;
 }
-h1 {
+header h1 {
     font-size: 25px;
 }
-#Pesquisa {
+#pesquisa {
     background-color: #f8f8f8;
-    border: #777 solid 1px;
+    border: #ddd solid 1px;
     border-radius: 5px;
-    width: 400px;
+    width: 500px;
 }
 #txtPesquisa {
     font-size: 12px;
@@ -27,43 +35,48 @@ h1 {
     padding-left: 10px;
     border: none;
     height: 30px;
-    width: 390px;
+    width: 490px;
 }
 a {
-    display: inline-block;
-    width: 80px;
+    display: flexbox;
     background-color: #004E98;
     border: #004E98 solid 1px;
     border-radius: 5px;
-    padding: 10px 15px;
+    padding: 10px;
     margin-left: 8px;
     text-align: center;
     text-decoration: none;
     color: white;
-    font-size: 12px;
-    font-weight: lighter;
+    box-sizing: border-box;
 }
-#Destaque {
-    padding: 70px;
+#txtMenu {
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+/* Main - Destaque */
+#destaque {
+    display: flexbox;
+    padding: 100px;
     background-image: url(img/capa.png);
     background-size: cover;
-    border: white solid 1px;
+    border: none;
     text-align: center;
     align-items: center;
 }
-h2 {
+main h1 {
     font-size: 30px;
+    font-weight: bolder;
     color: white;
 }
-#CategoriaProduto {
-    background-color: white;
-    border: white solid 1px;
-}
-#Produto {
+
+/* Main - Produtos */
+#produto {
     display: inline-block;
     vertical-align: top;
     background-color: white;
-    width: calc(8% - 21px);
+    width: calc(7% - 8px);
     margin: 20px;
     margin-right: 0px;
     box-sizing: border-box;
@@ -73,90 +86,103 @@ h2 {
     margin: 0px 0px 2px 0px;
     width: 100%;
 }
-h3 {
-    font-size: 12px;
+main h2 {
+    font-size: 10px;
     font-weight: lighter;
     text-align: center;
 }
-#Mercado {
+
+/* Main - Mercados */
+main h3 {
+    font-size: 25px;
+    text-align: center;
+}
+#mercado {
     display: inline-block;
     vertical-align: top;
     background-color: #f8f8f8;
     border: #f8f8f8 solid 1px;
     border-radius: 15px;
-    width: calc(20% - 28px);
-    margin: 20px 20px;
+    width: calc(24% - 25px);
+    margin: 20px 28px;
     margin-right: 0px;
     box-sizing: border-box;
-}
-h4 {
-    font-size: 25px;
-    text-align: center;
 }
 .mercado-imagem {
     display: block;
     width: 100%;
     border-radius: 15px;
 }
+main h4 {
+    font-size: 16px;
+}
+main p {
+    font-size: 14px;
+}
+
+/* Footer */
 footer {
     background-color: #3A6EA5;
 }
-#Rodapé {
+#rodapé {
     display: inline-block;
     vertical-align: top;
 }
-#Rodapé.logo {
+#rodapé.logo {
     width: 250px;
     padding: 10px;
-    margin: 40px 20px 40px 20px;
+    margin: 30px 20px 30px 20px;
     box-sizing: border-box;
     color: white;
 }
-#Rodapé.sobre {
+footer h1 {
+    font-size: 20px;
+}
+#rodapé.sobre {
     width: 500px;
     padding: 10px;
-    margin: 40px 20px 40px 55px;
+    margin: 30px 30px 30px 0;
     box-sizing: border-box;
     color: white;
     text-align: justify;
 }
-#Rodapé.termos {
-    width: 170px;
+footer h2 {
+    font-size: 14px;
+    line-height: 1.5;
+}
+footer p {
+    font-size: 14px;
+}
+#rodapé.termos {
+    width: 210px;
     padding: 10px;
-    margin: 40px 15px 40px 5px;
+    margin: 30px 30px 30px 0;
     box-sizing: border-box;
     color: white;
 }
-#Rodapé.noticias {
-    width: 340px;
+#rodapé.email {
+    width: 260px;
     padding: 10px;
-    margin: 40px 10px 40px 10px;
+    margin: 30px 30px 30px 0;
     box-sizing: border-box;
     color: white;
 }
-#txtNoticias {
+#txtEmail {
     font-size: 12px;
     float: left;
     background-color: white;
-    margin: 5px 0px 5px 0px;
+    margin: 5px 0 0 0;
     padding-left: 10px;
     border: none;
     height: 30px;
     width: 310px;
 }
-h7 {
-    font-size: 15px;
-    font-weight: bold;
-}
-p {
-    font-size: 14px;
-}
-#Copyright {
+#copyright {
     display: block;
     padding: 10px;
     text-align: center;
     color: white;
 }
-h6 {
-    font-size: 14px;
+footer h3 {
+    font-size: 12px;
 }
