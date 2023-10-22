@@ -46,7 +46,10 @@
           </button>
         </div>
         <div class="modal-body">
-          <div class="form-group">
+            <div id="login-box" class="col-md-12">
+                <form id="login-form" class="form" method="post" onsubmit="loginUser (this)">
+                    <h3 class="text-center text-info">Novo usuário</h3>
+                    <div class="form-group">
                         <label for="login" class="text-info">Usuário</label><br>
                         <input type="text" name="txt_login" id="txt_login" class="form-control">
                     </div>
@@ -136,3 +139,4 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
 </body>
 </html>
+         
