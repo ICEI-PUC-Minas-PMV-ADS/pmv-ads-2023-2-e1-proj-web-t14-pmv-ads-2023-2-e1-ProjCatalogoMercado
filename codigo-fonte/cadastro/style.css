@@ -1,7 +1,13 @@
+/* Limpar configuração do browser */
 * {
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+}
+
+/* Padrão da Página */
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1.5px;
 }
 
 /* Header */
@@ -16,6 +22,39 @@ header {
 header h1 {
     font-size: 25px;
 }
+#pesquisa {
+    background-color: #f8f8f8;
+    border: #ddd solid 1px;
+    border-radius: 5px;
+    width: 500px;
+}
+#txtPesquisa {
+    font-size: 12px;
+    float: left;
+    background-color: transparent;
+    padding-left: 10px;
+    border: none;
+    height: 30px;
+    width: 490px;
+}
+a {
+    display: flexbox;
+    background-color: #004E98;
+    border: #004E98 solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    box-sizing: border-box;
+}
+#txtMenu {
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
 
 /* Formulário de Registro de Mercado */
 .cadastrar {
@@ -34,15 +73,15 @@ main h1 {
     text-align: center;
 }
 label {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 2;
-    margin: 0px 0px 0px 100px;
+    margin: 0px 0px 0px 105px;
 }
 .caixaFormulário {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 .caixaFormulário input {
-    font-size: 14px;
+    font-size: 12px;
     width: 400px;
     margin: 0 0 0 100px;
     padding: 10px;
@@ -50,12 +89,12 @@ label {
     border-radius: 5px;
     box-sizing: border-box;
 }
-p {
-    font-size: 14px;
-    margin: 0 0 0 100px;
+main p {
+    font-size: 12px;
+    margin: 0 0 0 105px;
 }
 button {
-    font-size: 16px;
+    font-size: 14px;
     color: white;
     width: 200px;
     margin: 20px 0 10px 200px;
@@ -66,7 +105,74 @@ button {
     cursor: pointer;
 }
 main h2 {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: lighter;
     text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #3A6EA5;
+}
+#rodapé {
+    display: inline-block;
+    vertical-align: top;
+}
+#rodapé.logo {
+    width: 250px;
+    padding: 10px;
+    margin: 30px 20px 30px 20px;
+    box-sizing: border-box;
+    color: white;
+}
+footer h1 {
+    font-size: 20px;
+}
+#rodapé.sobre {
+    width: 500px;
+    padding: 10px;
+    margin: 30px 30px 30px 0;
+    box-sizing: border-box;
+    color: white;
+    text-align: justify;
+}
+footer h2 {
+    font-size: 14px;
+    line-height: 1.5;
+}
+footer p {
+    font-size: 14px;
+}
+#rodapé.termos {
+    width: 210px;
+    padding: 10px;
+    margin: 30px 30px 30px 0;
+    box-sizing: border-box;
+    color: white;
+}
+#rodapé.email {
+    width: 260px;
+    padding: 10px;
+    margin: 30px 30px 30px 0;
+    box-sizing: border-box;
+    color: white;
+}
+#txtEmail {
+    font-size: 12px;
+    float: left;
+    background-color: white;
+    margin: 5px 0 0 0;
+    padding-left: 10px;
+    border: none;
+    height: 30px;
+    width: 310px;
+}
+#copyright {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+footer h3 {
+    font-size: 12px;
 }
