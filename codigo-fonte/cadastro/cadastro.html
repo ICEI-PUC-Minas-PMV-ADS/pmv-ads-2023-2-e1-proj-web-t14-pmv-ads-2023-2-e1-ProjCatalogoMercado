@@ -10,46 +10,53 @@
 </head>
 <body>
     <header>
-        <div id="Logo">
+        <div id="logo">
             <h1>Guia de Mercados</h1>
+        </div>
+        <div id="pesquisa">
+            <input type="text" id="txtPesquisa" placeholder="O que você está procurando?"/>
+        </div>
+        <div id="menu">
+            <a href="../cadastro/cadastro.html" id="txtMenu">Cadastrar mercado</a>
+            <a href="../login/login.html" id="txtMenu">Entrar</a>
         </div>
     </header>
     <hr color="#EBEBEB"><br/>
     <main>
-        <form action="Perfil.html" method="post"></form>
+        <form action="../perfil/perfil.html" method="post">
             <div class="cadastrar">
                 <h1>Cadastrar Mercado</h1><br/>
                 <div class="caixaFormulário">
-                    <label for="inputNome">Nome do mercado *</label><br/>
-                    <input type="text" id="inputNome" placeholder="Nome do Mercado" minlength="5" required>
+                    <label>Nome do mercado *</label><br/>
+                    <input type="text" id="nome" minlength="5" required="required" placeholder="Nome do Mercado">
                 </div>
                 <div class="caixaFormulário">
                     <label for="inputCNPJ">CNPJ *</label><br/>
-                    <input type="text" id="inputCNPJ" placeholder="xx.xxx.xxx / xxxx-xx" minlength="14" required>
+                    <input type="text" id="inputCNPJ" maxlength="14" required="required " placeholder="xx.xxx.xxx / xxxx-xx">
                 </div>
                 <div class="caixaFormulário">
                     <label for="inputCEP">CEP *</label><br/>
-                    <input type="text" id="inputCEP" placeholder="xxxxx - xxx" minlength="8" required>
+                    <input type="text" id="inputCEP" maxlength="8" required="required" placeholder="xxxxx - xxx">
                 </div>
                 <div class="caixaFormulário">
                     <label for="inputEndereço">Endereço *</label><br/>
-                    <input type="text" id="inputEndereço" placeholder="Endereço do mercado" required>
+                    <input type="text" id="inputEndereço" required="required" placeholder="Endereço do mercado">
                 </div>
                 <div class="caixaFormulário">
                     <label for="inputTelefone">Telefone *</label><br/>
-                    <input type="text" id="inputTelefone" placeholder="( xx ) xxxxx - xxx" minlength="11" required>
+                    <input type="text" id="inputTelefone" minlength="11" required="required" placeholder="( xx ) xxxxx - xxx">
                 </div>
                 <div class="caixaFormulário">
                     <label for="inputEmail">E-mail *</label><br/>
-                    <input type="email" id="inputEmail" placeholder="email@exemplo.com" required>
+                    <input type="email" id="inputEmail" required="required" placeholder="email@exemplo.com">
                 </div>
                 <div class="caixaFormulário">
                     <label for="inputSenha">Senha *</label><br/>
-                    <input type="password" id="inputSenha" placeholder="Crie sua senha" required>
+                    <input type="password" id="inputSenha" required="required" placeholder="Crie sua senha">
                 </div>
                 <div class="caixaFormulário">
                     <label for="inputConfirmar-senha">Confirmação senha *</label><br/>
-                    <input type="password" id="inputConfirmar-senha" placeholder="Confirme sua senha" required>
+                    <input type="password" id="inputConfirmar-senha" required="required" placeholder="Confirme sua senha">
                 </div>
                 <p>Campos obrigatórios(*)</p><br/>
                 <div class="botãoCadastrar">
@@ -59,5 +66,30 @@
             </div>
         </form>
     </main><br/>
+    <footer>
+        <div>
+            <section>
+                <div id="rodapé" class="logo">
+                    <h1>Guia de Mercados</h1>
+                </div>
+                <div id="rodapé" class="sobre">
+                    <h2>Sobre o Projeto</h2>
+                    <p>Esse projeto tem o objetivo de inserir pequenos mercados no meio digital, trazendo mais visibilidade e possibilitando que atraiam mais clientes e expandam seus negócios.</p>
+                </div>
+                <div id="rodapé" class="termos">
+                    <h2>Termos de uso</h2>
+                    <h2>Política de Privacidade</h2>
+                </div>
+                <div id="rodapé" class="email">
+                    <h2>Receba nossas notícias</h2>
+                    <input type="text" id="txtEmail" placeholder="Digite seu e-mail"/>
+                </div>
+            </section>
+        </div>
+        <hr color="#FFFFFF">
+        <div id="copyright">
+            <h3>Copyright &#169 2023 Catálogo de Pequenos Mercados | Todos os direitos reservados.</h3>
+        </div>
+    </footer>
 </body>
 </html>
