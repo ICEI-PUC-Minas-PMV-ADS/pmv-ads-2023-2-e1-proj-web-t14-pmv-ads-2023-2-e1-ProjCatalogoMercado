@@ -20,7 +20,7 @@ header {
     background-color: white;
     padding: 20px 30px;
 }
-img {
+#logo img {
     width: 250px;
 }
 #pesquisa {
@@ -57,6 +57,9 @@ img {
 }
 
 /* Main - Destaque */
+main img {
+    width: 100%;
+}
 #destaque {
     display: flexbox;
     padding: 100px;
@@ -72,56 +75,54 @@ main h1 {
     color: white;
 }
 
-/* Main - Produtos */
-#produto {
+/* Main - Produtos */ 
+#categoriaProduto {
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: auto;
+    justify-content: space-around;
+    background-color: yellowgreen;
+    padding: 10px;
+}
+.produto {
     display: inline-block;
     vertical-align: top;
-    background-color: white;
-    width: calc(7% - 8px);
-    margin: 20px;
-    margin-right: 0px;
-    box-sizing: border-box;
+    width: 80px;
+    padding: 10px;
 }
-.produto-imagem {
-    display: block;
-    margin: 0px 0px 2px 0px;
-    width: 100%;
-}
-main h2 {
+.produto p {
     font-size: 10px;
     font-weight: lighter;
-    text-align: center;
+    text-align: center
 }
 
 /* Main - Mercados */
-main h3 {
+main h2 {
     font-size: 25px;
     text-align: center;
 }
-#mercado {
+#categoriaMercado {
+    display: inline-block;
+    background-color: yellowgreen;
+    padding: 10px;
+}
+.mercado {
     display: inline-block;
     vertical-align: top;
-    background-color: #f8f8f8;
-    border: #f8f8f8 solid 1px;
+    background-color: #ddd;
     border-radius: 15px;
-    width: calc(24% - 25px);
-    margin: 20px 28px;
-    margin-right: 0px;
-    box-sizing: border-box;
+    width: 270px;
+    padding: 20px;
+    margin: 20px;
 }
-.mercado-imagem {
-    display: block;
-    width: 100%;
-    border-radius: 15px;
-}
-main h4 {
+.mercado p {
     font-size: 16px;
-}
-main p {
-    font-size: 14px;
 }
 
 /* Footer */
+footer img {
+    width: 250px;
+}
 footer {
     background-color: #DDD;
 }
