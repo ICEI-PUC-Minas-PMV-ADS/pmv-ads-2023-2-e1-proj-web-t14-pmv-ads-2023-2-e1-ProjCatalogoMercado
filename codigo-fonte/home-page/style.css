@@ -81,7 +81,7 @@ main h1 {
     column-gap: 20px;
     grid-template-columns: auto;
     justify-content: space-around;
-    background-color: yellowgreen;
+    background-color: white;
     padding: 10px;
 }
 .produto {
@@ -103,7 +103,7 @@ main h2 {
 }
 #categoriaMercado {
     display: inline-block;
-    background-color: yellowgreen;
+    background-color: white;
     padding: 10px;
 }
 .mercado {
