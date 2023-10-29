@@ -6,54 +6,69 @@
 
 /* Padrão da Página */
 * {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    letter-spacing: 1.5px;
-    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
 }
 
 /* Header */
 header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    margin: 0;
+    padding: 10px 20px;
+    overflow: hidden;
     background-color: white;
-    padding: 20px 30px;
+    text-align: center;
 }
-img {
-    width: 250px;
+header div {
+    float: left;
 }
-#pesquisa {
+#headLogo a {
+    display: inline-block;
+    margin: auto;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 20px;
+    padding: 6px 0;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+#navBusca {
     background-color: #f8f8f8;
-    border: #ddd solid 1px;
-    border-radius: 5px;
-    width: 500px;
+    border: #ececec solid 1px;
+    width: 600px;
+    height: 32px;
+    border-radius: 15px;
+    margin: auto 60px;
 }
-#txtPesquisa {
-    font-size: 12px;
+#txtBusca {
     float: left;
     background-color: transparent;
-    padding-left: 10px;
+    border-radius: 15px;
+    padding-left: 15px;
     border: none;
-    height: 30px;
-    width: 490px;
+    height: 32px;
+    width: 540px;
+}
+#imgBusca {
+    height: 12px;
+    padding: 10px 15px;
+}
+::placeholder {
+    color: #8b8b8b;
+    font-size: 12px;
+}
+#menu {
+    float: right;
 }
 #menu a {
-    display: flexbox;
-    background-color: #05A;
-    border: #05A solid 1px;
-    border-radius: 5px;
+    display: inline-block;
+    background-color: #2980B9;
     padding: 10px;
-    margin-left: 8px;
+    margin-left: 10px;
+    border-radius: 5px;
     text-align: center;
     text-decoration: none;
     color: white;
-    box-sizing: border-box;
-}
-#txtMenu {
-    font-size: 14px;
-    font-weight: lighter;
-    letter-spacing: 1px;
+    font-size: 13px;
 }
 
 
@@ -113,43 +128,52 @@ main h2 {
 
 /* Footer */
 footer {
-    background-color: #DDD;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ececec;
 }
-#rodapé {
+#logoRodapé {
     display: inline-block;
+    width: 220px;
+    margin: 40px 20px;
+    box-sizing: border-box;
     vertical-align: top;
 }
-#rodapé.logo {
-    width: 250px;
-    padding: 10px;
-    margin: 30px 20px 30px 20px;
-    box-sizing: border-box;
+#logoRodapé a {
+    margin: auto;
+    text-decoration: none;
+    color: #8b8b8b;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 20px;
 }
-#rodapé.sobre {
+#sobre {
+    display: inline-block;
     width: 500px;
-    padding: 10px;
-    margin: 30px 30px 30px 30px;
+    margin: 40px 20px;
     box-sizing: border-box;
+    vertical-align: top;
     text-align: justify;
-}
-footer h2 {
-    font-size: 13px;
-    line-height: 1.5;
-}
-footer p {
+    color: #8b8b8b;
     font-size: 12px;
 }
-#rodapé.termos {
-    width: 210px;
-    padding: 10px;
-    margin: 30px 30px 30px 0;
+#termos {
+    display: inline-block;
+    width: 160px;
+    margin: 40px 20px;
     box-sizing: border-box;
+    vertical-align: top;
+    color: #8b8b8b;
+    font-size: 12px;
 }
-#rodapé.email {
-    width: 250px;
-    padding: 10px;
-    margin: 30px 30px 30px 0;
+#email {
+    display: inline-block;
+    margin: 40px 20px;
+    width: 370px;
     box-sizing: border-box;
+    vertical-align: top;
+    color: #8b8b8b;
+    font-size: 12px;
 }
 #txtEmail {
     font-size: 12px;
@@ -159,13 +183,12 @@ footer p {
     padding-left: 10px;
     border: none;
     height: 30px;
-    width: 280px;
+    width: 370px;
 }
 #copyright {
     display: block;
-    padding: 10px;
+    color: #8b8b8b;
+    margin: 10px;
     text-align: center;
-}
-footer h3 {
-    font-size: 10px;
+    font-size: 12px;
 }
