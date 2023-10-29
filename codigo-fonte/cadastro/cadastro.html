@@ -28,8 +28,8 @@
     <main>
         <hr color="#ececec" size="2px"><br>
         <form action="../perfil/perfil.html" method="post">
-            <div class="cadastrar">
-                <h1>Cadastrar Mercado</h1><br/>
+            <div id="cadastrar">
+                <h1>Cadastrar Mercado</h1><br>
                 <div class="caixaFormulário">
                     <label>Nome do mercado *</label><br/>
                     <input type="text" id="nome" minlength="5" required="required" placeholder="Nome do Mercado">
@@ -62,11 +62,11 @@
                     <label for="inputConfirmar-senha">Confirmação senha *</label><br/>
                     <input type="password" id="inputConfirmar-senha" required="required" placeholder="Confirme sua senha">
                 </div>
-                <p>Campos obrigatórios(*)</p><br/>
+                <p class="obrigatório">Campos obrigatórios(*)</p>
                 <div class="botãoCadastrar">
                     <button type="submit" id="botão">Registrar</button>
                 </div>
-                <h2>Ao se inscrever você concorda com os nossos Termos e Condições.</h2>
+                <p class="condições">Ao se inscrever você concorda com os nossos Termos e Condições.</p>
             </div>
         </form>
     </main><br/>
