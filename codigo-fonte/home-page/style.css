@@ -7,7 +7,7 @@
 /* Padrão da Página */
 * {
     font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
 }
 
 /* Header */
@@ -68,7 +68,7 @@ header div {
     text-align: center;
     text-decoration: none;
     color: white;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 /* Main - Destaque */
@@ -106,7 +106,7 @@ main img {
 h1 {
     font-size: 14px;
     font-weight: bolder;
-    padding: 5px 15px;
+    padding: 15px 5px 0 15px;
 }
 .produto {
     display: inline-block;
@@ -115,7 +115,7 @@ h1 {
     padding: 10px;
 }
 .produto p {
-    font-size: 10px;
+    font-size: 11px;
     font-weight: lighter;
     text-align: center
 }
