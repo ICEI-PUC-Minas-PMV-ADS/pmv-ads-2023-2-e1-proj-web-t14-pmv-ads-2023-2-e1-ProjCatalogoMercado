@@ -4,7 +4,7 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 
 ### Home Page
 
-<img width="954" alt="home-page" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/b2027070-de83-4c2f-916c-7762cedb4a8a">
+<img width="715" alt="home-page" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/9666010e-3622-4f46-abb7-77b6dd4e9592">
 
 #### Requisito atendido
 
