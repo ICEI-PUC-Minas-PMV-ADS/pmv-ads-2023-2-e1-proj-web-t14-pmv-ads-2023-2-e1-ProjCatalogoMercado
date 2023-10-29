@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
     <title>Avance Negócios</title>
     <meta name="viewport" content="width=devide-width, initial-scale=1.0">
@@ -7,22 +7,26 @@
     <meta charset="UTF-8">
     <meta name="author" content="Myuki Maruno">
     <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+    </style>
 </head>
 <body>
     <header>
-        <div id="logo">
-            <a href="../home-page/index.html"><img src="../img/logo.png"></a>
+        <div id="headLogo">
+            <a href="../home-page/index.html">Guia de Mercados</a>
         </div>
-        <div id="pesquisa">
-            <input type="text" id="txtPesquisa" placeholder="O que você está procurando?"/>
+        <div id="navBusca">
+            <input type="text" id="txtBusca" placeholder="O que você está procurando?"/>
+            <img id="imgBusca" src="../img/pesquisa.png">
         </div>
         <div id="menu">
-            <a href="../cadastro/cadastro.html" id="txtMenu">Cadastrar mercado</a>
-            <a href="../login/login.html" id="txtMenu">Entrar</a>
+            <a href="../cadastro/cadastro.html">Cadastrar mercado</a>
+            <a href="../login/login.html">Entrar</a>
         </div>
     </header>
-    <hr color="#EBEBEB"><br/>
     <main>
+        <hr color="#ececec" size="2px"><br>
         <form action="../perfil/perfil.html" method="post">
             <div class="cadastrar">
                 <h1>Cadastrar Mercado</h1><br/>
@@ -67,28 +71,28 @@
         </form>
     </main><br/>
     <footer>
-        <div>
+        <div id="rodapé">
             <section>
-                <div id="rodapé" class="logo">
-                    <img src="../img/logo.png"></a>
+                <div id="logoRodapé">
+                    <a href="../home-page/index.html">Guia de Mercados</a>
                 </div>
-                <div id="rodapé" class="sobre">
-                    <h2>Sobre o Projeto</h2>
+                <div id="sobre">
+                    <p>Sobre o Projeto</p>
                     <p>Esse projeto tem o objetivo de inserir pequenos mercados no meio digital, trazendo mais visibilidade e possibilitando que atraiam mais clientes e expandam seus negócios.</p>
                 </div>
-                <div id="rodapé" class="termos">
-                    <h2>Termos de uso</h2>
-                    <h2>Política de Privacidade</h2>
+                <div id="termos">
+                    <p>Termos de uso</p>
+                    <p>Política de Privacidade</p>
                 </div>
-                <div id="rodapé" class="email">
-                    <h2>Receba nossas notícias</h2>
+                <div id="email">
+                    <p>Receba nossas notícias</p>
                     <input type="text" id="txtEmail" placeholder="Digite seu e-mail"/>
                 </div>
             </section>
         </div>
-        <hr color="#FFFFFF">
+        <hr color="#fffff" size="2px">
         <div id="copyright">
-            <h3>Copyright &#169 2023 Catálogo de Pequenos Mercados | Todos os direitos reservados.</h3>
+        <p>Copyright &#169 2023 Catálogo de Pequenos Mercados | Todos os direitos reservados.</p>
         </div>
     </footer>
 </body>
