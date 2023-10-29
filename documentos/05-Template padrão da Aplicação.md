@@ -2,24 +2,13 @@
 
 Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
-Elementos padroes como Cabeçario, Conteudo e rodapé fazem parte do padrão desenvolvido.
+A estrutura padrão do site é composta por cabeçalho, conteúdo e rodapé.
 
+- Cabeçalho: apresenta a logo marca da empresa; barra de pesquisa; área de cadastro e login.
+- Conteúdo: apresenta a área principal de navegação do usuário, mostra as categorias de produtos populares e os mercados.
+- Rodapé: apresenta a logo marca da empresa; informações sobre o projeto, termos de uso e política de privacidade; área para digitar e-mail para receber notícias; informação de copyright.
 
-Tela de Home Page
-Tela onde os Produtos e Lojas serão exibidos.
-
-Figura 1 - Home Page
-
-Tela de Perfil da Loja
-TGela usual onde será permitido ao consumidor visualizar informações da loja e dos Podutos.
-
-Figura 2 -Perfil Loja 
-
-Foi criado um logo como o objetivo do site, ultilizando cores padroes que referen-se há objetividade e
-atuação de um marketing mais clean, mais direto.
-
-
-Figura - 3 Logo Pequenos Negócios
+<img width="715" alt="home-page" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/60dba721-68ed-49c6-8a57-eccda62b5fa2">
 
 
 
