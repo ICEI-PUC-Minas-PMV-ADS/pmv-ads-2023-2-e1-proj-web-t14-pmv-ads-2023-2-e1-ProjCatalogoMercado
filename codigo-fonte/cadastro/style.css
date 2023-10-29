@@ -91,10 +91,10 @@ label {
     font-size: 14px;
     line-height: 1.5;
 }
-.caixaFormulário {
+.boxForm {
     margin-bottom: 10px;
 }
-.caixaFormulário input {
+.boxForm input {
     font-size: 13px;
     width: 400px;
     padding: 8px;
@@ -102,11 +102,11 @@ label {
     border-radius: 5px;
     box-sizing: border-box;
 }
-::placeholder {
+#cadastrar ::placeholder {
     color: #8b8b8b;
     font-size: 13px;
 }
-.obrigatório {
+.campo {
     font-size: 12px;
     padding: 5px 0 50px 0;
 }
@@ -121,7 +121,7 @@ button {
     padding: 10px;
     cursor: pointer;
 }
-.condições {
+.acordo {
     font-size: 11px;
     text-align: center;
     padding: 5px 0 0 0;
@@ -134,14 +134,14 @@ footer {
     overflow: hidden;
     background-color: #ececec;
 }
-#logoRodapé {
+#rodapeLogo {
     display: inline-block;
     width: 220px;
     margin: 40px 20px;
     box-sizing: border-box;
     vertical-align: top;
 }
-#logoRodapé a {
+#rodapeLogo a {
     margin: auto;
     text-decoration: none;
     color: #8b8b8b;
@@ -167,7 +167,7 @@ footer {
     color: #8b8b8b;
     font-size: 12px;
 }
-#email {
+#receberEmail {
     display: inline-block;
     margin: 40px 20px;
     width: 370px;
