@@ -23,7 +23,7 @@ RF-08: A aplicação deve oferecer uma funcionalidade de pesquisa/filtro para pe
 
 #### Instruções de acesso
 
-[Adicione as orientações de acesso à funcionalidade]
+Sem acesso à funcionalidade ainda
 
 #### Responsável
 
@@ -41,7 +41,6 @@ RF-01: A aplicação deve permitir ao (usuário 1) cadastrar uma conta.
 
 - HTML
 - CSS
-- JavaScript
 
 #### Estrutura de Dados
 
@@ -49,7 +48,7 @@ RF-01: A aplicação deve permitir ao (usuário 1) cadastrar uma conta.
 
 #### Instruções de acesso
 
-[Adicione as orientações de acesso à funcionalidade]
+Sem acesso à funcionalidade ainda
 
 #### Responsável
 
