@@ -73,7 +73,7 @@ header div {
 
 
 /* Formulário de Registro de Mercado */
-.cadastrar {
+#cadastrar {
     display: flexbox;
     box-sizing: border-box;
     background-color: #f8f8f8;
@@ -81,49 +81,50 @@ header div {
     border-radius: 15px;
     max-width: 600px;
     margin: 0 auto;
-    padding: 30px 0px 30px 0px; 
+    padding: 50px 100px; 
 }
-main h1 {
-    font-size: 25px;
-    line-height: 2;
+h1 {
+    font-size: 22px;
     text-align: center;
 }
 label {
     font-size: 14px;
-    line-height: 2;
-    margin: 0px 0px 0px 105px;
+    line-height: 1.5;
 }
 .caixaFormulário {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .caixaFormulário input {
-    font-size: 12px;
+    font-size: 13px;
     width: 400px;
-    margin: 0 0 0 100px;
-    padding: 10px;
-    border: 1px solid #ddd;
+    padding: 8px;
+    border: 1px solid #ececec;
     border-radius: 5px;
     box-sizing: border-box;
 }
-main p {
+::placeholder {
+    color: #8b8b8b;
+    font-size: 13px;
+}
+.obrigatório {
     font-size: 12px;
-    margin: 0 0 0 105px;
+    padding: 5px 0 50px 0;
 }
 button {
     font-size: 14px;
     color: white;
     width: 200px;
-    margin: 20px 0 10px 200px;
-    background-color: #05A;
-    border: #05A solid 1px;
+    margin: 0 100px 5px 100px;
+    background-color: #2980B9;
+    border: #2980B9 solid 1px;
     border-radius: 5px;
     padding: 10px;
     cursor: pointer;
 }
-main h2 {
-    font-size: 12px;
-    font-weight: lighter;
+.condições {
+    font-size: 11px;
     text-align: center;
+    padding: 5px 0 0 0;
 }
 
 /* Footer */
