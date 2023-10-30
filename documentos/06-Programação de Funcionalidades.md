@@ -54,7 +54,6 @@ Sem acesso à funcionalidade ainda
 
 Priscila Myuki do Nascimento Maruno
 
-/* Escrever daqui */ 
 ### Título da funcionalidade
 
 [Adicione imagem da funcionalidade/tela]
