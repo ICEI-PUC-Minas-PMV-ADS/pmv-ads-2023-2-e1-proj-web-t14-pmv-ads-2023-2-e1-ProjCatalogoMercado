@@ -5,11 +5,16 @@ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com
 A estrutura padrão do site é composta por cabeçalho, conteúdo e rodapé.
 
 - Cabeçalho: apresenta a logo marca da empresa; barra de pesquisa; área de cadastro e login.
-- Conteúdo: apresenta a área principal de navegação do usuário, mostra as categorias de produtos populares e os mercados.
+- Conteúdo: apresenta a área principal de navegação do usuário.
 - Rodapé: apresenta a logo marca da empresa; informações sobre o projeto, termos de uso e política de privacidade; área para digitar e-mail para receber notícias; informação de copyright.
 
-<img width="715" alt="home-page" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/60dba721-68ed-49c6-8a57-eccda62b5fa2">
+<img width="1024" alt="prototipo" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/e69584a4-75fb-4dfd-a824-072fe276ba69">
 
+Figura 1 - Protótipo de baixa fidelidade
+
+<img width="1024" alt="home-page" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/60dba721-68ed-49c6-8a57-eccda62b5fa2">
+
+Figura 2 - Home-page
 
 
 
