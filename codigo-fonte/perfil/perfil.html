@@ -1,52 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-    <title>Avance Negócios</title>
+    <title>Guia de Mercados</title>
     <meta name="viewport" content="width=devide-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="UTF-8">
     <meta name="author" content="Myuki Maruno">
     <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+    </style>
 </head>
 <body>
     <header>
-        <div id="logo">
-            <h1>Guia de Mercados</h1>
-        </div>
-        <div id="pesquisa">
-            <input type="text" id="txtPesquisa" placeholder="O que você está procurando?"/>
-        </div>
-        <div id="menu">
-            <a href="../cadastro/cadastro.html" id="txtMenu">Cadastrar mercado</a>
-            <a href="../login/login.html" id="txtMenu">Entrar</a>
-        </div>
+        <ul class="cabecalho">
+            <li class="logo">
+                <a href="../home-page/index.html">Guia de Mercados</a>
+            </li>
+            <li class="busca">
+                <input type="text" class="txtBusca" placeholder="O que você está procurando?"/>
+                <img src="../img/pesquisa.png">
+            </li>
+            <li class="perfil">
+                <ul class="perfilnav">
+                    <li class="perfilnome">
+                        Nome do Mercado
+                    </li>
+                    <li class="perfilmenu">
+                    <a href="perfil.html" class="perfilbtn"><img src="../img/user.png"></a>
+                <div class="perfilconf">
+                    <a href="#">Configurar conta</a>
+                    <a href="#">Configurar Perfil</a>
+                    <a href="#">Cadastrar Produto</a>
+                    <a href="../home-page/index.html">Sair</a>
+                    </li>
+                </div>
+                </ul>
+            </li>
+        </ul>
+        <hr color="#ececec" size="2px">
     </header>
     <main>
-        <hr color="#EBEBEB"><br>
-    </main>
+        <div id="perfilmercado">
+            <div class="mercadoimg">
+                <img src="../img/mercado1.png">
+            </div>
+            <div class="mercadoperfil">
+                <p>Nome</p>
+                <p>Descrição</p>
+                <p>Endereço</p>
+                <p>Contato</p>
+            </div>
+
+        </div>
+        <div id="produtos">
+
+
+        </div>
+
+
+
+    </main><br/>
     <footer>
-        <div>
+        <div id="rodape">
             <section>
-                <div id="rodapé" class="logo">
-                    <h1>Guia de Mercados</h1>
+                <div id="rodapeLogo">
+                    <a href="../home-page/index.html">Guia de Mercados</a>
                 </div>
-                <div id="rodapé" class="sobre">
-                    <h2>Sobre o Projeto</h2>
+                <div id="sobre">
+                    <p>Sobre o Projeto</p>
                     <p>Esse projeto tem o objetivo de inserir pequenos mercados no meio digital, trazendo mais visibilidade e possibilitando que atraiam mais clientes e expandam seus negócios.</p>
                 </div>
-                <div id="rodapé" class="termos">
-                    <h2>Termos de uso</h2><br/>
-                    <h2>Política de Privacidade</h2>
+                <div id="termos">
+                    <p>Termos de uso</p>
+                    <p>Política de Privacidade</p>
                 </div>
-                <div id="rodapé" class="email">
-                    <h2>Receba nossas notícias</h2>
+                <div id="receberEmail">
+                    <p>Receba nossas notícias</p>
                     <input type="text" id="txtEmail" placeholder="Digite seu e-mail"/>
                 </div>
             </section>
         </div>
-        <hr color="#FFFFFF">
+        <hr color="#fffff" size="2px">
         <div id="copyright">
-            <h3>Copyright &#169 2023 Catálogo de Pequenos Mercados | Todos os direitos reservados.</h3>
+        <p>Copyright &#169 2023 Catálogo de Pequenos Mercados | Todos os direitos reservados.</p>
         </div>
     </footer>
 </body>
