@@ -115,16 +115,20 @@ main {
     background-color: #ececec;
     border: #8b8b8b solid 2px;
     border-radius: 15px;
+    margin: 0 100px;
 }
 .mercadoimg {
     display: inline-block;
+    margin: 20px;
 }
 .mercadoimg img {
-    width: 200px;
+    width: 150px;
     border-radius: 100px;
 }
 .mercadoperfil {
     display: inline-block;
+    margin: 20px;
+    vertical-align: top;
 }
 
 
