@@ -1,0 +1,206 @@
+/* Limpar configuração do browser */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Padrão da Página */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+/* Header */
+header {
+    margin: 10px 20px;
+    padding: 0;
+}
+ul.cabecalho {
+    margin: 5px;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    list-style-type: none;
+}
+li {
+    float: left;
+}
+li a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+li.logo a {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 20px;
+    color: black;
+    padding: 5px 0;
+}
+li.busca {
+    background-color: #f8f8f8;
+    border: #ececec solid 1px;
+    width: 600px;
+    height: 30px;
+    border-radius: 15px;
+    margin: auto 60px;
+}
+.txtBusca {
+    float: left;
+    background-color: transparent;
+    border: none;
+    border-radius: 15px;
+    padding-left: 15px;
+    height: 30px;
+    width: 540px;
+}
+.txtBusca::placeholder {
+    color: #8b8b8b;
+    font-size: 12px;
+}
+.busca img {
+    height: 12px;
+    padding: 9px 15px;
+}
+li.botoes {
+    float: right;
+}
+ul.btnOpcoes {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+li.botoes a {
+    display: inline-block;
+    background-color: #2980B9;
+    padding: 8px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+
+/* Formulário de Registro de Mercado */
+#boxCadastro {
+    display: flexbox;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    border: #f8f8f8 solid 1px;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px 100px; 
+}
+h1 {
+    font-size: 22px;
+    text-align: center;
+}
+label {
+    font-size: 14px;
+    line-height: 1.5;
+}
+.boxForm {
+    margin-bottom: 10px;
+}
+.boxForm input {
+    font-size: 13px;
+    width: 400px;
+    padding: 8px;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#boxCadastro ::placeholder {
+    color: #8b8b8b;
+    font-size: 13px;
+}
+.campoObrigatorio {
+    font-size: 12px;
+    padding: 5px 0 50px 0;
+}
+button {
+    font-size: 13px;
+    color: white;
+    width: 200px;
+    margin: 0 100px 5px 100px;
+    background-color: #2980B9;
+    border: #2980B9 solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.acordo {
+    font-size: 11px;
+    text-align: center;
+    padding: 5px 0 0 0;
+}
+
+/* Footer */
+footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ececec;
+}
+#rodapeLogo {
+    display: inline-block;
+    width: 220px;
+    margin: 40px 20px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+#rodapeLogo a {
+    margin: auto;
+    text-decoration: none;
+    color: #8b8b8b;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 20px;
+}
+#sobre {
+    display: inline-block;
+    width: 500px;
+    margin: 40px 20px;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: justify;
+    color: #8b8b8b;
+    font-size: 12px;
+}
+#termos {
+    display: inline-block;
+    width: 160px;
+    margin: 40px 20px;
+    box-sizing: border-box;
+    vertical-align: top;
+    color: #8b8b8b;
+    font-size: 12px;
+}
+#receberEmail {
+    display: inline-block;
+    margin: 40px 20px;
+    width: 370px;
+    box-sizing: border-box;
+    vertical-align: top;
+    color: #8b8b8b;
+    font-size: 12px;
+}
+#txtEmail {
+    font-size: 12px;
+    float: left;
+    background-color: white;
+    margin: 5px 0 0 0;
+    padding-left: 10px;
+    border: none;
+    height: 30px;
+    width: 370px;
+}
+#copyright {
+    display: block;
+    color: #8b8b8b;
+    margin: 10px;
+    text-align: center;
+    font-size: 12px;
+}
