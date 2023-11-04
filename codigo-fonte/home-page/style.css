@@ -12,57 +12,68 @@
 
 /* Header */
 header {
-    margin: 0;
-    padding: 10px 20px;
+    margin: 10px 20px;
+    padding: 0;
+}
+ul.cabecalho {
+    margin: 5px;
+    padding: 0;
     overflow: hidden;
     background-color: white;
-    text-align: center;
+    list-style-type: none;
 }
-header div {
+li {
     float: left;
 }
-#headLogo a {
+li a {
     display: inline-block;
-    margin: auto;
-    font-family: 'Comfortaa', sans-serif;
-    font-size: 20px;
-    padding: 6px 0;
-    color: black;
     text-align: center;
     text-decoration: none;
 }
-#navBusca {
+li.logo a {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 20px;
+    color: black;
+    padding: 5px 0;
+}
+li.busca {
     background-color: #f8f8f8;
     border: #ececec solid 1px;
     width: 600px;
-    height: 32px;
+    height: 30px;
     border-radius: 15px;
     margin: auto 60px;
 }
-#txtBusca {
+.txtBusca {
     float: left;
     background-color: transparent;
+    border: none;
     border-radius: 15px;
     padding-left: 15px;
-    border: none;
-    height: 32px;
+    height: 30px;
     width: 540px;
 }
-#imgBusca {
-    height: 12px;
-    padding: 10px 15px;
-}
-::placeholder {
+.txtBusca::placeholder {
     color: #8b8b8b;
     font-size: 12px;
 }
-#menu {
+.busca img {
+    height: 12px;
+    padding: 9px 15px;
+}
+li.botoes {
     float: right;
 }
-#menu a {
+ul.btnOpcoes {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+li.botoes a {
     display: inline-block;
     background-color: #2980B9;
-    padding: 10px;
+    padding: 8px 10px;
     margin-left: 10px;
     border-radius: 5px;
     text-align: center;
