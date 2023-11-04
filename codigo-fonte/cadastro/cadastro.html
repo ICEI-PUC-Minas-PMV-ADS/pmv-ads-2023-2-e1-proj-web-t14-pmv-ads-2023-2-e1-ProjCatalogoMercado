@@ -6,65 +6,74 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="UTF-8">
     <meta name="author" content="Myuki Maruno">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cadastro.css">
+    <script defer src="cadastro.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
     </style>
 </head>
 <body>
     <header>
-        <div id="headLogo">
-            <a href="../home-page/index.html">Guia de Mercados</a>
-        </div>
-        <div id="navBusca">
-            <input type="text" id="txtBusca" placeholder="O que você está procurando?"/>
-            <img id="imgBusca" src="../img/pesquisa.png">
-        </div>
-        <div id="menu">
-            <a href="../cadastro/cadastro.html">Cadastrar mercado</a>
-            <a href="../login/login.html">Entrar</a>
-        </div>
+        <ul class="cabecalho">
+            <li class="logo">
+                <a href="../home-page/index.html">Guia de Mercados</a>
+            </li>
+            <li class="busca">
+                <input type="text" class="txtBusca" placeholder="O que você está procurando?"/>
+                <img src="../img/pesquisa.png">
+            </li>
+            <li class="botoes">
+                <ul class="btnOpcoes">
+                    <li class="btnCadastro">
+                        <a href="../cadastro/cadastro.html">Cadastrar mercado</a>
+                    </li>
+                    <li class="btnLogin">
+                        <a href="../login/login.html">Entrar</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
     </header>
     <main>
         <hr color="#ececec" size="2px"><br>
-        <form action="../perfil/perfil.html" method="post">
-            <div id="cadastrar">
+        <form name="formCadastro" id="formCadastro" onsubmit="return false">
+            <div id="boxCadastro">
                 <h1>Cadastrar Mercado</h1><br>
                 <div class="boxForm">
                     <label>Nome do mercado *</label>
-                    <input type="text" id="nome" minlength="5" required placeholder="Nome do mercado">
+                    <input type="text" name="nome" id="nome" minlength="5" placeholder="Nome do mercado">
                 </div>
                 <div class="boxForm">
                     <label>CNPJ *</label>
-                    <input type="text" id="cnpj" maxlength="14" required placeholder="xx.xxx.xxx / xxxx-xx">
+                    <input type="text" name="cnpj" id="cnpj" maxlength="14" placeholder="xx.xxx.xxx / xxxx-xx">
                 </div>
                 <div class="boxForm">
                     <label>CEP *</label>
-                    <input type="text" id="cep" maxlength="8" required placeholder="xxxxx - xxx">
+                    <input type="text" name="cep" id="cep" maxlength="8" placeholder="xxxxx - xxx">
                 </div>
                 <div class="boxForm">
                     <label>Endereço *</label>
-                    <input type="text" id="endereço" minlength="15" required placeholder="Endereço do mercado">
+                    <input type="text" name="endereco" id="endereco" minlength="15" placeholder="Endereço do mercado">
                 </div>
                 <div class="boxForm">
                     <label>Telefone *</label>
-                    <input type="text" id="telefone" minlength="11" required placeholder="( xx ) xxxxx - xxx">
+                    <input type="tel" name="telefone" id="telefone" minlength="11" placeholder="( xx ) xxxxx - xxx">
                 </div>
                 <div class="boxForm">
                     <label>E-mail *</label>
-                    <input type="email" id="email" required placeholder="email@exemplo.com">
+                    <input type="email" name="email" id="email" placeholder="email@exemplo.com">
                 </div>
                 <div class="boxForm">
                     <label>Senha *</label><br/>
-                    <input type="password" id="senha" required placeholder="Crie sua senha">
+                    <input type="password" name="senha" id="senha" placeholder="Crie sua senha">
                 </div>
                 <div class="boxForm">
                     <label>Confirmação senha *</label><br/>
-                    <input type="password" id="confirmar-senha" required placeholder="Confirme sua senha">
+                    <input type="password" name="confirmarSenha" id="confirmarSenha" placeholder="Confirme sua senha">
                 </div>
-                <p class="campo">Campos obrigatórios(*)</p>
-                <div class="registar">
-                    <button type="submit" required id="botão">Registrar</button>
+                <p class="campoObrigatorio">Campos obrigatórios(*)</p>
+                <div class="cadastrar">
+                    <button onclick="return validarCadastro()"  id="btnCadastrar">Cadastrar</button>
                 </div>
                 <p class="acordo">Ao se inscrever você concorda com os nossos Termos e Condições.</p>
             </div>
