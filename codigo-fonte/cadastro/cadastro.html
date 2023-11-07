@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="author" content="Myuki Maruno">
     <link rel="stylesheet" href="cadastro.css">
-    <script defer src="cadastro.js"></script>
+    <script defer src="cadastro copy.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
     </style>
@@ -40,35 +40,35 @@
             <div id="boxCadastro">
                 <h1>Cadastrar Mercado</h1><br>
                 <div class="boxForm">
-                    <label>Nome do mercado *</label>
+                    <label for="nome">Nome do mercado *</label>
                     <input type="text" name="nome" id="nome" minlength="5" placeholder="Nome do mercado">
                 </div>
                 <div class="boxForm">
-                    <label>CNPJ *</label>
+                    <label for="cnpj">CNPJ *</label>
                     <input type="text" name="cnpj" id="cnpj" maxlength="14" placeholder="xx.xxx.xxx / xxxx-xx">
                 </div>
                 <div class="boxForm">
-                    <label>CEP *</label>
+                    <label for="cep">CEP *</label>
                     <input type="text" name="cep" id="cep" maxlength="8" placeholder="xxxxx - xxx">
                 </div>
                 <div class="boxForm">
-                    <label>Endereço *</label>
+                    <label for="endereco">Endereço *</label>
                     <input type="text" name="endereco" id="endereco" minlength="15" placeholder="Endereço do mercado">
                 </div>
                 <div class="boxForm">
-                    <label>Telefone *</label>
+                    <label for="telefone">Telefone *</label>
                     <input type="tel" name="telefone" id="telefone" minlength="11" placeholder="( xx ) xxxxx - xxx">
                 </div>
                 <div class="boxForm">
-                    <label>E-mail *</label>
+                    <label for="email">E-mail *</label>
                     <input type="email" name="email" id="email" placeholder="email@exemplo.com">
                 </div>
                 <div class="boxForm">
-                    <label>Senha *</label><br/>
+                    <label for="senha">Senha *</label><br/>
                     <input type="password" name="senha" id="senha" placeholder="Crie sua senha">
                 </div>
                 <div class="boxForm">
-                    <label>Confirmação senha *</label><br/>
+                    <label for="confirmarSenha">Confirmação senha *</label><br/>
                     <input type="password" name="confirmarSenha" id="confirmarSenha" placeholder="Confirme sua senha">
                 </div>
                 <p class="campoObrigatorio">Campos obrigatórios(*)</p>
