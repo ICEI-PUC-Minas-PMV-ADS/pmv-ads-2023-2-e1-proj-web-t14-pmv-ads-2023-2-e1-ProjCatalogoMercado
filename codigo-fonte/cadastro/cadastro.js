@@ -1,9 +1,9 @@
-// Validar Formulário
+// Validar Cadastro
 function validarCadastro () {
     if (nome.value == "" || nome.value.length < 5) {
         alert("Nome inválido!");
         nome.focus();
-        return;;
+        return;
     }
     if (cnpj.value == "" || cnpj.value.length < 14) {
         alert("CNPJ inválido!");
@@ -45,14 +45,14 @@ let infoMercado = JSON.parse(localStorage.getItem('infoMercado') || '[]')
 
 infoMercado.push(
     {
-      nomeMercado: nome.value,
-      cnpjMercado: cnpj.value,
-      cepMercado: cep.value,
-      enderecoMercado: endereco.value,
-      telefoneMercado: telefone.value,
-      emailMercado: email.value,
-      senhaMercado: senha.value,
-      confirmarSenhaMercado: confirmarSenha.value
+      nomeMercado: formCadastro.nome.value,
+      cnpjMercado: formCadastro.cnpj.value,
+      cepMercado: formCadastro.cep.value,
+      enderecoMercado: formCadastro.endereco.value,
+      telefoneMercado: formCadastro.telefone.value,
+      emailMercado: formCadastro.email.value,
+      senhaMercado: formCadastro.senha.value,
+      confirmarSenhaMercado: formCadastro.confirmarSenha.value
     });
 
     localStorage.setItem("infoMercado", JSON.stringify(infoMercado))
@@ -60,7 +60,3 @@ infoMercado.push(
     alert("Mercado cadastrado com sucesso!");
     window.location.href = "../perfil/perfil.html"
 }
-
-// Cadastro de conteúdo
-let nomeMercado = nome.value;
-document.getElementById("nomeMercado").innerHTML = nomeMercado;
