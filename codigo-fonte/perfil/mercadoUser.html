@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="author" content="Myuki Maruno">
+    <link rel="stylesheet" href="mercadoUser.css">
+    <script defer src="../cadastro/cadastro copy.js"></script>
+    <script defer src="mercadoUser.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+    </style>
+    <title>Guia de Mercados</title>
+</head>
+<body>
+    <header>
+        <ul class="cabecalho">
+            <li class="logo">
+                <a href="../home-page/index.html">Guia de Mercados</a>
+            </li>
+            <li class="busca">
+                <input type="text" class="txtBusca" placeholder="O que você está procurando?"/>
+                <img src="../img/pesquisa.png">
+            </li>
+            <li class="perfil">
+                <ul class="perfilnav">
+                    <li class="perfilnome">
+                        <p id="nomeMercado"></p>
+                    </li>
+                    <li class="perfilmenu">
+                    <a href="perfil.html" class="perfilbtn"><img src="../img/user.png"></a>
+                <div class="perfilconf">
+                    <a href="#">Configurar conta</a>
+                    <a href="#">Configurar Perfil</a>
+                    <a href="#">Cadastrar Produto</a>
+                    <a href="../home-page/index.html">Sair</a>
+                    </li>
+                </div>
+                </ul>
+            </li>
+        </ul>
+        <hr color="#ececec" size="2px">
+    </header>
+    <main>
+        <div id="perfilmercado">
+            <div class="mercadoimg">
+                <img src="../img/mercado1-grande.png">
+            </div>
+            <div class="mercadoperfil">
+                <h1 id="nomeMercado">Supermercado da Família</h1><br>
+                <p id="descricaoMercado">Mercado dedicado às familias. Com um ambiente tranquilo e lanchonete dentro do mercado.</p><br>
+                <p id="enderecoMercado">Serra, Belo Horizonte - MG</p><br>
+                <p id="telefoneMercado">(99) 99999-9999</p><br>
+                <p id="horario">10:00 - 20:00</p>
+            </div>
+        </div>
+        <div id="produtos">
+            <h2>Produtos</h2>
+            <section>
+                <div class="produto">
+                    <p><img src="../img/arroz.png"></p><br/>
+                    <h3>Supermercado da Família</h3>
+                    <p>Serra, Belo Horizonte - MG</p>
+                </div>
+                <div class="produto">
+                    <p><img src="../img/biscoito.png"></p><br/>
+                    <h3>Mercado Dona de Casa</h3>
+                    <p>Barro Preto, Belo Horizonte - MG</p>
+                </div>
+                <div class="produto">
+                    <p><img src="../img/mercado3.png"></p><br/>
+                    <h3>Mercearia Miranda</h3>
+                    <p>Nova Floresta, Belo Horizonte - MG</p>
+                </div>
+                <div class="produto">
+                    <p><img src="../img/mercado4.png"></p><br/>
+                    <h3>Mercado É de Casa</h3>
+                    <p>Santa Efigênia, Belo Horizonte - MG</p>
+                </div>
+                <div class="produto">
+                    <p><img src="../img/mercado5.png"></p><br/>
+                    <h3>Mercado Bom Preço</h3>
+                    <p>Santa Tereza, Belo Horizonte - MG</p>
+                </div>
+             </section>
+        </div>
+
+
+
+
+    </main><br/>
+    <footer>
+        <div id="rodape">
+            <section>
+                <div id="rodapeLogo">
+                    <a href="../home-page/index.html">Guia de Mercados</a>
+                </div>
+                <div id="sobre">
+                    <p>Sobre o Projeto</p>
+                    <p>Esse projeto tem o objetivo de inserir pequenos mercados no meio digital, trazendo mais visibilidade e possibilitando que atraiam mais clientes e expandam seus negócios.</p>
+                </div>
+                <div id="termos">
+                    <p>Termos de uso</p>
+                    <p>Política de Privacidade</p>
+                </div>
+                <div id="receberEmail">
+                    <p>Receba nossas notícias</p>
+                    <input type="text" id="txtEmail" placeholder="Digite seu e-mail"/>
+                </div>
+            </section>
+        </div>
+        <hr color="#fffff" size="2px">
+        <div id="copyright">
+        <p>Copyright &#169 2023 Catálogo de Pequenos Mercados | Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
