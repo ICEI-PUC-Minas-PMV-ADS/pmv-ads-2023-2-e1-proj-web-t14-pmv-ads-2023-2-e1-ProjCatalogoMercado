@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="author" content="Myuki Maruno">
     <link rel="stylesheet" href="cadastro.css">
-    <script defer src="cadastro copy.js"></script>
+    <script defer src="cadastro.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
     </style>
@@ -65,15 +65,15 @@
                 </div>
                 <div class="boxForm">
                     <label for="senha">Senha *</label><br/>
-                    <input type="password" name="senha" id="senha" placeholder="Crie sua senha">
+                    <input type="password" name="senha" id="senha" minlength="5" placeholder="Crie sua senha">
                 </div>
                 <div class="boxForm">
                     <label for="confirmarSenha">Confirmação senha *</label><br/>
-                    <input type="password" name="confirmarSenha" id="confirmarSenha" placeholder="Confirme sua senha">
+                    <input type="password" name="confirmarSenha" id="confirmarSenha" minlength="5" placeholder="Confirme sua senha">
                 </div>
                 <p class="campoObrigatorio">Campos obrigatórios(*)</p>
                 <div class="cadastrar">
-                    <button onclick="return validarCadastro()"  id="btnCadastrar">Cadastrar</button>
+                    <button type="submit" value="submit" onclick="return validarCadastro()"  id="btnCadastrar">Cadastrar</button>
                 </div>
                 <p class="acordo">Ao se inscrever você concorda com os nossos Termos e Condições.</p>
             </div>
