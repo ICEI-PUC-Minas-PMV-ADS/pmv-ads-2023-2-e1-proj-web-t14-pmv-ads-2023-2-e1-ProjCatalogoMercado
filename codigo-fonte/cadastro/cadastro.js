@@ -30,33 +30,30 @@ function validarCadastro () {
         email.focus();
         return;
     }
-    if (senha.value == "") {
+    if (senha.value == "" || senha.value.length < 5) {
         alert("Senha inválida!");
         senha.focus();
         return;
     }
-    if (confirmarSenha.value == "" || confirmarSenha.value != senha.value) {
+    if (confirmarSenha.value == "" || confirmarSenha.value.length < 5 || confirmarSenha.value != senha.value) {
         alert("As senhas não correspondem!");
         confirmarSenha.focus();
         return;
     }
+    let infoCadastro = {
+        nomeMercado: formCadastro.nome.value,
+        cnpjMercado: formCadastro.cnpj.value,
+        enderecoMercado: formCadastro.endereco.value,
+        telefoneMercado: formCadastro.telefone.value,
+        emailMercado: formCadastro.email.value,
+        senhaMercado: formCadastro.senha.value,
+        confirmarSenhaMercado: formCadastro.confirmarSenha.value
+        };
 
-let infoMercado = JSON.parse(localStorage.getItem('infoMercado') || '[]')
+        localStorage.setItem('infoMercado', JSON.stringify(infoCadastro))
 
-infoMercado.push(
-    {
-      nomeMercado: formCadastro.nome.value,
-      cnpjMercado: formCadastro.cnpj.value,
-      cepMercado: formCadastro.cep.value,
-      enderecoMercado: formCadastro.endereco.value,
-      telefoneMercado: formCadastro.telefone.value,
-      emailMercado: formCadastro.email.value,
-      senhaMercado: formCadastro.senha.value,
-      confirmarSenhaMercado: formCadastro.confirmarSenha.value
-    });
-
-    localStorage.setItem("infoMercado", JSON.stringify(infoMercado))
-
+        infoCadastro = JSON.parse(localStorage.getItem('infoMercado'))
+        
     alert("Mercado cadastrado com sucesso!");
     window.location.href = "../perfil/perfil.html"
 }
