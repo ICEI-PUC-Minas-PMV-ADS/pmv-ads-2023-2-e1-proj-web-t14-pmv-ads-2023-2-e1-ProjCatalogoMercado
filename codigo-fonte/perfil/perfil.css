@@ -12,11 +12,11 @@
 
 /* Header */
 header {
-    margin: 10px 20px;
+    margin: auto;
     padding: 0;
 }
 ul.cabecalho {
-    margin: 5px;
+    margin: 10px;
     padding: 0;
     overflow: hidden;
     background-color: white;
@@ -35,6 +35,8 @@ li.logo a {
     font-size: 20px;
     color: black;
     padding: 5px 0;
+    margin-left: 10px;
+    margin-right: 60px;
 }
 li.busca {
     background-color: #f8f8f8;
@@ -42,7 +44,6 @@ li.busca {
     width: 600px;
     height: 30px;
     border-radius: 15px;
-    margin: auto 60px;
 }
 .txtBusca {
     float: left;
@@ -64,6 +65,7 @@ li.busca {
 li.perfil {
     display: inline-block;
     float: right;
+    margin-right: 10px;
 }
 ul.perfilnav {
     margin: 0;
@@ -137,7 +139,7 @@ main {
     display: inline-block;
     background-color: white;
     padding: 10px;
-    margin: 0;
+    margin: auto;
 }
 h2 {
     font-size: 25px;
