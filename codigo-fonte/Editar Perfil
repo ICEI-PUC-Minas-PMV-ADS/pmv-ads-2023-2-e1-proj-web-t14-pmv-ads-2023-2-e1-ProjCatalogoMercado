@@ -56,11 +56,11 @@ input{
        
            <input  type="text" placeholder="Descrição" id="Descrição"> 
         
-           <input type="text" placeholder="Endereço" id="Endereço">
+           <input type="textarea" placeholder="Endereço" id="Endereço">
         
             <input type="tel" placeholder="Contato" id="Contato">
         
-            <input type="submit" value="Salvar" onclick="Editar; return false">
+            <input type="submit" value="Salvar" onclick="Salvar; return false">
     
                          
        </form>
@@ -73,13 +73,14 @@ function Editar(){
             var tel = document.getElementById('Contato').value;
             var Endereço = document.getElementById('Endereço').value;
 
-            if(NomedaEmpresa== "#" && tel=="#" && Endereço=="#"){
+            if(NomedaEmpresa== "text" ){
                 alert('sucesso')
-
-
-
             }
-                  
+                  if(tel=="numbers"){
+                    alert('sucesso')
+                  }
+                  if(Endereço== )
+
               else{
                     alert('usuario ou senha incorretos');
         
