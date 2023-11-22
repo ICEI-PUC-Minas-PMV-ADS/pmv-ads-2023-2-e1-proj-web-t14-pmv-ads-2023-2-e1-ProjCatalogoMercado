@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar conta</title>
+    <link rel="stylesheet" href="conta.css">
+    <link rel="javascript" href="conta.js">
+
+    <style> 
+
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    color: silver;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    text-align: center;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+form{
+    width: 300px;
+    margin: 200px auto;
+    text-align: center;
+}
+input{
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    height: 30px;
+}
+
+ </style>
+
+</head>
+
+
+<body>
+        <form>
+                       
+           <h1>Editar Perfil</h1>
+
+           <input Type="text" placeholder="Nome da Empresa" id="Nome da Empresa">
+       
+           <input  type="text" placeholder="Descrição" id="Descrição"> 
+        
+           <input type="text" placeholder="Endereço" id="Endereço">
+        
+            <input type="tel" placeholder="Contato" id="Contato">
+        
+            <input type="submit" value="Salvar" onclick="Editar; return false">
+    
+                         
+       </form>
+
+       <script>
+
+function Editar(){
+            
+            var NomedaEmpresa = document.getElementById('Nome da Empresa').value;
+            var tel = document.getElementById('Contato').value;
+            var Endereço = document.getElementById('Endereço').value;
+
+            if(NomedaEmpresa== "#" && tel=="#" && Endereço=="#"){
+                alert('sucesso')
+
+
+
+            }
+                  
+              else{
+                    alert('usuario ou senha incorretos');
+        
+            } 
+        
+        }
+
+       </script>
+
+</body>
+</html>
