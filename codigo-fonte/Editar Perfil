@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar conta</title>
+    <link rel="stylesheet" href="conta.css">
+    <link rel="javascript" href="conta.js">
+
+    <style> 
+
+*{
+    box-sizing: border-box;
+   
+}
+
+h1{
+    color: black;
+    font-family: 'Arial, Helvetica, sans-serif';
+}
+
+h2{
+    color: silver;
+    font-family: 'Arial, Helvetica, sans-serif';
+    font-size: 100%;
+    text-align: center;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+form{
+    width: 300px;
+    margin: 200px auto;
+    text-align: center;
+    background-color: #ffffffdc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+input{
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    height: 30px;
+    font-family: 'Arial, Helvetica, sans-serif';
+
+}
+textarea{
+    font-family: 'Arial, Helvetica, sans-serif';
+    font-size: 100%;
+}
+div{
+    text-align: center;
+}
+
+ </style>
+
+</head>
+
+
+<body>
+        <form>
+                       
+           <h1>Editar Perfil</h1>
+
+           <input Type="text" placeholder="Nome da Empresa" id="NomedaEmpresa">
+       
+           <textarea name="Descrição" id="Descrição" cols="28" rows="10" placeholder="Descrição"></textarea>    
+
+           <input type="textarea" placeholder="Endereço" id="Endereço">
+        
+            <input type="tel" placeholder="Contato" id="Contato">
+        
+            <input type="submit" value="Salvar" onclick="logar(); return false">
+
+            <div class="direitos">
+                <p>Todos os direitos reservados. © 2023 <br>
+                    Catálogo de Pequenos Mercados</p>
+               </div>
+                         
+       </form>
+    
+
+       <script>
+
+function logar(){
+
+
+var NomedaEmpresa = document.getElementById('NomedaEmpresa').value;
+            var Contato = document.getElementById('Contato').value;
+            var Endereço = document.getElementById('Endereço').value;
+            var Descrição = document.getElementById('Endereço').value;
+                
+    
+            if(NomedaEmpresa== "Projeto Mercado Novo"){
+                alert('sucesso');
+            }
+if(contato==""){
+    alert('sucesso');
+
+}
+
+if(Endereço==""){
+    alert('Sucesso');
+
+}
+
+if(Descrição==""){
+
+    alert('Sucesso');
+
+}
+
+
+              else{
+                    alert('usuario ou senha incorretos');
+        
+            }
+
+}
+                  
+                
+       </script>
+
+</body>
+</html>
