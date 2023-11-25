@@ -11,16 +11,17 @@
 
 *{
     box-sizing: border-box;
+   
 }
 
 h1{
     color: black;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial, Helvetica, sans-serif';
 }
 
 h2{
     color: silver;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial, Helvetica, sans-serif';
     font-size: 100%;
     text-align: center;
 }
@@ -34,17 +35,27 @@ form{
     width: 300px;
     margin: 200px auto;
     text-align: center;
+    background-color: #ffffffdc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
 }
 input{
     display: block;
     margin: 10px auto;
     width: 250px;
     height: 30px;
+    font-family: 'Arial, Helvetica, sans-serif';
+
 }
 textarea{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial, Helvetica, sans-serif';
     font-size: 100%;
 }
+div{
+    text-align: center;
+}
+
  </style>
 
 </head>
@@ -64,9 +75,14 @@ textarea{
             <input type="tel" placeholder="Contato" id="Contato">
         
             <input type="submit" value="Salvar" onclick="logar(); return false">
-    
+
+            <div class="direitos">
+                <p>Todos os direitos reservados. © 2023 <br>
+                    Catálogo de Pequenos Mercados</p>
+               </div>
                          
        </form>
+    
 
        <script>
 
