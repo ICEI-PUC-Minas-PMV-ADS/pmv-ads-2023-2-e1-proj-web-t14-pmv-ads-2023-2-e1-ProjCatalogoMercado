@@ -13,11 +13,9 @@
 /* Header */
 header {
     margin: auto;
-    padding: 0;
 }
 ul.cabecalho {
     margin: 10px;
-    padding: 0;
     overflow: hidden;
     background-color: white;
     list-style-type: none;
@@ -26,11 +24,11 @@ li {
     float: left;
 }
 li a {
-    display: inline-block;
+    display: block;
     text-align: center;
     text-decoration: none;
 }
-li.logo a {
+li.Logo a {
     font-family: 'Comfortaa', sans-serif;
     font-size: 20px;
     color: black;
@@ -63,7 +61,7 @@ li.busca {
     padding: 9px 15px;
 }
 li.perfil {
-    display: inline-block;
+    display: block;
     float: right;
     margin-right: 10px;
 }
@@ -74,9 +72,9 @@ ul.perfilnav {
     background-color: white;
     list-style-type: none;
 }
-.perfilnome {
+#perfilNome {
     font-size: 13px;
-    padding: 10px;
+    padding: 8.5px;
 }
 .perfilbtn img {
     width: 30px;
@@ -111,10 +109,10 @@ ul.perfilnav {
 
 
 
+
 /* Perfil Mercado */
 main {
     background-color: #f8f8f8;
-    margin: 0;
 }
 #perfilmercado {
     background-color: #f8f8f8;
@@ -136,9 +134,6 @@ main {
 
 /* Main - Produtos */
 #produtos {
-    display: inline-block;
-    background-color: white;
-    padding: 10px;
     margin: auto;
 }
 h2 {
