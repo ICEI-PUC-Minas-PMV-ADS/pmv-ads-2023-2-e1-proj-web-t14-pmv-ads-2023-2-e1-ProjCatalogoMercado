@@ -6,75 +6,63 @@
 
 /* Padrão da Página */
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 1px;
 }
 
 /* Header */
 header {
-    margin: 10px 20px;
-    padding: 0;
-}
-ul.cabecalho {
-    margin: 5px;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-    list-style-type: none;
-}
-li {
-    float: left;
-}
-li a {
-    display: inline-block;
+    margin: auto;
     text-align: center;
+    height: 28px;
+    padding: 15px 20px;
+}
+#logoHeader {
+    display: inline-block;
+    float: left;
+    margin: 5px 0;
+}
+#logoHeader a {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 18px;
+    color: black;
     text-decoration: none;
 }
-li.logo a {
-    font-family: 'Comfortaa', sans-serif;
-    font-size: 20px;
-    color: black;
-    padding: 5px 0;
-}
-li.busca {
+#busca {
+    display: inline-block;
+    margin: auto;
     background-color: #f8f8f8;
     border: #ececec solid 1px;
-    width: 600px;
-    height: 30px;
-    border-radius: 15px;
-    margin: auto 60px;
+    width: 20%;
+    height: 28px;
+    border-radius: 10px;
 }
 .txtBusca {
     float: left;
     background-color: transparent;
+    width: 59%;
+    height: 28px;
+    padding-left: 9px;
+    border-radius: 10px;
     border: none;
-    border-radius: 15px;
-    padding-left: 15px;
-    height: 30px;
-    width: 540px;
 }
 .txtBusca::placeholder {
     color: #8b8b8b;
     font-size: 12px;
 }
-.busca img {
-    height: 12px;
-    padding: 9px 15px;
+#busca img {
+    height: 10px;
+    padding: 9px 9px;
 }
-li.botoes {
+#botoes {
+    display: inline-block;
     float: right;
 }
-ul.btnOpcoes {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    list-style-type: none;
-}
-li.botoes a {
+#botoes a {
     display: inline-block;
-    background-color: #2980B9;
-    padding: 8px 10px;
-    margin-left: 10px;
+    background-color: #FF9933;
+    padding: 8px;
+    margin-left: 5px;
     border-radius: 5px;
     text-align: center;
     text-decoration: none;
@@ -82,149 +70,193 @@ li.botoes a {
     font-size: 13px;
 }
 
-/* Main - Destaque */
-main img {
-    width: 100%;
-}
-#destaque {
-    padding: 80px 340px;
-    background: url(../img/destaque.png);
-    background-size: cover;
-    border: none;
-}
-.boxDestaque {
-    background-color: white;
-    border-radius: 4px;
-    opacity: 0.6;
-}
-.boxDestaque p {
-    text-align: center;
-    align-items: center;
-    font-size: 22px;
-    font-weight: bolder;
-    color: black;
+/* Main - Padrão página */
+main {
+    max-width: 1200px;
+    min-width: 300px;
+    padding: 20px 50px;
+    margin: auto;
 }
 
-/* Main - Produtos */ 
-#categoriaProduto {
-    display: grid;
-    column-gap: 20px;
-    grid-template-columns: auto;
-    justify-content: space-around;
-    background-color: white;
-    padding: 10px;
+/* Main - Destaque */
+#boxDestaque {
+    display: block;
+    padding: 60px 30px;
+    background: url(../img/foto-destaque.png);
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
 }
-h1 {
-    font-size: 14px;
+.destaque {
+    display: block;
+    margin: auto;
+    max-width: 750px;
+    padding: 5px;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 4px;
+    font-size: 22px;
     font-weight: bolder;
-    padding: 15px 5px 0 15px;
+}
+
+/* Main - Produtos */
+#produtos {
+    margin: auto;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 15px;
 }
 .produto {
     display: inline-block;
+    width: 17.9%;
+    height: 17.9%;
+    margin: 4px;
     vertical-align: top;
-    width: 80px;
-    padding: 10px;
 }
-.produto p {
-    font-size: 11px;
-    font-weight: lighter;
-    text-align: center
+.imgProduto {
+    width: 100%;
+}
+.nomeProduto {
+    font-size: 11.2px;
 }
 
 /* Main - Mercados */
-#categoriaMercado {
-    display: inline-block;
-    background-color: white;
-    padding: 10px 20px;
-    margin: 0;
-}
-h2 {
-    font-size: 20px;
+#mercados {
+    margin: auto;
     text-align: center;
+}
+h3 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bolder;
+    margin: 15px;
 }
 .mercado {
     display: inline-block;
-    vertical-align: top;
-    background-color: #f8f8f8;
-    border-radius: 15px;
-    width: 215px;
-    padding: 20px;
+    width: 75%;
+    height: 75%;
     margin: 10px;
+    padding: 25px;
+    vertical-align: top;
+    background-color: #ececec;
+    border-radius: 5px;
 }
-h3 {
+.imgMercado {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.nomeMercado {
+    text-align: center;
     font-size: 14px;
     font-weight: bolder;
+    margin-bottom: 2px;
 }
-.mercado img {
-    width: 100%;
-}
-.mercado p {
-    font-size: 12px;
+.localMercado {
+    text-align: center;
+    font-size: 13px;
 }
 
 /* Footer */
 footer {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ececec;
-}
-#rodapeLogo {
-    display: inline-block;
-    width: 220px;
-    margin: 40px 20px;
-    box-sizing: border-box;
-    vertical-align: top;
-}
-#rodapeLogo a {
     margin: auto;
-    text-decoration: none;
-    color: #8b8b8b;
+    overflow: hidden;
+    background-color: #026e819e;
+}
+#logoFooter {
+    display: inline-block;
+    margin: 30px 80px 0 80px;
+}
+#logoFooter a {
     font-family: 'Comfortaa', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
 }
 #sobre {
     display: inline-block;
-    width: 500px;
-    margin: 40px 20px;
-    box-sizing: border-box;
+    max-width: 100%;
+    margin: 20px 80px;
     vertical-align: top;
+    color: white;
+}
+h4 {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+#sobre p {
+    font-size: 13px;
     text-align: justify;
-    color: #8b8b8b;
-    font-size: 12px;
+    margin-bottom: 2px;
 }
-#termos {
-    display: inline-block;
-    width: 160px;
-    margin: 40px 20px;
-    box-sizing: border-box;
-    vertical-align: top;
-    color: #8b8b8b;
-    font-size: 12px;
+.imgGit {
+    width: 35px;
+    filter: invert(100%);
 }
-#receberEmail {
-    display: inline-block;
-    margin: 40px 20px;
-    width: 370px;
-    box-sizing: border-box;
-    vertical-align: top;
-    color: #8b8b8b;
-    font-size: 12px;
-}
-#txtEmail {
-    font-size: 12px;
-    float: left;
-    background-color: white;
-    margin: 5px 0 0 0;
-    padding-left: 10px;
-    border: none;
-    height: 30px;
-    width: 370px;
-}
-#copyright {
+.copyright {
     display: block;
-    color: #8b8b8b;
-    margin: 10px;
+    margin: 10px 80px;
     text-align: center;
+    color: white;
     font-size: 12px;
+}
+
+@media only screen and (min-width: 600px) {
+    #busca {
+        width: 25%;
+    }
+    .txtBusca {
+        width: 73%;
+    }
+    .produto {
+        width: 14.4%;
+        height: 14.4%;
+        margin: 2px;
+    }
+    .mercado {
+        width: 38.6%;
+        height: 38.6%;
+        margin: 2px;
+        margin-bottom: 8px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    #busca {
+        width: 30%;
+    }
+    .txtBusca {
+        width: 83%;
+    }
+    #produtos {
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .produto {
+        width: 90px;
+        height: 120px;
+    }
+    .nomeProduto {
+        overflow: normal;
+        white-space: normal;
+    }
+    #mercados {
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .mercado {
+        width: 237px;
+        height: 297px;
+        margin: 4px;
+    }
+    #logoFooter {
+        position: absolute;
+    }
+    #sobre {
+        margin: 30px 80px 20px 350px;
+    }
 }
