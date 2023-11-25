@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="author" content="Myuki Maruno">
     <link rel="stylesheet" href="perfil.css">
+    <script defer src="crud-produto.js"></script>
     <script defer src="../cadastro/cadastro.js"></script>
     <script defer src="perfil.js"></script>
     <style>
@@ -16,7 +17,7 @@
 <body>
     <header>
         <ul class="cabecalho">
-            <li class="logo">
+            <li class="Logo">
                 <a href="../home-page/index.html">Guia de Mercados</a>
             </li>
             <li class="busca">
@@ -25,15 +26,13 @@
             </li>
             <li class="perfil">
                 <ul class="perfilnav">
-                    <li class="perfilnome">
-                        <div id="nomeMenu">Nome do Mercado</div>
-                    </li>
+                    <li id="perfilNome"></li>
                     <li class="perfilmenu">
                     <a href="perfil.html" class="perfilbtn"><img src="../img/loja.png"></a>
                 <div class="perfilconf">
                     <a href="#">Configurar conta</a>
                     <a href="#">Configurar Perfil</a>
-                    <a href="#">Cadastrar Produto</a>
+                    <a href="../Cadastro de Produtos/Cadastro de Produto.html">Cadastrar Produto</a>
                     <a href="../home-page/index.html">Sair</a>
                     </li>
                 </div>
@@ -48,66 +47,18 @@
                 <img src="../img/mercado1-grande.png">
             </div>
             <div class="mercadoperfil">
-                <div id="nomeMercado">Nome do Mercado</div><br>
-                <div id="descricaoMercado">Descrição do Mercado</div><br>
-                <div id="enderecoMercado">Endereço do Mercado</div><br>
-                <div id="telefoneMercado">Telefone do Mercado</div><br>
+                <div id="nomeMercado"></div><br>
+                <div id="descricaoMercado">DESCRICAO DO MERCADO</div><br>
+                <div id="enderecoMercado"></div><br>
+                <div id="telefoneMercado"></div><br>
                 <div id="horario">Horário de funcionamento</div>
             </div>
         </div>
         <div id="produtos">
             <h2>Produtos</h2>
-            <section>
-                <div class="produto">
-                    <p><img src="../img/foto.png"></p><br/>
-                    <h3>Descrição Produto</h3>
-                </div>
-                <div class="produto">
-                    <p><img src="../img/foto.png"></p><br/>
-                    <h3>Descrição Produto</h3>
-                </div>
-                <div class="produto">
-                    <p><img src="../img/foto.png"></p><br/>
-                    <h3>Descrição Produto</h3>
-                </div>
-                <div class="produto">
-                    <p><img src="../img/foto.png"></p><br/>
-                    <h3>Descrição Produto</h3>
-                </div>
-                <div class="produto">
-                    <p><img src="../img/foto.png"></p><br/>
-                    <h3>Descrição Produto</h3>
-                </div>
-                <div class="produto">
-                    <p><img src="../img/foto.png"></p><br/>
-                    <h3>Descrição Produto</h3>
-                </div>
-                <div class="produto">
-                    <p><img src="../img/foto.png"></p><br/>
-                    <h3>Descrição Produto</h3>
-                </div>
-                <div class="produto">
-                    <p><img src="../img/foto.png"></p><br/>
-                    <h3>Descrição Produto</h3>
-                </div>
-                <div class="produto">
-                    <p><img src="../img/foto.png"></p><br/>
-                    <h3>Descrição Produto</h3>
-                </div>
-                <div class="produto">
-                    <p><img src="../img/foto.png"></p><br/>
-                    <h3>Descrição Produto</h3>
-                </div>
-                <div class="produto">
-                    <p><img src="../img/foto.png"></p><br/>
-                    <h3>Descrição Produto</h3>
-                </div>
-                <div class="produto">
-                    <p><img src="../img/foto.png"></p><br/>
-                    <h3>Descrição Produto</h3>
-                </div>
-             </section>
+            <div id="corpoProduto"></div>
         </div>
+
 
 
 
