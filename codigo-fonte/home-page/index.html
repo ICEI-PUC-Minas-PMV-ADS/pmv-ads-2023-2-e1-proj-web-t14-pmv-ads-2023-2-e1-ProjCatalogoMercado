@@ -13,141 +13,114 @@
 </head>
 <body>
     <header>
-        <ul class="cabecalho">
-            <li class="logo">
-                <a href="index.html">Guia de Mercados</a>
-            </li>
-            <li class="busca">
-                <input type="text" class="txtBusca" placeholder="O que você está procurando?"/>
-                <img src="../img/pesquisa.png">
-            </li>
-            <li class="botoes">
-                <ul class="btnOpcoes">
-                    <li class="btnCadastro">
-                        <a href="../cadastro/cadastro.html">Cadastrar mercado</a>
-                    </li>
-                    <li class="btnLogin">
-                        <a href="../login/login.html">Entrar</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
+        <div id="logoHeader">
+            <a href="index.html">Guia de Mercados</a>
+        </div>
+        <div id="busca">
+            <input type="text" class="txtBusca" placeholder="Buscar..."/>
+            <img src="../img/pesquisa.png">
+        </div>
+        <div id="botoes">
+            <a href="../cadastro/cadastro.html" class="btn">Cadastrar</a>
+            <a href="../login/login.html" class="btn">Entrar</a>
+        </div>
     </header>
+    <hr color="#ececec" size="2px">
     <main>
-        <hr color="#ececec" size="2px"><br>
-        <div id="destaque">
-            <div class="boxDestaque">
-                <p>Conectando os consumidores à uma diversidade de mercados!</p>
+        <section id="boxDestaque">
+            <h1 class="destaque">Conectando os consumidores à uma diversidade de mercados!</h1>
+        </section><br>
+        <h2>Categorias Populares</h2>
+        <section id="produtos">
+            <div class="produto">
+                <img class="imgProduto" src="../img/fruta.png">
+                <p class="nomeProduto">Frutas</p>
             </div>
-        </div>
-        <div id="categoriaProduto">
-            <h1>Categorias Populares</h1>
-            <section>
-                <div class="produto">
-                    <p><img src="../img/fruta.png"></p>
-                    <p>Frutas</p>
-                </div>
-                <div class="produto">
-                    <p><img src="../img/vegetais.png"></p>
-                    <p>Verduras e legumes</p>
-                </div>
-                <div class="produto">
-                    <p><img src="../img/doce.png"></p>
-                    <p>Doces</p>
-                </div>
-                <div class="produto">
-                    <p><img src="../img/suco.png"></p>
-                    <p>Bebidas</p>
-                </div>
-                <div class="produto">
-                    <p><img src="../img/cerveja.png"></p>
-                    <p>Bebidas Alcóolicas</p>
-                </div>
-                <div class="produto">
-                    <p><img src="../img/higiene.png"></p>
-                    <p>Higiene Pessoal</p>
-                </div>
-                <div class="produto">
-                    <p><img src="../img/limpeza.png"></p>
-                    <p>Limpeza</p>
-                </div>
-                <div class="produto">
-                    <p><img src="../img/utensilio.png"></p>
-                    <p>Utensílios em geral</p>
-                </div>
-                <div class="produto">
-                    <p><img src="../img/sugar-free.png"></p>
-                    <p>Sem açúcar</p>
-                </div>
-                <div class="produto">
-                    <p><img src="../img/gluten-free.png"></p>
-                    <p>Sem glúten</p>
-                </div>
-                <div class="produto">
-                    <p><img src="../img/lactose-free.png"></p>
-                    <p>Sem lactose</p>
-                </div>
-                <div class="produto">
-                    <p><img src="../img/vegano.png"></p>
-                    <p>Vegano</p>
-                </div>
-             </section>
-        </div>
-        <br>
-        <div id="categoriaMercado">
-            <h2>Mercados</h2>
-            <section>
-                <div class="mercado">
-                    <p><img src="../img/mercado1.png"></p><br/>
-                    <h3>Supermercado da Família</h3>
-                    <p>Serra, Belo Horizonte - MG</p>
-                </div>
-                <div class="mercado">
-                    <p><img src="../img/mercado2.png"></p><br/>
-                    <h3>Mercado Dona de Casa</h3>
-                    <p>Barro Preto, Belo Horizonte - MG</p>
-                </div>
-                <div class="mercado">
-                    <p><img src="../img/mercado3.png"></p><br/>
-                    <h3>Mercearia Miranda</h3>
-                    <p>Nova Floresta, Belo Horizonte - MG</p>
-                </div>
-                <div class="mercado">
-                    <p><img src="../img/mercado4.png"></p><br/>
-                    <h3>Mercado É de Casa</h3>
-                    <p>Santa Efigênia, Belo Horizonte - MG</p>
-                </div>
-                <div class="mercado">
-                    <p><img src="../img/mercado5.png"></p><br/>
-                    <h3>Mercado Bom Preço</h3>
-                    <p>Santa Tereza, Belo Horizonte - MG</p>
-                </div>
-             </section>
-        </div>
+            <div class="produto">
+                <img class="imgProduto" src="../img/vegetais.png">
+                <p class="nomeProduto">Verduras</p>
+            </div>
+            <div class="produto">
+                <img class="imgProduto" src="../img/doce.png">
+                <p class="nomeProduto">Doces</p>
+            </div>
+            <div class="produto">
+                <img class="imgProduto" src="../img/suco.png">
+                <p class="nomeProduto">Bebidas</p>
+            </div>
+            <div class="produto">
+                <img class="imgProduto" src="../img/sugar-free.png">
+                <p class="nomeProduto">Sem açúcar</p>
+            </div>
+            <div class="produto">
+                <img class="imgProduto" src="../img/gluten-free.png">
+                <p class="nomeProduto">Sem glúten</p>
+            </div>
+            <div class="produto">
+                <img class="imgProduto" src="../img/lactose-free.png">
+                <p class="nomeProduto">Sem lactose</p>
+            </div>
+            <div class="produto">
+                <img class="imgProduto" src="../img/vegano.png">
+                <p class="nomeProduto">Vegano</p>
+            </div>
+            <div class="produto">
+                <img class="imgProduto" src="../img/cerveja.png">
+                <p class="nomeProduto">Bebidas Alcóolicas</p>
+            </div>
+            <div class="produto">
+                <img class="imgProduto" src="../img/higiene.png">
+                <p class="nomeProduto">Higiene Pessoal</p>
+            </div>
+            <div class="produto">
+                <img class="imgProduto" src="../img/limpeza.png">
+                <p class="nomeProduto">Produto de limpeza</p>
+            </div>
+            <div class="produto">
+                <img class="imgProduto" src="../img/utensilio.png">
+                <p class="nomeProduto">Utensílios em geral</p>
+            </div>
+        </section><br>
+        <h3>Mercados</h3>
+        <section id="mercados">
+            <div class="mercado">
+                <img class="imgMercado" src="../img/mercado1.png">
+                <p class="nomeMercado">Supermercado da Família</p>
+                <p class="localMercado">Santa Lúcia, Belo Horizonte - MG</p>
+            </div>
+            <div class="mercado">
+                <img class="imgMercado" src="../img/mercado2.png">
+                <p class="nomeMercado">Mercado Dona de Casa</p>
+                <p class="localMercado">Barro Preto, Belo Horizonte - MG</p>
+            </div>
+            <div class="mercado">
+                <img class="imgMercado" src="../img/mercado4.png">
+                <p class="nomeMercado">Mercado É de Casa</p>
+                <p class="localMercado">Santa Efigênia, Belo Horizonte - MG</p>
+            </div>
+            <div class="mercado">
+                <img class="imgMercado" src="../img/mercado5.png">
+                <p class="nomeMercado">Mercado Bom Preço</p>
+                <p class="localMercado">Santa Tereza, Belo Horizonte - MG</p>
+            </div>
+        </section>
     </main>
     <footer>
-        <div id="rodape">
-            <section>
-                <div id="rodapeLogo">
-                    <a href="index.html">Guia de Mercados</a>
-                </div>
-                <div id="sobre">
-                    <p>Sobre o Projeto</p>
-                    <p>Esse projeto tem o objetivo de inserir pequenos mercados no meio digital, trazendo mais visibilidade e possibilitando que atraiam mais clientes e expandam seus negócios.</p>
-                </div>
-                <div id="termos">
-                    <p>Termos de uso</p>
-                    <p>Política de Privacidade</p>
-                </div>
-                <div id="receberEmail">
-                    <p>Receba nossas notícias</p>
-                    <input type="text" id="txtEmail" placeholder="Digite seu e-mail"/>
-                </div>
-            </section>
+        <div id="logoFooter">
+            <a href="index.html">Guia de Mercados</a>
         </div>
-        <hr color="#fffff" size="2px">
-        <div id="copyright">
-        <p>Copyright &#169 2023 Catálogo de Pequenos Mercados | Todos os direitos reservados.</p>
+        <div id="sobre">
+            <h4>Sobre o Projeto</h4>
+            <p>O objetivo desse projeto é desenvolver uma solução para inserir pequenos mercados na tecnologia, trazendo mais visibilidade e possibilitando que atraiam mais clientes e expandam seus negócios.</p><br>
+            <h4>Análise e Desenvolvimento de Sistemas - PUC Minas</h4>
+            <p>Desenvolvimento de Aplicação Web Front-End</p>
+            <p>2º semestre/2023</p><br>
+            <h4>Acesse o projeto no GitHub!</h4>
+            <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado"><img class="imgGit" src="../img/github.png"></a>
+        </div>
+        <hr color="#fffff" size="1px">
+        <div class="copyright">
+            <p>Copyright &#169 2023 Catálogo de Pequenos Mercados | Todos os direitos reservados.</p>
         </div>
     </footer>
 </body>
