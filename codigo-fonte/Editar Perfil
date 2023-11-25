@@ -55,42 +55,58 @@ textarea{
                        
            <h1>Editar Perfil</h1>
 
-           <input Type="text" placeholder="Nome da Empresa" id="Nome da Empresa">
+           <input Type="text" placeholder="Nome da Empresa" id="NomedaEmpresa">
        
-           <textarea name="Descrição" id="Descrição" cols="29" rows="10" placeholder="Descrição"></textarea>    
+           <textarea name="Descrição" id="Descrição" cols="28" rows="10" placeholder="Descrição"></textarea>    
 
            <input type="textarea" placeholder="Endereço" id="Endereço">
         
             <input type="tel" placeholder="Contato" id="Contato">
         
-            <input type="submit" value="Salvar" onclick="Salvar; return false">
+            <input type="submit" value="Salvar" onclick="logar(); return false">
     
                          
        </form>
 
        <script>
 
-function Editar(){
-            
-            var NomedaEmpresa = document.getElementById('Nome da Empresa').value;
-            var tel = document.getElementById('Contato').value;
-            var Endereço = document.getElementById('Endereço').value;
+function logar(){
 
-            if(NomedaEmpresa== "text" ){
-                alert('sucesso')
+
+var NomedaEmpresa = document.getElementById('NomedaEmpresa').value;
+            var Contato = document.getElementById('Contato').value;
+            var Endereço = document.getElementById('Endereço').value;
+            var Descrição = document.getElementById('Endereço').value;
+                
+    
+            if(NomedaEmpresa== "Projeto Mercado Novo"){
+                alert('sucesso');
             }
-                  if(tel=="numbers"){
-                    alert('sucesso')
-                  }
-                  if(Endereço== )
+if(contato==""){
+    alert('sucesso');
+
+}
+
+if(Endereço==""){
+    alert('Sucesso');
+
+}
+
+if(Descrição==""){
+
+    alert('Sucesso');
+
+}
+
 
               else{
                     alert('usuario ou senha incorretos');
         
-            } 
-        
-        }
+            }
 
+}
+                  
+                
        </script>
 
 </body>
