@@ -12,7 +12,9 @@ A estrutura padrão do site é composta por cabeçalho, conteúdo e rodapé.
 
 Figura 1 - Protótipo de baixa fidelidade
 
-<img width="1024" alt="home-page" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/60dba721-68ed-49c6-8a57-eccda62b5fa2">
+<img width="1024" alt="home-page" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/05972052-7b99-459a-92bf-94e6a41543d1">
+
+
 
 Figura 2 - Home-page
 
