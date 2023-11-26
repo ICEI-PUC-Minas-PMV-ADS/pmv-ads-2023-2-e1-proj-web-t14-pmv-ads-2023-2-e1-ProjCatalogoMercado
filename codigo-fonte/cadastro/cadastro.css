@@ -73,13 +73,14 @@ header {
 /* Formulário de Registro de Mercado */
 #boxCadastro {
     display: flexbox;
-    box-sizing: border-box;
+    width: 250px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
     background-color: #f8f8f8;
     border: #f8f8f8 solid 1px;
     border-radius: 15px;
-    max-width: 500px;
-    margin: auto;
-    padding: 50px 100px; 
+    padding: 50px 100px;  
 }
 h1 {
     font-size: 22px;
@@ -95,11 +96,10 @@ label {
 }
 .boxForm input {
     font-size: 13px;
-    width: 300px;
+    width: 250px;
     padding: 8px;
     border: 1px solid #ececec;
     border-radius: 5px;
-    box-sizing: border-box;
 }
 #boxCadastro ::placeholder {
     color: #8b8b8b;
@@ -113,15 +113,15 @@ button {
     font-size: 13px;
     color: white;
     width: 200px;
-    margin: 0 50px 5px 50px;
-    background-color: #2980B9;
-    border: #2980B9 solid 1px;
+    margin: 0 25px 5px 25px;
+    background-color: #fc8b1b;
+    border: #fc8b1b solid 1px;
     border-radius: 5px;
     padding: 10px;
     cursor: pointer;
 }
 .acordo {
-    font-size: 11px;
+    font-size: 12px;
     text-align: center;
     padding: 5px 0 0 0;
 }
@@ -188,17 +188,6 @@ h4 {
         display: inline-block;
         width: 70px;
     }
-    .produto {
-        width: 14.4%;
-        height: 14.4%;
-        margin: 2px;
-    }
-    .mercado {
-        width: 38.6%;
-        height: 38.6%;
-        margin: 2px;
-        margin-bottom: 8px;
-    }
 
 }
 
@@ -222,26 +211,14 @@ h4 {
     #botoes {
         float: right;
     }
-    #produtos {
-        overflow: auto;
-        white-space: nowrap;
+    #boxCadastro {
+        width: 400px; 
     }
-    .produto {
-        width: 90px;
-        height: 120px;
+    .boxForm input {
+        width: 400px;
     }
-    .nomeProduto {
-        overflow: normal;
-        white-space: normal;
-    }
-    #mercados {
-        overflow: auto;
-        white-space: nowrap;
-    }
-    .mercado {
-        width: 237px;
-        height: 297px;
-        margin: 4px;
+    button {
+        margin: 0 100px 5px 100px;
     }
     #logoFooter {
         position: absolute;
