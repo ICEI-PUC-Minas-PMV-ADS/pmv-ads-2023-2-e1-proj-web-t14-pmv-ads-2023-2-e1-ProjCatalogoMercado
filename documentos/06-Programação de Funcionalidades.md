@@ -32,7 +32,8 @@ Priscila Myuki do Nascimento Maruno
 
 ### Tela de Cadastro de Mercado
 
-<img width="1024" alt="tela-cadastro" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/7295162d-ecf3-4048-ad6a-bdaa2bfe3010">
+<img width="1024" alt="tela-cadastro" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/824164f1-a296-4868-a282-b03fc1330435">
+
 
 #### Requisito atendido
 
