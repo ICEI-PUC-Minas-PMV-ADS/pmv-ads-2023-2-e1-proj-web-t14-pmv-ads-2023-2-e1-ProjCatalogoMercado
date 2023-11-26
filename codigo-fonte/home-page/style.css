@@ -14,11 +14,12 @@
 header {
     margin: auto;
     text-align: center;
-    padding: 15px 35px;
+    padding: 10px 35px;
 }
 #logoHeader {
     display: block;
-    margin: 5px 0 10px 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 #logoHeader a {
     font-family: 'Comfortaa', sans-serif;
@@ -39,7 +40,7 @@ header {
 .txtBusca {
     float: left;
     background-color: transparent;
-    width: 59%;
+    width: 90%;
     height: 28px;
     padding-left: 9px;
     border-radius: 10px;
@@ -51,17 +52,16 @@ header {
 }
 #busca img {
     height: 10px;
-    padding: 9px 9px;
+    padding: 9px;
 }
 #botoes {
-    display: block;
     margin: auto;
 }
 #botoes a {
     display: inline-block;
     background-color: #fc8b1b;
+    width: 45%;
     padding: 8px;
-    margin-left: 5px;
     border-radius: 5px;
     text-align: center;
     text-decoration: none;
@@ -204,32 +204,22 @@ h4 {
 }
 
 @media only screen and (min-width: 600px) {
-    header {
-        margin: auto;
-        text-align: center;
-        height: 28px;
-        padding: 15px 20px;
-    }
-    #logoHeader {
-        display: inline-block;
-        float: left;
-        margin: 5px 0;
-    }
     #busca {
         display: inline-block;
-        margin: auto;
-        background-color: #f8f8f8;
-        border: #ececec solid 1px;
-        width: 25%;
-        height: 28px;
-        border-radius: 10px;
+        width: 62%;
+        margin-bottom: 0;
+        margin-right: 10px;
     }
     .txtBusca {
-        width: 73%;
+        width: 88%;
     }
     #botoes {
         display: inline-block;
-        float: right;
+        vertical-align: top;
+    }
+    #botoes a {
+        display: inline-block;
+        width: 70px;
     }
     .produto {
         width: 14.4%;
@@ -246,11 +236,24 @@ h4 {
 }
 
 @media only screen and (min-width: 768px) {
+    #logoHeader {
+        float: left;
+    }
+    #logoHeader {
+        display: inline-block;
+        margin: 5px 0;
+    }
     #busca {
-        width: 30%;
+        float: none;
+    }
+    #busca {
+        width: 40%;
     }
     .txtBusca {
-        width: 83%;
+        width: 86%;
+    }
+    #botoes {
+        float: right;
     }
     #produtos {
         overflow: auto;
