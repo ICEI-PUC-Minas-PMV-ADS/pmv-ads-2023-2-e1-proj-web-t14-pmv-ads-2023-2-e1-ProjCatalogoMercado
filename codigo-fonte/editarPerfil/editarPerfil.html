@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="author" content="Myuki Maruno">
+    <link rel="stylesheet" href="editarPerfil.css">
+    <script defer src="crud-produto.js"></script>
+    <script defer src="../cadastro/cadastro.js"></script>
+    <script defer src="editarPerfil.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+    </style>
+    <title>Guia de Mercados</title>
+</head>
+<body>
+</head>
+<body>
+    <header>
+        <div id="logoHeader">
+            <a href="../home-page/index.html">Guia de Mercados</a>
+        </div>
+        <div id="busca">
+            <input type="text" class="txtBusca" placeholder="Buscar..."/>
+            <img src="../img/pesquisa.png">
+        </div>
+        <div id="perfil">
+            <div id="perfilNome"></div>
+            <div id="perfilNav"><a href="perfil.html" class="perfilbtn"><img src="../img/loja.png"></a></div>
+            <div id="perfilconf">
+                <a href="#">Configurar conta</a>
+                <a href="#">Configurar Perfil</a>
+                <a href="../Cadastro de Produtos/Cadastro de Produto.html">Cadastrar Produto</a>
+                <a href="../home-page/index.html">Sair</a>
+            </div>
+        </div>
+    </header>
+    <hr color="#ececec" size="1px">
+    <main>
+        <form name="formCadastro" id="formCadastro" onsubmit="return false">
+            <div id="boxCadastro">
+                <h1>Cadastrar Mercado</h1><br>
+                <div class="boxForm">
+                    <label for="nome">Nome do mercado *</label><br>
+                    <input type="text" name="nome" id="nome" minlength="5" placeholder="Nome do mercado">
+                </div>
+                <div class="boxForm">
+                    <label for="cnpj">CNPJ *</label><br>
+                    <input type="text" name="cnpj" id="cnpj" minlength="14" maxlength="14" placeholder="xx.xxx.xxx / xxxx-xx">
+                </div>
+                <div class="boxForm">
+                    <label for="cep">CEP *</label><br>
+                    <input type="text" name="cep" id="cep" minlength="8" maxlength="8" placeholder="xxxxx - xxx">
+                </div>
+                <div class="boxForm">
+                    <label for="endereco">Endereço *</label><br>
+                    <input type="text" name="endereco" id="endereco" minlength="15" placeholder="Endereço do mercado">
+                </div>
+                <div class="boxForm">
+                    <label for="telefone">Telefone *</label><br>
+                    <input type="tel" name="telefone" id="telefone" minlength="11" maxlength="11" placeholder="( xx ) xxxxx - xxx">
+                </div>
+                <div class="boxForm">
+                    <label for="email">E-mail *</label><br>
+                    <input type="email" name="email" id="email" placeholder="email@exemplo.com">
+                </div>
+                <div class="boxForm">
+                    <label for="senha">Senha *</label><br>
+                    <input type="password" name="senha" id="senha" minlength="5" placeholder="Crie sua senha">
+                </div>
+                <div class="boxForm">
+                    <label for="confirmarSenha">Confirmação senha *</label><br>
+                    <input type="password" name="confirmarSenha" id="confirmarSenha" minlength="5" placeholder="Confirme sua senha">
+                </div>
+                <p class="campoObrigatorio">Campos obrigatórios(*)</p>
+                <div class="cadastrar">
+                    <button type="submit" value="submit" onclick="return validarCadastro()"  id="btnCadastrar">Cadastrar</button>
+                </div>
+                <p class="acordo">Ao se inscrever você concorda com os nossos Termos e Condições.</p>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div id="logoFooter">
+            <a href="../home-page/index.html">Guia de Mercados</a>
+        </div>
+        <div id="sobre">
+            <h4>Sobre o Projeto</h4>
+            <p>O objetivo desse projeto é desenvolver uma solução para inserir pequenos mercados na tecnologia, trazendo mais visibilidade e possibilitando que atraiam mais clientes e expandam seus negócios.</p><br>
+            <h4>Análise e Desenvolvimento de Sistemas - PUC Minas</h4>
+            <p>Desenvolvimento de Aplicação Web Front-End</p>
+            <p>2º semestre/2023</p><br>
+            <h4>Acesse o projeto no GitHub!</h4>
+            <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado"><img class="imgGit" src="../img/github.png"></a>
+        </div>
+        <hr color="#fffff" size="1px">
+        <div class="copyright">
+            <p>Copyright &#169 2023 Catálogo de Pequenos Mercados | Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
