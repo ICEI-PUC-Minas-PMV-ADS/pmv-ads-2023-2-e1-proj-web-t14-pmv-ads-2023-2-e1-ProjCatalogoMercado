@@ -4,7 +4,8 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 
 ### Home Page
 
-<img width="1024" alt="home-page" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/60dba721-68ed-49c6-8a57-eccda62b5fa2">
+<img width="1024" alt="home-page" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/5873e9f5-9c3d-4a9f-a944-8ec8cb764d55">
+
 
 #### Requisito atendido
 
@@ -31,7 +32,8 @@ Priscila Myuki do Nascimento Maruno
 
 ### Tela de Cadastro de Mercado
 
-<img width="1024" alt="tela-cadastro" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/7295162d-ecf3-4048-ad6a-bdaa2bfe3010">
+<img width="1024" alt="tela-cadastro" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/assets/145761508/824164f1-a296-4868-a282-b03fc1330435">
+
 
 #### Requisito atendido
 
