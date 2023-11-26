@@ -14,13 +14,11 @@
 header {
     margin: auto;
     text-align: center;
-    height: 28px;
-    padding: 15px 20px;
+    padding: 15px 35px;
 }
 #logoHeader {
-    display: inline-block;
-    float: left;
-    margin: 5px 0;
+    display: block;
+    margin: 5px 0 10px 0;
 }
 #logoHeader a {
     font-family: 'Comfortaa', sans-serif;
@@ -29,11 +27,12 @@ header {
     text-decoration: none;
 }
 #busca {
-    display: inline-block;
+    display: block;
     margin: auto;
+    margin-bottom: 10px;
     background-color: #f8f8f8;
     border: #ececec solid 1px;
-    width: 20%;
+    width: 100%;
     height: 28px;
     border-radius: 10px;
 }
@@ -55,8 +54,8 @@ header {
     padding: 9px 9px;
 }
 #botoes {
-    display: inline-block;
-    float: right;
+    display: block;
+    margin: auto;
 }
 #botoes a {
     display: inline-block;
@@ -205,11 +204,32 @@ h4 {
 }
 
 @media only screen and (min-width: 600px) {
+    header {
+        margin: auto;
+        text-align: center;
+        height: 28px;
+        padding: 15px 20px;
+    }
+    #logoHeader {
+        display: inline-block;
+        float: left;
+        margin: 5px 0;
+    }
     #busca {
+        display: inline-block;
+        margin: auto;
+        background-color: #f8f8f8;
+        border: #ececec solid 1px;
         width: 25%;
+        height: 28px;
+        border-radius: 10px;
     }
     .txtBusca {
         width: 73%;
+    }
+    #botoes {
+        display: inline-block;
+        float: right;
     }
     .produto {
         width: 14.4%;
