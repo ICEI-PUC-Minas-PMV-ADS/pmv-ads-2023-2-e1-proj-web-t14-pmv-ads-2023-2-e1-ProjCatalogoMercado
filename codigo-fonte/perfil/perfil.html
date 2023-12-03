@@ -6,8 +6,6 @@
     <meta charset="UTF-8">
     <meta name="author" content="Myuki Maruno">
     <link rel="stylesheet" href="perfil.css">
-    <script defer src="crud-produto.js"></script>
-    <script defer src="../cadastro/cadastro.js"></script>
     <script defer src="perfil.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
@@ -21,17 +19,13 @@
         <div id="logoHeader">
             <a href="../home-page/index.html">Guia de Mercados</a>
         </div>
-        <div id="busca">
-            <input type="text" class="txtBusca" placeholder="Buscar..."/>
-            <img src="../img/pesquisa.png">
-        </div>
         <div id="perfil">
-            <div id="perfilNome"></div>
+            <div id="perfilNome">Nome do Mercado</div>
             <div id="perfilNav"><a href="perfil.html" class="perfilbtn"><img src="../img/loja.png"></a></div>
             <div id="perfilconf">
-                <a href="../editarConta/editarConta.html">Editar conta</a>
-                <a href="#">Configurar Perfil</a>
-                <a href="../Cadastro de Produtos/Cadastro de Produto.html">Cadastrar Produto</a>
+                <a href="../editarConta/editarConta.html">Editar Conta</a>
+                <a href="../editarPerfil/editarPerfil.html">Editar Perfil</a>
+                <a href="../cadastroProduto/cadastroProduto.html">Cadastrar Produto</a>
                 <a href="../home-page/index.html">Sair</a>
             </div>
         </div>
@@ -39,29 +33,31 @@
     <hr color="#ececec" size="1px">
     <main>
         <div id="perfilMercado">
-            <div class="fotoPerfil">
-                <img id="imgMercado" src="../img/mercado1-grande.png">
+            <div class="fotoMercado">
+                <img id="imgMercado" src="../img/loja.png">
             </div>
-            <div class="perfilMercado">
-                <p id="nomeMercado"></p>
-                <p id="descricaoMercado">DESCRICAO DO MERCADO</p>
-                <p id="enderecoMercado"></p>
-                <p id="telefoneMercado"></p>
-                <p id="horario">Horário de funcionamento</p>
+            <div class="infoMercado">
+                <p id="nomeMercado">Nome do Mercado</p>
+                <p id="descricaoMercado">Descrição do Mercado</p>
+                <p id="enderecoMercado">Endereço do Mercado</p>
+                <p id="telefoneMercado">Telefone do Mercado</p>
+                <p id="horario">Horário de Funcionamento</p>
             </div>
         </div>
+        <h1>Produtos</h1>
+        <div id="listaProdutos"></div>
     </main>
     <footer>
         <div id="logoFooter">
             <a href="../home-page/index.html">Guia de Mercados</a>
         </div>
         <div id="sobre">
-            <h4>Sobre o Projeto</h4>
+            <h2>Sobre o Projeto</h2>
             <p>O objetivo desse projeto é desenvolver uma solução para inserir pequenos mercados na tecnologia, trazendo mais visibilidade e possibilitando que atraiam mais clientes e expandam seus negócios.</p><br>
-            <h4>Análise e Desenvolvimento de Sistemas - PUC Minas</h4>
+            <h2>Análise e Desenvolvimento de Sistemas - PUC Minas</h2>
             <p>Desenvolvimento de Aplicação Web Front-End</p>
             <p>2º semestre/2023</p><br>
-            <h4>Acesse o projeto no GitHub!</h4>
+            <h2>Acesse o projeto no GitHub!</h2>
             <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado"><img class="imgGit" src="../img/github.png"></a>
         </div>
         <hr color="#fffff" size="1px">
