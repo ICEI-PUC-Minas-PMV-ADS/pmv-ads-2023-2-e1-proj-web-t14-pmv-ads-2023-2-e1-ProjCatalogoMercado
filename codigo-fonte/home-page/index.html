@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="author" content="Myuki Maruno">
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
     </style>
@@ -17,7 +18,7 @@
             <a href="index.html">Guia de Mercados</a>
         </div>
         <div id="busca">
-            <input type="text" class="txtBusca" placeholder="Buscar..."/>
+            <input type="text" id="txtBusca" onkeyup="buscar()" placeholder="Buscar...">
             <img src="../img/pesquisa.png">
         </div>
         <div id="botoes">
@@ -31,79 +32,95 @@
             <h1 class="destaque">Conectando os consumidores à uma diversidade de mercados!</h1>
         </section><br>
         <h2>Categorias Populares</h2>
-        <section id="produtos">
-            <div class="produto">
+        <ul id="produtos">
+            <li class="produto">
+                <a href="#">
                 <img class="imgProduto" src="../img/fruta.png">
-                <p class="nomeProduto">Frutas</p>
-            </div>
-            <div class="produto">
+                <p class="nomeProduto">Frutas</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
                 <img class="imgProduto" src="../img/vegetais.png">
-                <p class="nomeProduto">Verduras</p>
-            </div>
-            <div class="produto">
+                <p class="nomeProduto">Verduras</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
                 <img class="imgProduto" src="../img/doce.png">
-                <p class="nomeProduto">Doces</p>
-            </div>
-            <div class="produto">
+                <p class="nomeProduto">Doces</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
                 <img class="imgProduto" src="../img/suco.png">
-                <p class="nomeProduto">Bebidas</p>
-            </div>
-            <div class="produto">
+                <p class="nomeProduto">Bebidas</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
                 <img class="imgProduto" src="../img/sugar-free.png">
-                <p class="nomeProduto">Sem açúcar</p>
-            </div>
-            <div class="produto">
+                <p class="nomeProduto">Sem açúcar</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
                 <img class="imgProduto" src="../img/gluten-free.png">
-                <p class="nomeProduto">Sem glúten</p>
-            </div>
-            <div class="produto">
+                <p class="nomeProduto">Sem glúten</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
                 <img class="imgProduto" src="../img/lactose-free.png">
-                <p class="nomeProduto">Sem lactose</p>
-            </div>
-            <div class="produto">
+                <p class="nomeProduto">Sem lactose</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
                 <img class="imgProduto" src="../img/vegano.png">
-                <p class="nomeProduto">Vegano</p>
-            </div>
-            <div class="produto">
+                <p class="nomeProduto">Vegano</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
                 <img class="imgProduto" src="../img/cerveja.png">
-                <p class="nomeProduto">Bebidas Alcóolicas</p>
-            </div>
-            <div class="produto">
+                <p class="nomeProduto">Bebidas Alcóolicas</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
                 <img class="imgProduto" src="../img/higiene.png">
-                <p class="nomeProduto">Higiene Pessoal</p>
-            </div>
-            <div class="produto">
+                <p class="nomeProduto">Higiene Pessoal</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
                 <img class="imgProduto" src="../img/limpeza.png">
-                <p class="nomeProduto">Produto de limpeza</p>
-            </div>
-            <div class="produto">
+                <p class="nomeProduto">Produto de limpeza</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
                 <img class="imgProduto" src="../img/utensilio.png">
-                <p class="nomeProduto">Utensílios em geral</p>
-            </div>
-        </section><br>
+                <p class="nomeProduto">Utensílios em geral</p></a>
+            </li>
+        </ul><br>
         <h3>Mercados</h3>
-        <section id="mercados">
-            <div class="mercado">
+        <ul id="mercados">
+            <li class="mercado">
+                <a href="../perfilMercado/perfilMercado.html">
                 <img class="imgMercado" src="../img/mercado1.png">
-                <p class="nomeMercado">Supermercado da Família</p>
-                <p class="localMercado">Santa Lúcia, Belo Horizonte - MG</p>
-            </div>
-            <div class="mercado">
+                <p class="nomeMercado">Mercadinho do Zé</p>
+                <p class="localMercado">Santa Lúcia, Belo Horizonte - MG</p></a>
+            </li>
+            <li class="mercado">
+                <a href="#">
                 <img class="imgMercado" src="../img/mercado2.png">
                 <p class="nomeMercado">Mercado Dona de Casa</p>
-                <p class="localMercado">Barro Preto, Belo Horizonte - MG</p>
-            </div>
-            <div class="mercado">
-                <img class="imgMercado" src="../img/mercado4.png">
+                <p class="localMercado">Barro Preto, Belo Horizonte - MG</p></a>
+            </li>
+            <li class="mercado">
+                <a href="#">
+                <img class="imgMercado" src="../img/mercado3.png">
                 <p class="nomeMercado">Mercado É de Casa</p>
-                <p class="localMercado">Santa Efigênia, Belo Horizonte - MG</p>
-            </div>
-            <div class="mercado">
-                <img class="imgMercado" src="../img/mercado5.png">
+                <p class="localMercado">Santa Efigênia, Belo Horizonte - MG</p></a>
+            </li>
+            <li class="mercado">
+                <a href="#">
+                <img class="imgMercado" src="../img/mercado4.png">
                 <p class="nomeMercado">Mercado Bom Preço</p>
-                <p class="localMercado">Santa Tereza, Belo Horizonte - MG</p>
-            </div>
-        </section>
+                <p class="localMercado">Santa Tereza, Belo Horizonte - MG</p></a>
+            </li>
+        </ul>
     </main>
     <footer>
         <div id="logoFooter">
