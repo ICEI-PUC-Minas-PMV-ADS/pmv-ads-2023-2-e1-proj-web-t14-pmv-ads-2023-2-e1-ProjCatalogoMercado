@@ -15,6 +15,7 @@ header {
     margin: auto;
     text-align: center;
     padding: 10px 35px;
+    box-sizing: border-box;
 }
 #logoHeader {
     display: block;
@@ -37,7 +38,7 @@ header {
     height: 28px;
     border-radius: 10px;
 }
-.txtBusca {
+#txtBusca {
     float: left;
     background-color: transparent;
     width: 90%;
@@ -46,7 +47,7 @@ header {
     border-radius: 10px;
     border: none;
 }
-.txtBusca::placeholder {
+#txtBusca::placeholder {
     color: #8b8b8b;
     font-size: 12px;
 }
@@ -69,61 +70,75 @@ header {
     font-size: 13px;
 }
 
-
-/* Formulário de Registro de Mercado */
-#boxCadastro {
-    display: flexbox;
-    width: 250px;
+/* Main - Padrão página */
+main {
+    max-width: 1200px;
+    min-width: 300px;
+    padding: 20px 50px;
     margin: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+}
+
+/* Formulário de Cadastrar Mercado */
+form {
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
     background-color: #f8f8f8;
     border: #f8f8f8 solid 1px;
     border-radius: 15px;
-    padding: 50px 100px;  
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 h1 {
     font-size: 22px;
-    text-align: center;
-    padding-bottom: 20px;
+    margin-bottom: 50px;
 }
 label {
+    display: block;
+    text-align: left;
+    padding-left: 5px;
     font-size: 14px;
-    line-height: 1.5;
+    line-height: 2;
 }
-.boxForm {
-    margin-bottom: 10px;
-}
-.boxForm input {
-    font-size: 13px;
-    width: 250px;
-    padding: 8px;
+form input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
     border: 1px solid #ececec;
     border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 13px;
 }
-#boxCadastro ::placeholder {
+form ::placeholder {
     color: #8b8b8b;
     font-size: 13px;
 }
 .campoObrigatorio {
+    display: block;
+    text-align: left;
+    padding-left: 5px;
     font-size: 12px;
-    padding: 5px 0 50px 0;
+    margin-bottom: 45px;
 }
 button {
-    font-size: 13px;
-    color: white;
-    width: 200px;
-    margin: 0 25px 5px 25px;
+    width: 70%;
+    margin: 5px 0;
+    padding: 10px;
+    box-sizing: border-box;
     background-color: #fc8b1b;
     border: #fc8b1b solid 1px;
     border-radius: 5px;
-    padding: 10px;
+    font-size: 13px;
+    color: white;
     cursor: pointer;
 }
 .acordo {
+    width: 100%;
+    margin-top: 15px;
     font-size: 12px;
-    text-align: center;
-    padding: 5px 0 0 0;
 }
 
 /* Footer */
@@ -149,7 +164,7 @@ footer {
     vertical-align: top;
     color: white;
 }
-h4 {
+h2 {
     font-size: 14px;
     margin-bottom: 6px;
 }
@@ -177,7 +192,7 @@ h4 {
         margin-bottom: 0;
         margin-right: 10px;
     }
-    .txtBusca {
+    #txtBusca {
         width: 88%;
     }
     #botoes {
@@ -188,15 +203,26 @@ h4 {
         display: inline-block;
         width: 70px;
     }
+    #botoes a {
+        display: inline-block;
+        width: 70px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
+    header {
+        height: 50px;
+        box-sizing: border-box;
+    }
     #logoHeader {
         float: left;
     }
     #logoHeader {
         display: inline-block;
-        margin: 5px 0;
+        height: 30px;
+        padding: 6px 0;
+        margin-top: 0;
+        box-sizing: border-box;
     }
     #busca {
         float: none;
@@ -204,20 +230,14 @@ h4 {
     #busca {
         width: 40%;
     }
-    .txtBusca {
+    #txtBusca {
         width: 86%;
     }
     #botoes {
         float: right;
     }
-    #boxCadastro {
-        width: 400px; 
-    }
-    .boxForm input {
-        width: 400px;
-    }
-    button {
-        margin: 0 100px 5px 100px;
+    form {
+        width: 550px;
     }
     #logoFooter {
         position: absolute;
