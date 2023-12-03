@@ -1,5 +1,5 @@
-// Validar Cadastro
-function validarCadastro () {
+// Cadastrar Produto
+btnCadastrar.onclick = function () {
     if (nome.value == "" || nome.value.length < 5) {
         alert("Nome inválido!");
         nome.focus();
@@ -41,13 +41,13 @@ function validarCadastro () {
         return;
     }
     let infoCadastro = {
-        nomeMercado: formCadastro.nome.value,
-        cnpjMercado: formCadastro.cnpj.value,
-        enderecoMercado: formCadastro.endereco.value,
-        telefoneMercado: formCadastro.telefone.value,
-        emailMercado: formCadastro.email.value,
-        senhaMercado: formCadastro.senha.value,
-        confirmarSenhaMercado: formCadastro.confirmarSenha.value
+        nomeMercado: cadastrarMercado.nome.value,
+        cnpjMercado: cadastrarMercado.cnpj.value,
+        enderecoMercado: cadastrarMercado.endereco.value,
+        telefoneMercado: cadastrarMercado.telefone.value,
+        emailMercado: cadastrarMercado.email.value,
+        senhaMercado: cadastrarMercado.senha.value,
+        confirmarSenhaMercado: cadastrarMercado.confirmarSenha.value
         };
 
         localStorage.setItem('infoMercado', JSON.stringify(infoCadastro))
