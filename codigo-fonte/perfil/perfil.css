@@ -14,12 +14,15 @@
 header {
     margin: auto;
     text-align: center;
+    height: 50px;
     padding: 10px 35px;
+    box-sizing: border-box;
 }
 #logoHeader {
-    display: block;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    display: inline-block;
+    height: 30px;
+    padding: 6px 0;
+    box-sizing: border-box;
 }
 #logoHeader a {
     font-family: 'Comfortaa', sans-serif;
@@ -27,44 +30,17 @@ header {
     color: black;
     text-decoration: none;
 }
-#busca {
-    display: block;
-    margin: auto;
-    margin-bottom: 10px;
-    background-color: #f8f8f8;
-    border: #ececec solid 1px;
-    width: 100%;
-    height: 28px;
-    border-radius: 10px;
-}
-.txtBusca {
-    float: left;
-    background-color: transparent;
-    width: 90%;
-    height: 28px;
-    padding-left: 9px;
-    border-radius: 10px;
-    border: none;
-}
-.txtBusca::placeholder {
-    color: #8b8b8b;
-    font-size: 12px;
-}
-#busca img {
-    height: 10px;
-    padding: 9px;
-}
-#perfil {
-    display: inline-block;
-}
 #perfil {
     float: right;
 }
-#perfilNome {
+#perfil {
     display: inline-block;
-    vertical-align: top;
-    padding: 8px;
-    font-size: 13px;
+    height: 30px;
+    box-sizing: border-box;
+    text-align: right;
+}
+#perfilNome {
+    display: none;
 }
 #perfilNav {
     display: inline-block;
@@ -102,54 +78,68 @@ main {
     margin: auto;
 }
 
-
-
-
 /* Perfil Mercado */
 #perfilMercado {
     display: block;
-    width: 900px;
+    width: 320px;
     margin: auto;
+    padding: 20px 20px 10px 20px;
+    box-sizing: border-box;
     background-color: #f8f8f8;
     border-radius: 10px;
+    text-align: center;
 }
-.fotoPerfil {
+.fotoMercado {
     display: inline-block;
-    width: 250px;
-    margin: 20px;
-}
-.fotoPerfil img {
-    width: 100%;
-}
-.perfilMercado {
-    display: inline-block;
-    margin: 20px;
-    vertical-align: top;
-}
-.perfilMercado p {
-    font-size: 14px;
+    width: 130px;
     margin-bottom: 10px;
 }
-button {
-    float: right;
-    margin: 20px;
-    background-color: #ececec;
-    color: #727272;
-    font-size: 12px;
-    padding: 10px;
-    border: #727272 solid 1px;
-    cursor: pointer;
-    border-radius: 5px;
+.fotoMercado img {
+    width: 100%;
+}
+.infoMercado {
+    display: inline-block;
+    width: 280px;
+    vertical-align: top;
+    text-align: justify;
+}
+.infoMercado p {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+#nomeMercado {
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 10px;
 }
 
-
-
-
-
-
-
-
-
+/* Produtos */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
+}
+#lista-produtos {
+    margin: auto;
+    text-align: center;
+}
+#lista-produtos img {
+    width: 160px;
+    height: 140px;
+    margin-bottom: 10px;
+}
+.produto-item {
+    display: inline-block;
+    width: 180px;
+    height: 240px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    vertical-align: top;
+    background-color: #ececec;
+    border-radius: 5px;
+    font-size: 13px;
+}
 
 /* Footer */
 footer {
@@ -174,7 +164,7 @@ footer {
     vertical-align: top;
     color: white;
 }
-h4 {
+h2 {
     font-size: 14px;
     margin-bottom: 6px;
 }
@@ -196,44 +186,40 @@ h4 {
 }
 
 @media only screen and (min-width: 600px) {
-    #busca {
-        display: inline-block;
-        width: 62%;
-        margin-bottom: 0;
-        margin-right: 10px;
+    #logoHeader {
+        float: left;
     }
-    .txtBusca {
-        width: 88%;
+    #perfil {
+        width: 300px;
     }
-    #botoes {
+    #perfilNome {
         display: inline-block;
         vertical-align: top;
+        padding: 8px;
+        font-size: 13px;
     }
-    #botoes a {
-        display: inline-block;
-        width: 70px;
+    #perfilMercado {
+        width: 500px;
+    }
+    .infoMercado {
+        width: 244px;
+        margin-left: 10px;
     }
 }
 
 @media only screen and (min-width: 768px) {
-    #logoHeader {
-        float: left;
+    #perfilMercado {
+        width: 650px;
     }
-    #logoHeader {
-        display: inline-block;
-        margin: 5px 0;
+    .infoMercado {
+        width: 394px;
+        margin-top: 5px;
     }
-    #busca {
-        float: none;
+    #logoFooter {
+        position: absolute;
     }
-    #busca {
-        width: 40%;
-    }
-    .txtBusca {
-        width: 86%;
-    }
-    #botoes {
-        float: right;
+    #sobre {
+        margin: 30px 80px 20px 350px;
     }
     #logoFooter {
         position: absolute;
