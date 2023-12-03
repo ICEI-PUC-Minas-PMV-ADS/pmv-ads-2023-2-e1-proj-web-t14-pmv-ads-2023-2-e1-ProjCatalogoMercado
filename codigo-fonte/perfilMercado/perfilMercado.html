@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="author" content="Myuki Maruno">
+    <link rel="stylesheet" href="perfilMercado.css">
+    <script defer src="perfilMercado.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+    </style>
+    <title>Guia de Mercados</title>
+</head>
+<body>
+</head>
+<body>
+    <header>
+        <div id="logoHeader">
+            <a href="../home-page/index.html">Guia de Mercados</a>
+        </div>
+        <div id="busca">
+            <input type="text" id="txtBusca" onkeyup="buscar()" placeholder="Buscar...">
+            <img src="../img/pesquisa.png">
+        </div>
+        <div id="botoes">
+            <a href="../cadastro/cadastro.html" class="btn">Cadastrar</a>
+            <a href="../login/login.html" class="btn">Entrar</a>
+        </div>
+    </header>
+    <hr color="#ececec" size="1px">
+    <main>
+        <div id="perfilMercado">
+            <div class="fotoMercado">
+                <img id="imgMercado" src="../img/mercado1-grande.png">
+            </div>
+            <div class="infoMercado">
+                <p id="nomeMercado">Mercadinho do Zé</p>
+                <p id="descricaoMercado">Seu mercado de bairro! Temos padaria com produtos frescos e artesanais.</p>
+                <p id="enderecoMercado">Santa Lúcia, Belo Horizonte - MG</p>
+                <p id="telefoneMercado">(99) 99999-9999</p>
+                <p id="horario">9:00 - 20:00</p>
+            </div>
+        </div>
+        <h1>Produtos</h1>
+        <ul id="listaProdutos">
+            <li class="produto">
+                <a href="#">
+                <p><img src="../img/banana.png"></p>
+                <p>Banana Nanica</p>
+                <p>1 cacho</p>
+                <p>R$ 10,00</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
+                <p><img src="../img/alface.png"></p>
+                <p>Alface Americana</p>
+                <p>Unidade</p>
+                <p>R$ 5,00</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
+                <p><img src="../img/kitkat.png"></p>
+                <p>Chocolate Kit Kat</p>
+                <p>Unidade 41,5g</p>
+                <p>R$ 3,00</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
+                <p><img src="../img/sucoUva.png"></p>
+                <p>Suco de uva Aurora</p>
+                <p>Caixa</p>
+                <p>R$ 15,00</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
+                <p><img src="../img/amendoim.png"></p>
+                <p>Amendoim Da Colônia</p>
+                <p>Pacote 30G</p>
+                <p>R$ 15,00</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
+                <p><img src="../img/macarrao.png"></p>
+                <p>Macarrão Amália</p>
+                <p>Pacote 500g</p>
+                <p>R$ 8,00</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
+                <p><img src="../img/leite.jpg"></p>
+                <p>Leite Piracanjuba</p>
+                <p>1 litro</p>
+                <p>R$ 8,00</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
+                <p><img src="../img/cookie.png"></p>
+                <p>Cookie Jasmine</p>
+                <p>Pacote 120g</p>
+                <p>R$ 12,00</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
+                <p><img src="../img/cervejaOriginal.png"></p>
+                <p>Cerveja Original</p>
+                <p>Unidade 350ml</p>
+                <p>R$ 5,00</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
+                <p><img src="../img/shampoo.png"></p>
+                <p>Shampoo Men Clear</p>
+                <p>Anticaspa</p>
+                <p>R$ 25,00</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
+                <p><img src="../img/limpador.png"></p>
+                <p>Chocolate Nestlé</p>
+                <p>Unidade 500ml</p>
+                <p>R$ 5,00</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
+                <p><img src="../img/panela.png"></p>
+                <p>Chocolate Nestlé</p>
+                <p>4.5 litros</p>
+                <p>R$ 300,00</p></a>
+            </li>
+        </ul>
+    </main>
+    <footer>
+        <div id="logoFooter">
+            <a href="../home-page/index.html">Guia de Mercados</a>
+        </div>
+        <div id="sobre">
+            <h2>Sobre o Projeto</h2>
+            <p>O objetivo desse projeto é desenvolver uma solução para inserir pequenos mercados na tecnologia, trazendo mais visibilidade e possibilitando que atraiam mais clientes e expandam seus negócios.</p><br>
+            <h2>Análise e Desenvolvimento de Sistemas - PUC Minas</h2>
+            <p>Desenvolvimento de Aplicação Web Front-End</p>
+            <p>2º semestre/2023</p><br>
+            <h2>Acesse o projeto no GitHub!</h2>
+            <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado"><img class="imgGit" src="../img/github.png"></a>
+        </div>
+        <hr color="#fffff" size="1px">
+        <div class="copyright">
+            <p>Copyright &#169 2023 Catálogo de Pequenos Mercados | Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
