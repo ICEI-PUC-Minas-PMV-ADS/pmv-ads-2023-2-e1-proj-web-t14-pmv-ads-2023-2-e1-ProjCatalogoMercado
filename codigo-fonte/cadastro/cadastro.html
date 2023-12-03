@@ -7,10 +7,13 @@
     <meta name="author" content="Myuki Maruno">
     <link rel="stylesheet" href="cadastro.css">
     <script defer src="cadastro.js"></script>
+    <script defer src="../perfil/perfil.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
     </style>
     <title>Guia de Mercados</title>
+</head>
+<body>
 </head>
 <body>
     <header>
@@ -18,57 +21,36 @@
             <a href="../home-page/index.html">Guia de Mercados</a>
         </div>
         <div id="busca">
-            <input type="text" class="txtBusca" placeholder="Buscar..."/>
+            <input type="text" id="txtBusca" onkeyup="buscar()" placeholder="Buscar...">
             <img src="../img/pesquisa.png">
         </div>
         <div id="botoes">
-            <a href="cadastro.html" class="btn">Cadastrar</a>
+            <a href="../cadastro/cadastro.html" class="btn">Cadastrar</a>
             <a href="../login/login.html" class="btn">Entrar</a>
         </div>
     </header>
     <hr color="#ececec" size="1px">
     <main>
-        <form name="formCadastro" id="formCadastro" onsubmit="return false">
-            <div id="boxCadastro">
-                <h1>Cadastrar Mercado</h1><br>
-                <div class="boxForm">
-                    <label for="nome">Nome do mercado *</label><br>
-                    <input type="text" name="nome" id="nome" minlength="5" placeholder="Nome do mercado">
-                </div>
-                <div class="boxForm">
-                    <label for="cnpj">CNPJ *</label><br>
-                    <input type="text" name="cnpj" id="cnpj" minlength="14" maxlength="14" placeholder="xx.xxx.xxx / xxxx-xx">
-                </div>
-                <div class="boxForm">
-                    <label for="cep">CEP *</label><br>
-                    <input type="text" name="cep" id="cep" minlength="8" maxlength="8" placeholder="xxxxx - xxx">
-                </div>
-                <div class="boxForm">
-                    <label for="endereco">Endereço *</label><br>
-                    <input type="text" name="endereco" id="endereco" minlength="15" placeholder="Endereço do mercado">
-                </div>
-                <div class="boxForm">
-                    <label for="telefone">Telefone *</label><br>
-                    <input type="tel" name="telefone" id="telefone" minlength="11" maxlength="11" placeholder="( xx ) xxxxx - xxx">
-                </div>
-                <div class="boxForm">
-                    <label for="email">E-mail *</label><br>
-                    <input type="email" name="email" id="email" placeholder="email@exemplo.com">
-                </div>
-                <div class="boxForm">
-                    <label for="senha">Senha *</label><br>
-                    <input type="password" name="senha" id="senha" minlength="5" placeholder="Crie sua senha">
-                </div>
-                <div class="boxForm">
-                    <label for="confirmarSenha">Confirmação senha *</label><br>
-                    <input type="password" name="confirmarSenha" id="confirmarSenha" minlength="5" placeholder="Confirme sua senha">
-                </div>
-                <p class="campoObrigatorio">Campos obrigatórios(*)</p>
-                <div class="cadastrar">
-                    <button type="submit" value="submit" onclick="return validarCadastro()"  id="btnCadastrar">Cadastrar</button>
-                </div>
-                <p class="acordo">Ao se inscrever você concorda com os nossos Termos e Condições.</p>
-            </div>
+        <form name="cadastrarMercado" id="cadastrarMercado" onsubmit="return false">
+            <h1>Cadastrar Mercado</h1>
+            <label for="nome">Nome do mercado *</label>
+            <input type="text" name="nome" id="nome" minlength="5" placeholder="Nome do mercado">
+            <label for="cnpj">CNPJ *</label>
+            <input type="text" name="cnpj" id="cnpj" minlength="14" maxlength="14" placeholder="xx.xxx.xxx / xxxx-xx">                    <label for="cep">CEP *</label>
+            <input type="text" name="cep" id="cep" minlength="8" maxlength="8" placeholder="xxxxx - xxx">
+            <label for="endereco">Endereço *</label>
+            <input type="text" name="endereco" id="endereco" minlength="15" placeholder="Endereço do mercado">
+            <label for="telefone">Telefone *</label>
+            <input type="tel" name="telefone" id="telefone" minlength="11" maxlength="11" placeholder="( xx ) xxxxx - xxx">
+            <label for="email">E-mail *</label>
+            <input type="email" name="email" id="email" placeholder="email@exemplo.com">
+            <label for="senha">Senha *</label>
+            <input type="password" name="senha" id="senha" minlength="5" placeholder="Crie sua senha">
+            <label for="confirmarSenha">Confirmação senha *</label>
+            <input type="password" name="confirmarSenha" id="confirmarSenha" minlength="5" placeholder="Confirme sua senha">
+            <p class="campoObrigatorio">Campos obrigatórios(*)</p>
+            <button id="btnCadastrar">Cadastrar</button>
+            <p class="acordo">Ao se inscrever você concorda com os nossos Termos e Condições.</p>
         </form>
     </main>
     <footer>
@@ -76,12 +58,12 @@
             <a href="../home-page/index.html">Guia de Mercados</a>
         </div>
         <div id="sobre">
-            <h4>Sobre o Projeto</h4>
+            <h2>Sobre o Projeto</h2>
             <p>O objetivo desse projeto é desenvolver uma solução para inserir pequenos mercados na tecnologia, trazendo mais visibilidade e possibilitando que atraiam mais clientes e expandam seus negócios.</p><br>
-            <h4>Análise e Desenvolvimento de Sistemas - PUC Minas</h4>
+            <h2>Análise e Desenvolvimento de Sistemas - PUC Minas</h2>
             <p>Desenvolvimento de Aplicação Web Front-End</p>
             <p>2º semestre/2023</p><br>
-            <h4>Acesse o projeto no GitHub!</h4>
+            <h2>Acesse o projeto no GitHub!</h2>
             <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado"><img class="imgGit" src="../img/github.png"></a>
         </div>
         <hr color="#fffff" size="1px">
