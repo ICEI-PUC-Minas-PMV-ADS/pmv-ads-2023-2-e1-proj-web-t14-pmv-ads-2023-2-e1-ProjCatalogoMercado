@@ -1,0 +1,260 @@
+/* Limpar configuração do browser */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Padrão da Página */
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+/* Header */
+header {
+    margin: auto;
+    text-align: center;
+    padding: 10px 35px;
+    box-sizing: border-box;
+}
+#logoHeader {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#logoHeader a {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+#busca {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #f8f8f8;
+    border: #ececec solid 1px;
+    width: 100%;
+    height: 28px;
+    border-radius: 10px;
+}
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    width: 90%;
+    height: 28px;
+    padding-left: 9px;
+    border-radius: 10px;
+    border: none;
+}
+#txtBusca::placeholder {
+    color: #8b8b8b;
+    font-size: 12px;
+}
+#busca img {
+    height: 10px;
+    padding: 9px;
+}
+#botoes {
+    margin: auto;
+}
+#botoes a {
+    display: inline-block;
+    background-color: #fc8b1b;
+    width: 45%;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+/* Main - Padrão página */
+main {
+    max-width: 1200px;
+    min-width: 300px;
+    padding: 20px 50px;
+    margin: auto;
+}
+
+/* Perfil Mercado */
+#perfilMercado {
+    display: block;
+    width: 320px;
+    margin: auto;
+    padding: 20px 20px 10px 20px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    text-align: center;
+}
+.fotoMercado {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.fotoMercado img {
+    width: 100%;
+}
+.infoMercado {
+    display: inline-block;
+    width: 280px;
+    vertical-align: top;
+    text-align: justify;
+}
+.infoMercado p {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+#nomeMercado {
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+
+/* Produtos */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
+}
+#listaProdutos {
+    margin: auto;
+    text-align: center;
+}
+.produto img {
+    height: 110px;
+    margin-bottom: 10px;
+}
+.produto {
+    display: inline-block;
+    width: 150px;
+    height: 210px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    vertical-align: top;
+    border: #ececec solid 1px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.produto a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Footer */
+footer {
+    margin: auto;
+    overflow: hidden;
+    background-color: #026e819e;
+}
+#logoFooter {
+    display: inline-block;
+    margin: 30px 80px 0 80px;
+}
+#logoFooter a {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+#sobre {
+    display: inline-block;
+    max-width: 100%;
+    margin: 20px 80px;
+    vertical-align: top;
+    color: white;
+}
+h2 {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+#sobre p {
+    font-size: 13px;
+    text-align: justify;
+    margin-bottom: 2px;
+}
+.imgGit {
+    width: 35px;
+    filter: invert(100%);
+}
+.copyright {
+    display: block;
+    margin: 10px 80px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+@media only screen and (min-width: 600px) {
+    #busca {
+        display: inline-block;
+        width: 62%;
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+    #txtBusca {
+        width: 88%;
+    }
+    #botoes {
+        display: inline-block;
+        vertical-align: top;
+    }
+    #botoes a {
+        display: inline-block;
+        width: 70px;
+    }
+    #perfilMercado {
+        width: 500px;
+    }
+    .infoMercado {
+        width: 244px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+        height: 50px;
+        box-sizing: border-box;
+    }
+    #logoHeader {
+        float: left;
+    }
+    #logoHeader {
+        display: inline-block;
+        height: 30px;
+        padding: 6px 0;
+        margin-top: 0;
+        box-sizing: border-box;
+    }
+    #busca {
+        float: none;
+    }
+    #busca {
+        width: 40%;
+    }
+    #txtBusca {
+        width: 86%;
+    }
+    #botoes {
+        float: right;
+    }
+    #perfilMercado {
+        width: 650px;
+    }
+    .infoMercado {
+        width: 394px;
+        margin-top: 5px;
+    }
+    #logoFooter {
+        position: absolute;
+    }
+    #sobre {
+        margin: 30px 80px 20px 350px;
+    }
+}
