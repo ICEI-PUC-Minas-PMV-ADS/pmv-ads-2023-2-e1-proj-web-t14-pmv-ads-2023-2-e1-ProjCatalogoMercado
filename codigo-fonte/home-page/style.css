@@ -15,6 +15,7 @@ header {
     margin: auto;
     text-align: center;
     padding: 10px 35px;
+    box-sizing: border-box;
 }
 #logoHeader {
     display: block;
@@ -37,7 +38,7 @@ header {
     height: 28px;
     border-radius: 10px;
 }
-.txtBusca {
+#txtBusca {
     float: left;
     background-color: transparent;
     width: 90%;
@@ -46,7 +47,7 @@ header {
     border-radius: 10px;
     border: none;
 }
-.txtBusca::placeholder {
+#txtBusca::placeholder {
     color: #8b8b8b;
     font-size: 12px;
 }
@@ -116,6 +117,10 @@ h2 {
     margin: 4px;
     vertical-align: top;
 }
+.produto a {
+    text-decoration: none;
+    color: black;
+}
 .imgProduto {
     width: 100%;
 }
@@ -143,6 +148,10 @@ h3 {
     vertical-align: top;
     background-color: #ececec;
     border-radius: 5px;
+}
+.mercado a {
+    text-decoration: none;
+    color: black;
 }
 .imgMercado {
     width: 100%;
@@ -210,7 +219,7 @@ h4 {
         margin-bottom: 0;
         margin-right: 10px;
     }
-    .txtBusca {
+    #txtBusca {
         width: 88%;
     }
     #botoes {
@@ -235,12 +244,19 @@ h4 {
 }
 
 @media only screen and (min-width: 768px) {
+    header {
+        height: 50px;
+        box-sizing: border-box;
+    }
     #logoHeader {
         float: left;
     }
     #logoHeader {
         display: inline-block;
-        margin: 5px 0;
+        height: 30px;
+        padding: 6px 0;
+        margin-top: 0;
+        box-sizing: border-box;
     }
     #busca {
         float: none;
@@ -248,7 +264,7 @@ h4 {
     #busca {
         width: 40%;
     }
-    .txtBusca {
+    #txtBusca {
         width: 86%;
     }
     #botoes {
