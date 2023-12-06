@@ -36,7 +36,7 @@ O objetivo desse projeto é desenvolver uma solução para inserir pequenos merc
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+Para acessar a página do projeto <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado/codigo-fonte/homePage/">clique aqui</a>.
 
 # Código-Fonte
 
