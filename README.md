@@ -11,8 +11,6 @@ O objetivo desse projeto é desenvolver uma solução para inserir pequenos merc
 ## Integrantes
 
 * Douglas Sandro Dos Santos Araujo
-* Lucas Faria de Oliveira
-* Mônica Eloisa da Silva
 * Pablo Vinicius Ramos Lopes
 * Priscila Myuki do Nascimento Maruno
 
