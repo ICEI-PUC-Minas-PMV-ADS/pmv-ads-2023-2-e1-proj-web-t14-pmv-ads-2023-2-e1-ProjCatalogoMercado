@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="author" content="Myuki Maruno">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+    </style>
+    <title>Guia de Mercados</title>
+</head>
+<body>
+    <header>
+        <div id="logoHeader">
+            <a href="index.html">Guia de Mercados</a>
+        </div>
+        <div id="busca">
+            <input type="text" id="txtBusca" onkeyup="buscar()" placeholder="Buscar...">
+            <img src="../img/pesquisa.png">
+        </div>
+        <div id="botoes">
+            <a href="../cadastro/cadastro.html" class="btn">Cadastrar</a>
+            <a href="../login/login.html" class="btn">Entrar</a>
+        </div>
+    </header>
+    <hr color="#ececec" size="1px">
+    <main>
+        <section id="boxDestaque">
+            <h1 class="destaque">Conectando os consumidores à uma diversidade de mercados!</h1>
+        </section><br>
+        <h2>Categorias Populares</h2>
+        <ul id="produtos">
+            <li class="produto">
+                <a href="#">
+                <img class="imgProduto" src="../img/fruta.png">
+                <p class="nomeProduto">Frutas</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
+                <img class="imgProduto" src="../img/vegetais.png">
+                <p class="nomeProduto">Verduras</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
+                <img class="imgProduto" src="../img/doce.png">
+                <p class="nomeProduto">Doces</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
+                <img class="imgProduto" src="../img/suco.png">
+                <p class="nomeProduto">Bebidas</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
+                <img class="imgProduto" src="../img/sugar-free.png">
+                <p class="nomeProduto">Sem açúcar</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
+                <img class="imgProduto" src="../img/gluten-free.png">
+                <p class="nomeProduto">Sem glúten</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
+                <img class="imgProduto" src="../img/lactose-free.png">
+                <p class="nomeProduto">Sem lactose</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
+                <img class="imgProduto" src="../img/vegano.png">
+                <p class="nomeProduto">Vegano</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
+                <img class="imgProduto" src="../img/cerveja.png">
+                <p class="nomeProduto">Bebidas Alcóolicas</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
+                <img class="imgProduto" src="../img/higiene.png">
+                <p class="nomeProduto">Higiene Pessoal</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
+                <img class="imgProduto" src="../img/limpeza.png">
+                <p class="nomeProduto">Produto de limpeza</p></a>
+            </li>
+            <li class="produto">
+                <a href="#">
+                <img class="imgProduto" src="../img/utensilio.png">
+                <p class="nomeProduto">Utensílios em geral</p></a>
+            </li>
+        </ul><br>
+        <h3>Mercados</h3>
+        <ul id="mercados">
+            <li class="mercado">
+                <a href="../perfilMercado/perfilMercado.html">
+                <img class="imgMercado" src="../img/mercado1.png">
+                <p class="nomeMercado">Mercadinho do Zé</p>
+                <p class="localMercado">Santa Lúcia, Belo Horizonte - MG</p></a>
+            </li>
+            <li class="mercado">
+                <a href="#">
+                <img class="imgMercado" src="../img/mercado2.png">
+                <p class="nomeMercado">Mercado Dona de Casa</p>
+                <p class="localMercado">Barro Preto, Belo Horizonte - MG</p></a>
+            </li>
+            <li class="mercado">
+                <a href="#">
+                <img class="imgMercado" src="../img/mercado3.png">
+                <p class="nomeMercado">Mercado É de Casa</p>
+                <p class="localMercado">Santa Efigênia, Belo Horizonte - MG</p></a>
+            </li>
+            <li class="mercado">
+                <a href="#">
+                <img class="imgMercado" src="../img/mercado4.png">
+                <p class="nomeMercado">Mercado Bom Preço</p>
+                <p class="localMercado">Santa Tereza, Belo Horizonte - MG</p></a>
+            </li>
+        </ul>
+    </main>
+    <footer>
+        <div id="logoFooter">
+            <a href="index.html">Guia de Mercados</a>
+        </div>
+        <div id="sobre">
+            <h4>Sobre o Projeto</h4>
+            <p>O objetivo desse projeto é desenvolver uma solução para inserir pequenos mercados na tecnologia, trazendo mais visibilidade e possibilitando que atraiam mais clientes e expandam seus negócios.</p><br>
+            <h4>Análise e Desenvolvimento de Sistemas - PUC Minas</h4>
+            <p>Desenvolvimento de Aplicação Web Front-End</p>
+            <p>2º semestre/2023</p><br>
+            <h4>Acesse o projeto no GitHub!</h4>
+            <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-ProjCatalogoMercado"><img class="imgGit" src="../img/github.png"></a>
+        </div>
+        <hr color="#fffff" size="1px">
+        <div class="copyright">
+            <p>Copyright &#169 2023 Catálogo de Pequenos Mercados | Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
